@@ -81,10 +81,3 @@ def get_output(input_id: int) -> str:
     except Exception as exc:
         logger.error("Failed to retrieve data")
         raise
-
-
-def main():
-    init_db()
-
-if __name__ == "__main__":
-    main()
