@@ -1,5 +1,6 @@
 import sqlite3
 import logging
+from contextlib import contextmanager
 
 logger = logging.getLogger(__name__)
 DB_PATH = "winners.db"
@@ -20,6 +21,7 @@ CREATE TABLE IF NOT EXISTS output (
 );
 """
 
+@contextmanager
 def conn():
     c = sqlite3.connect(DB_PATH)
     c.row_factory = sqlite3.Row
@@ -81,5 +83,8 @@ def get_output(input_id: int) -> str:
         raise
 
 
+def main():
+    init_db()
 
-
+if __name__ == "__main__":
+    main()
