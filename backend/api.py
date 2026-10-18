@@ -67,3 +67,17 @@ def fetch_output(input_id: int):
         raise HTTPException(status_code=404, detail=str(e))
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/scores/{input_id}")
+def fetch_scores(input_id: int):
+    try:
+        with conn() as c:
+            rows = c.execute(
+                "SELECT candidate_name, similarity_score FROM scores WHERE input_id = ? ORDER BY similarity_score DESC;",
+                (input_id,)
+            ).fetchall()
+            
+            scores_list = [dict(row) for row in rows]
+            return {"scores": scores_list}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
