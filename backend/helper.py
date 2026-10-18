@@ -52,8 +52,6 @@ def call_llm(matches: list[tuple[str, float]]):
     Do not mention the absence of source code, missing implementation details, or lack of direct evidence from the unknown program.
     """
 
-    print(prompt)
-
     interaction = client.interactions.create(
         model="gemini-3.5-flash",
         input=prompt
@@ -61,17 +59,17 @@ def call_llm(matches: list[tuple[str, float]]):
 
     return interaction.output_text
 
-matches: list[tuple[str, float]] = [
-    ("Clone Graph", 0.96),
-    ("Number of Islands", 0.93),
-    ("Two Sum", 0.91),
-    ("Course Schedule", 0.89),
-    ("Contains Duplicate", 0.86),
-    ("Pacific Atlantic Water Flow", 0.84),
-    ("Longest Consecutive Sequence", 0.82),
-    ("Valid Sudoku", 0.79),
-]
-
-summary = call_llm(matches)
-print("Summary of similarities between the problems:")
-print(summary)
+# def main():
+#     matches: list[tuple[str, float]] = [
+#         ("Clone Graph", 0.96),
+#         ("Number of Islands", 0.93),
+#         ("Two Sum", 0.91),
+#         ("Course Schedule", 0.89),
+#         ("Contains Duplicate", 0.86),
+#         ("Pacific Atlantic Water Flow", 0.84),
+#         ("Longest Consecutive Sequence", 0.82),
+#         ("Valid Sudoku", 0.79),
+#     ]
+#     print(call_llm(matches))
+# if __name__ == "__main__":
+#     main()

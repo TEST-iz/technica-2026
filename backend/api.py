@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 from pydantic import BaseModel
 from typing import Optional, List
-from main import call_llm
+from helper import call_llm
 from db import get_input, get_output, save_input, save_output, save_scores, get_scores, conn
 
 app = FastAPI()
@@ -61,11 +61,22 @@ def run_pipeline(payload: InputCreate):
 
         # matches = run_your_model_here(assembly_text) # Returns [("Two Sum", 0.95), ("Valid Parentheses", 0.81)]
         
-        # save_scores(input_id, matches)
+        matches: list[tuple[str, float]] = [
+            ("Clone Graph", 0.96),
+            ("Number of Islands", 0.93),
+            ("Two Sum", 0.91),
+            ("Course Schedule", 0.89),
+            ("Contains Duplicate", 0.86),
+            ("Pacific Atlantic Water Flow", 0.84),
+            ("Longest Consecutive Sequence", 0.82),
+            ("Valid Sudoku", 0.79),
+        ]
+
+        save_scores(input_id, matches)
         
-        # gemini_result = call_llm(matches)
+        gemini_result = call_llm(matches)
         
-        # save_output(gemini_result, input_id)
+        save_output(gemini_result, input_id)
         
         return {
             "input_id": input_id,
