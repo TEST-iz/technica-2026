@@ -1,6 +1,7 @@
 import HeroSection from './components/HeroSection';
 import Navbar from './components/Navbar';
 import { createBrowserRouter, RouterProvider } from "react-router";
+import ResultsView from './components/ResultsView';
 import { Outlet } from "react-router";
 
 function Layout() {
@@ -18,7 +19,7 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       {path: "", element: <HeroSection />},
-      // {path: "results", element: <Navbar />},
+      {path: "results", element: <ResultsView />},
     ]
   },
 ]);
