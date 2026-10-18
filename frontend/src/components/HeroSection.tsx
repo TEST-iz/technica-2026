@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router';
 import { Upload, FileCode, CheckCircle2, Sparkles, ArrowRight, ShieldCheck } from 'lucide-react';
 
 export default function HeroSection() {
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [isDragging, setIsDragging] = useState<boolean>(false);
   const [loading, setLoading] = useState<boolean>(false);
+  
+  const navigate = useNavigate();
 
   const handleDragOver = (e: React.DragEvent<HTMLDivElement>) => {
     e.preventDefault();
@@ -32,11 +35,12 @@ export default function HeroSection() {
   const handleUploadClick = async () => {
     if (!selectedFile) return;
     setLoading(true);
-    //call endpoints
-    try {
-        const rawAssembly = await selectedFile.text();
 
-        const response = await fetch("http://127.0.0.1:8000/run-pipeline", {
+    try {
+      const rawAssembly = await selectedFile.text();
+
+      // Call your FastAPI backend endpoint to save the input
+      const response = await fetch("http://127.0.0.1:8000/inputs", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -53,27 +57,34 @@ export default function HeroSection() {
       setLoading(false);
       alert(`Successfully saved! Input ID: ${data.input_id}`);
 
+      // Verify you received the input_id back from your database
+      if (data.input_id) {
+        // Navigate to the results route, passing the input_id in state or query params
+        navigate(`/results/${data.input_id}`);
+        // Alternatively, if your ResultsView expects a dynamic path like `/results/:id`, 
+        // you would configure your router path as `{path: "results/:id", ...}` and call:
+        // navigate(`/results/${data.input_id}`);
+      } else {
+        throw new Error("Backend response did not include an input_id.");
+      }
+
     } catch (error: unknown) {
-        console.error("Detailed error:", error);
-        setLoading(false);
+      console.error("Detailed error:", error);
+      setLoading(false);
 
-        // Safely extract the error message
-        let errorMessage = "Failed to connect to backend";
-        if (error instanceof Error) {
-            errorMessage = error.message;
-        } else if (typeof error === "string") {
-            errorMessage = error;
-        }
+      let errorMessage = "Failed to connect to backend";
+      if (error instanceof Error) {
+        errorMessage = error.message;
+      } else if (typeof error === "string") {
+        errorMessage = error;
+      }
 
-        alert(`Backend Error: ${errorMessage}`);
+      alert(`Backend Error: ${errorMessage}`);
     }
-    
   };
 
   return (
-    <section className="relative min-h-[90vh] bg-[#FDFBF7] text-stone-900 flex items-center overflow-hidden px-6 lg:px-16 pt-4 pb-12 -mt-6">
-      {/* Background Decorative Graphic / Gradient hints if needed */}
-      
+    <section className="relative text-stone-900 flex items-center overflow-hidden px-6 lg:px-16 py-12 lg:py-20">
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
         
         {/** LEFT COLUMN: Value Proposition / Blurb */}

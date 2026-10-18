@@ -19,7 +19,7 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       {path: "", element: <HeroSection />},
-      {path: "results", element: <ResultsView />},
+      {path: "results/:id", element: <ResultsView />},
     ]
   },
 ]);

@@ -35,11 +35,22 @@ export default function ResultsView() {
           setLlmOutput(outputData.llm_output || "No LLM output generated.");
         }
 
-        // 3. Fetch Similarity Scores
+        // 3. Fetch Similarity Scores & handle potential type mismatches robustly
         const scoresRes = await fetch(`http://127.0.0.1:8000/scores/${id}`);
         if (scoresRes.ok) {
           const scoresData = await scoresRes.json();
-          setScores(scoresData.scores || []);
+          
+          let resolvedScores = scoresData.scores !== undefined ? scoresData.scores : scoresData;
+          if (typeof resolvedScores === 'string') {
+            try {
+              resolvedScores = JSON.parse(resolvedScores);
+            } catch (e) {
+              console.error("Failed to load results data:", e);
+              resolvedScores = [];
+            }
+          }
+          
+          setScores(Array.isArray(resolvedScores) ? resolvedScores : []);
         }
       } catch (err) {
         console.error("Failed to load results data:", err);
@@ -143,7 +154,9 @@ export default function ResultsView() {
                       ))
                     ) : (
                       <tr>
-                        <td colSpan={2} className="py-6 text-center text-xs text-stone-500">No score records found for this input.</td>
+                        <td colSpan={2} className="py-6 text-center text-xs text-stone-400">
+                          No score records found for this input.
+                        </td>
                       </tr>
                     )}
                   </tbody>
@@ -151,7 +164,7 @@ export default function ResultsView() {
               </div>
             </div>
 
-            {/* LOWER RIGHT: LLM Reasoning Result */}
+            {/* LOWER RIGHT: LLM Reasoning Result (UPDATED FOR VERTICAL SCROLL) */}
             <div className="bg-white border border-stone-200/80 rounded-3xl p-6 lg:p-7 shadow-xl shadow-stone-200/40">
               <div className="flex items-center justify-between mb-4 pb-3 border-b border-stone-100">
                 <h3 className="text-base font-serif font-medium text-stone-900 flex items-center gap-2">
@@ -164,7 +177,8 @@ export default function ResultsView() {
                 </span>
               </div>
 
-              <div className="bg-stone-50 border border-stone-100 rounded-2xl p-4 text-sm text-stone-700 font-light leading-relaxed max-h-[220px] overflow-y-auto">
+              {/* Changed from overflow-x-auto whitespace-nowrap to overflow-y-auto whitespace-pre-wrap with max-h-[220px] */}
+              <div className="bg-stone-50 border border-stone-100 rounded-2xl p-4 text-sm text-stone-700 font-light leading-relaxed max-h-[220px] overflow-y-auto whitespace-pre-wrap pr-1 custom-scrollbar">
                 {loading ? "Generating reasoning insights..." : llmOutput}
               </div>
             </div>

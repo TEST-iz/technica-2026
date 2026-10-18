@@ -123,7 +123,8 @@ def fetch_output(input_id: int):
 @app.get("/scores/{input_id}", status_code=status.HTTP_200_OK)
 def fetch_scores(input_id: int):
     try:
-        return get_scores(input_id)
+        scores_list = get_scores(input_id)
+        return {"scores": scores_list}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
@@ -131,7 +132,6 @@ def fetch_scores(input_id: int):
 def create_scores(payload: ScoresCreate):
     try:
         matches = [(item.candidate_name, item.similarity_score) for item in payload.scores]
-        
         save_scores(payload.input_id, matches)
         
         return {"message": "Scores saved successfully"}
