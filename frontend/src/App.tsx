@@ -1,9 +1,33 @@
-import './App.css';
+import HeroSection from './components/HeroSection';
+import Navbar from './components/Navbar';
+import { createBrowserRouter, RouterProvider } from "react-router";
+import ResultsView from './components/ResultsView';
+import { Outlet } from "react-router";
+
+function Layout() {
+  return (
+    <div>
+      <Navbar />
+      <Outlet />
+    </div>
+  );
+}
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      {path: "", element: <HeroSection />},
+      {path: "results/:id", element: <ResultsView />},
+    ]
+  },
+]);
 
 function App() {
   return (
     <>
-      <h1 className="text-lg mb-1 text-blue-700">Winners pov</h1>
+      <RouterProvider router={router} />
     </>
   )
 }
