@@ -1,2 +1,3 @@
 # technica-2026
-WINNERES POV
+
+### CodeTrace
