@@ -1,9 +1,11 @@
-import './App.css';
+import HeroSection from './components/HeroSection';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <>
-      <h1 className="text-lg mb-1 text-blue-700">Winners pov</h1>
+      <Navbar />
+      <HeroSection />
     </>
   )
 }

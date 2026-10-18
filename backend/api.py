@@ -12,6 +12,7 @@ origins = [
     "https://localhost:5173",
     "https://localhost",
     "http://localhost",
+    "http://127.0.0.1",
     "https://winnerspovtechnica26.vercel.app/",
 ]
 
@@ -49,6 +50,16 @@ def create_input(payload: InputCreate):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+@app.get("/inputs/{input_id}", status_code=status.HTTP_200_OK)
+def fetch_output(input_id: int):
+    try:
+        raw_assembly = get_input(input_id)
+        return {"input_id": input_id, "raw_assembly": raw_assembly}
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 # Endpoint 2: Save LLM / Gemini output (Step 4 of your pipeline)
 @app.post("/outputs", status_code=status.HTTP_201_CREATED)
 def create_output(payload: OutputCreate):
@@ -58,7 +69,7 @@ def create_output(payload: OutputCreate):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/outputs/{input_id}")
+@app.get("/outputs/{input_id}", status_code=status.HTTP_200_OK)
 def fetch_output(input_id: int):
     try:
         llm_output = get_output(input_id)

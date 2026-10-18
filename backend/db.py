@@ -55,8 +55,10 @@ def init_db():
 def save_input(payload: str) -> int:
     try:
         with conn() as c:
-            c.execute("INSERT INTO input (raw_assembly) VALUES (?);", (payload,))
-            input_id = c.lastrowid
+            cursor = c.cursor()
+            cursor.execute("INSERT INTO input (raw_assembly) VALUES (?);", (payload,))
+            input_id = cursor.lastrowid
+            c.commit()
             return input_id
     except Exception as exc:
         logger.error("Failed to save input payload: %s", exc)
