@@ -14,6 +14,7 @@ origins = [
     "http://localhost",
     "http://127.0.0.1",
     "https://winnerspovtechnica26.vercel.app/",
+    "https://technica-2026-k3oz-au5a3apc0-testiz.vercel.app/",
 ]
 
 app.add_middleware(
