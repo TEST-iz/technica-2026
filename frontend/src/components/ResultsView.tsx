@@ -1,11 +1,16 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
+import Markdown from 'react-markdown';
 import { ArrowLeft, Sparkles, CheckCircle, FileCode, BarChart3, Bot } from 'lucide-react';
 
 interface ScoreItem {
   score_id: number;
   candidate_name: string;
   similarity_score: number;
+}
+
+function parseString(str: string) {
+  return str.replace(/\n(?!\n)/g, '\n\n');  
 }
 
 export default function ResultsView() {
@@ -177,9 +182,8 @@ export default function ResultsView() {
                 </span>
               </div>
 
-              {/* Changed from overflow-x-auto whitespace-nowrap to overflow-y-auto whitespace-pre-wrap with max-h-[220px] */}
-              <div className="bg-stone-50 border border-stone-100 rounded-2xl p-4 text-sm text-stone-700 font-light leading-relaxed max-h-[220px] overflow-y-auto whitespace-pre-wrap pr-1 custom-scrollbar">
-                {loading ? "Generating reasoning insights..." : llmOutput}
+              <div className="bg-stone-50 border border-stone-100 rounded-2xl p-4 text-sm text-stone-700 font-light leading-relaxed max-h-[220px] overflow-y-auto pr-1 custom-scrollbar prose prose-sm max-w-none prose-p:my-2">
+                {loading ? "Generating reasoning insights..." : <Markdown>{parseString(llmOutput)}</Markdown>}
               </div>
             </div>
 
