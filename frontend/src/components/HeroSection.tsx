@@ -42,7 +42,7 @@ export default function HeroSection() {
       const rawAssembly = await selectedFile.text();
 
       // Existing upload contract intentionally unchanged.
-      const response = await fetch('https://technica-2026.onrender.com/run-pipeline', {
+      const response = await fetch('https://technica-2026-1.onrender.com/run-pipeline', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

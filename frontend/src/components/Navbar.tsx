@@ -12,7 +12,7 @@ export default function Navbar() {
               <Shield className="w-5 h-5" />
             </div>
             <span className="font-serif text-xl tracking-tight font-bold text-stone-900">
-              PLACEHOLDER<span className="text-orange-600">.</span>
+              CodeTrace<span className="text-orange-600">.</span>
             </span>
           </a>
 
