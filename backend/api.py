@@ -43,6 +43,38 @@ class OutputCreate(OutputBase):
 def root():
     return {"Hello": "world"}
 
+@app.post("/run-pipeline", status_code=status.HTTP_201_CREATED)
+def run_pipeline(payload: InputCreate):
+    try:
+        # 1. Save input to DB -> Python captures the input_id right here!
+        input_id = save_input(payload.raw_assembly)
+        
+        # 2. Grab it back or use the payload to run your model
+        # (e.g., getting leetCode problem similarity matches)
+        assembly_text = get_input(input_id)
+
+        # matches = run_your_model_here(assembly_text) # Returns [("Two Sum", 0.95), ("Valid Parentheses", 0.81)]
+        
+        # 3. Use that SAME input_id variable to save your scores to SQLite!
+        # save_scores(input_id, matches)
+        
+        # 4. Take those results, pass them into your Gemini API call
+        # gemini_result = call_gemini_api_here(matches)
+        
+        # 5. Use that SAME input_id variable to save Gemini's output to SQLite!
+        save_output(gemini_result, input_id)
+        
+        # 6. Finally, return the input_id to the frontend so it knows what session this is
+        return {
+            "input_id": input_id,
+            "message": "Pipeline ran and everything saved to DB successfully!"
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+
 @app.post("/inputs", status_code=status.HTTP_201_CREATED)
 def create_input(payload: InputCreate):
     try:
