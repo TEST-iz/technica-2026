@@ -1,9 +1,9 @@
-"""Thin adapter for the verified TE03 `selected.zip` model bundle.
+"""TE03 inference adapter: multi-function GNU x86-64 assembly -> cosine top-k.
 
-Inference: GCC/Clang GAS x86-64 `.s` containing exactly one `.type ..., @function`
-           -> assemble/disassemble/normalize -> frozen E0 -> cosine top-k.
-This does NOT accept arbitrary objdump text or ELF uploads.
-No LLM, MiniLM, training code changes, or teacher labels are used at inference.
+Files remain raw strings: .asm/.s/.txt extensions do not affect parsing. Assemble
+once; encode functions separately with the frozen E0 model. Aggregate by maximum
+per-function score per distinct problem and retain the supporting query symbol.
+The model bundle and its source-hash-bound snapshot must remain unchanged.
 """
 from __future__ import annotations
 
@@ -14,11 +14,44 @@ import math
 import os
 from pathlib import Path
 import sys
-import tempfile
+
+
+from technica_assembly import AssemblyInputError, convert_functions
 
 
 class InferenceInputError(ValueError):
     """User input cannot be represented under the frozen model contract."""
+
+
+def _validate_top_k(top_k: int) -> None:
+    if type(top_k) is not int or not 1 <= top_k <= 50:
+        raise InferenceInputError("top_k must be an integer between 1 and 50")
+
+
+def _merge_function_rankings(functions: list[dict], top_k: int) -> list[dict]:
+    """Best local match per problem, NOT a learned whole-program similarity.
+
+    Per-function top-k is sufficient: a candidate below k in every function
+    cannot enter the file's top-k under max aggregation. Ties use problem IDs
+    consistently with _rank, and then reference/function names for determinism.
+    """
+    _validate_top_k(top_k)
+    best = {}
+    for fn in functions:
+        for match in fn["results"]:
+            score = match["similarity_score"]
+            if not math.isfinite(score):
+                raise RuntimeError("Non-finite function similarity")
+            candidate = dict(match, query_function=fn["function"],
+                             query_function_aliases=fn.get("aliases", [fn["function"]]),
+                             query_function_status=fn["status"])
+            key = candidate["problem_id"]
+            prior = best.get(key)
+            ordering = lambda item: (-item["similarity_score"], item["reference_id"], item["query_function"])
+            if prior is None or ordering(candidate) < ordering(prior):
+                best[key] = candidate
+    return sorted(best.values(), key=lambda r: (-r["similarity_score"], r["problem_id"]))[:top_k]
+
 
 
 def _sha256(path: Path) -> str:
@@ -42,7 +75,6 @@ class RetrievalEngine:
 
         source = self.bundle / "source-snapshot"
         sys.path.insert(0, str(source / "src"))
-        from te01.assembly import convert_assembly
         from te01.engine import load_export
         from te01.models import collate
         from te01.representation import Graph, Excluded
@@ -52,7 +84,6 @@ class RetrievalEngine:
         self.collate = collate
         self.Graph = Graph
         self.Excluded = Excluded
-        self.convert_assembly = convert_assembly
         # TE03's exact source snapshot is mandatory: load_export checks source_hash.
         self.model, self.vocab, self.threshold = load_export(
             self.bundle / "encoder.pt", device="cpu"
@@ -88,8 +119,7 @@ class RetrievalEngine:
         return embedding
 
     def _rank(self, z, top_k):
-        if not isinstance(top_k, int) or not 1 <= top_k <= 50:
-            raise InferenceInputError("top_k must be an integer between 1 and 50")
+        _validate_top_k(top_k)
         with self.torch.inference_mode():
             similarities = (self.refs @ z).tolist()
         best = {}
@@ -112,35 +142,68 @@ class RetrievalEngine:
                 }
         return sorted(best.values(), key=lambda r: (-r["similarity_score"], r["problem_id"]))[:top_k]
 
-    def predict(self, raw_assembly: str, top_k: int = 8):
-        if not isinstance(raw_assembly, str) or not raw_assembly.strip():
-            raise InferenceInputError("raw_assembly is empty")
-        if len(raw_assembly.encode("utf-8")) > 1_000_000:
-            raise InferenceInputError("Assembly input exceeds 1 MB limit")
-        # The frozen TE02 frontend requires one emitted GAS function declaration.
-        from te01.assembly import FUNCTION_RE
-        n = len(FUNCTION_RE.findall(raw_assembly))
-        if n != 1:
-            raise InferenceInputError(
-                "Expected GNU assembler .s text with exactly one '.type SYMBOL,@function' "
-                "declaration (not objdump output or a multi-function binary)"
-            )
-        # Converter uses a constrained assembler; no submitted program is executed.
-        with tempfile.TemporaryDirectory(prefix="technica-query-") as temp:
-            path = Path(temp) / "query.s"
-            path.write_text(raw_assembly, encoding="utf-8")
-            try:
-                converted = self.convert_assembly(path)
-            except self.Excluded as e:
-                raise InferenceInputError(str(e)) from e
-        z = self.encode_graph(converted["graph"])
+    def predict(self, raw_assembly: str, top_k: int = 8, *, function_symbol: str | None = None):
+        """Return top-k distinct problems across all supported query functions.
+
+        Existing predict(text, top_k=...) callers and result name/score tuples
+        stay compatible. `functions` adds individual rankings and call metadata.
+        Optional function_symbol selects an exact body/alias; no main/f0 guess.
+        """
+        _validate_top_k(top_k)
+        try:
+            converted = convert_functions(raw_assembly, function_symbol=function_symbol)
+        except (AssemblyInputError, self.Excluded) as exc:
+            raise InferenceInputError(str(exc)) from exc
+        functions, warnings, call_graph = [], [], []
+        # Sequential forwards preserve the original singleton evaluation path
+        # and bound peak memory. All functions share the single assembled object.
+        for item in converted["functions"]:
+            symbol = item["selected_symbol"]
+            z = self.encode_graph(item["graph"])
+            reasons = [r.get("code", str(r)) if isinstance(r, dict) else str(r)
+                       for r in item["reasons"]]
+            functions.append({
+                "function": symbol, "aliases": item["aliases"],
+                "section": item["section"], "offset": item["symbol_start"],
+                "size": item["symbol_size"], "status": item["status"],
+                "instruction_count": len(item["instructions"]),
+                "block_count": len(item["graph"]["blocks"]),
+                "warnings": list(dict.fromkeys(reasons)),
+                "calls": item["calls"], "transfers": item["transfers"],
+                "results": self._rank(z, top_k),
+            })
+            warnings.extend(f"{symbol}: {reason}" for reason in reasons)
+            for transfer in item["transfers"]:
+                target = transfer.get("callee_symbol")
+                if transfer["kind"] == "call" or target is not None:
+                    symbolic = transfer.get("symbolic") or {}
+                    call_graph.append({
+                        "caller": symbol, "callee": target,
+                        "external_symbol": symbolic.get("symbol") if transfer["target_kind"] == "external_anonymous" else None,
+                        "kind": transfer["kind"], "instruction_offset": transfer["instruction"],
+                        "target_kind": transfer["target_kind"],
+                        "callee_offset": transfer.get("callee_offset"),
+                        "recursion": transfer["recursion"],
+                    })
+        excluded = converted["excluded_functions"]
+        warnings.extend(f"{r['function']}: excluded ({r['reason']})" for r in excluded)
+        if len(functions) > 1:
+            warnings.append("Multi-function ranking uses the best individual function match per problem; it is not a whole-program equivalence score.")
+        if any(c["target_kind"] == "other_function" for c in call_graph):
+            warnings.append("Local helper calls are preserved as metadata; helper bodies are encoded separately, not inlined into callers.")
+        partial = bool(excluded) or any(f["status"] != "OK" for f in functions)
         return {
-            "status": converted["status"],
-            "warnings": [r.get("code", str(r)) if isinstance(r, dict) else str(r)
-                         for r in converted["reasons"]][:32],
+            "status": "PARTIAL" if partial else "OK",
+            "warnings": list(dict.fromkeys(warnings))[:32],
             "model_sha256": self.model_sha,
             "scores_are_probabilities": False,
-            "results": self._rank(z, top_k),
+            "aggregation": "max_per_problem_across_functions" if len(functions) > 1 else "single_function",
+            "function_count": len(functions),
+            "defined_function_count": converted["defined_function_count"],
+            "excluded_function_count": len(excluded),
+            "excluded_functions": excluded,
+            "functions": functions, "call_graph": call_graph,
+            "results": _merge_function_rankings(functions, top_k),
         }
 
     def self_test(self, with_assembler=False):
@@ -169,15 +232,31 @@ class RetrievalEngine:
 
 @lru_cache(maxsize=1)
 def get_model() -> RetrievalEngine:
-    bundle_dir = Path(os.getenv("TECHNICA_MODEL_DIR", "/root/backend/models/te03/selected"))
-    return RetrievalEngine(bundle_dir)
+    configured = os.getenv("TECHNICA_MODEL_DIR")
+    if configured:
+        return RetrievalEngine(Path(configured))
+    here = Path(__file__).resolve().parent
+    for bundle_dir in (here / "models/selected", here / "models/te03/selected"):
+        if (bundle_dir / "encoder.pt").is_file():
+            return RetrievalEngine(bundle_dir)
+    raise RuntimeError("Set TECHNICA_MODEL_DIR to the selected/ folder containing encoder.pt")
 
 
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument("--self-test", action="store_true", required=True)
-    parser.add_argument("--assembly", action="store_true",
-                        help="Also verify the actual assembler->decoder->model path")
+    mode = parser.add_mutually_exclusive_group(required=True)
+    mode.add_argument("--self-test", action="store_true")
+    mode.add_argument("--file", type=Path, help="Predict from .asm, .s or .txt contents")
+    parser.add_argument("--assembly", action="store_true", help="Include assembler round trips in self-test")
+    parser.add_argument("--top-k", type=int, default=8)
+    parser.add_argument("--function", dest="function_symbol", help="Optional exact function name; otherwise score all")
     args = parser.parse_args()
-    print(json.dumps(get_model().self_test(with_assembler=args.assembly), indent=2))
+    try:
+        engine = get_model()
+        result = (engine.self_test(with_assembler=args.assembly) if args.self_test else
+                  engine.predict(args.file.read_text(encoding="utf-8"), args.top_k,
+                                 function_symbol=args.function_symbol))
+        print(json.dumps(result, indent=2, allow_nan=False))
+    except (InferenceInputError, OSError) as exc:
+        parser.exit(2, f"{exc}\n")
