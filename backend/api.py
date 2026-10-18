@@ -62,7 +62,7 @@ def run_pipeline(payload: InputCreate):
         # gemini_result = call_gemini_api_here(matches)
         
         # 5. Use that SAME input_id variable to save Gemini's output to SQLite!
-        save_output(gemini_result, input_id)
+        # save_output(gemini_result, input_id)
         
         # 6. Finally, return the input_id to the frontend so it knows what session this is
         return {
