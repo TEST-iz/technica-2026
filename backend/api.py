@@ -25,6 +25,7 @@ origins = [
     "http://127.0.0.1",
     "https://winnerspovtechnica26.vercel.app/",
     "https://technica-2026-k3oz-au5a3apc0-testiz.vercel.app/",
+    "https://technica-2026-k3oz-4c78268hm-testiz.vercel.app./",
 ]
 
 
