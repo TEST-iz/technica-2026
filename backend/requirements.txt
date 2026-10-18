@@ -1,6 +1,6 @@
 # Backend
-fastapi
-uvicorn[standard]
+fastapi==0.143.3
+uvicorn[standard]==0.30.0
 
 # Neural inference
 torch==2.12.0
