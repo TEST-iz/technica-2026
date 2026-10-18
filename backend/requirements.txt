@@ -1,0 +1,15 @@
+# Backend
+fastapi
+uvicorn[standard]
+
+# Neural inference
+torch==2.12.0
+torch-geometric==2.8.1
+numpy==2.5.4
+
+# Assembly processing
+capstone==5.0.9
+pyelftools
+
+# Schema validation
+jsonschema==4.26.0

@@ -1,0 +1,23 @@
+{
+  "config": {
+    "block": "pool",
+    "dim": 128,
+    "dropout": 0.1,
+    "graph": "set",
+    "layers": 2,
+    "rich": true,
+    "structural": false,
+    "typed": true
+  },
+  "encoder_sha256": "0913c0b1303075885a3e0f97ca9458c481ed4121c7edcbe6f73559618a002fce",
+  "source_hash": "9dc31387ba1e121d0bfcd38d5024ffb10a176f6cff4615b9838864936854584b",
+  "status": "passed",
+  "threshold": {
+    "partition": "val",
+    "scores_are_probabilities": false,
+    "target_false_accept_rate": 0.05,
+    "unknown_queries": 50,
+    "value": 0.9422442913055421
+  },
+  "vocabulary_hash": "0c90b40016bf6da2c641f9643dbeef63f983e1f21321fa90ee0ba847e39ab6ab"
+}

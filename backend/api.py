@@ -5,6 +5,8 @@ from pydantic import BaseModel
 from typing import Optional, List
 from helper import call_llm
 from db import get_input, get_output, save_input, save_output, save_scores, get_scores, conn
+from fastapi import Query
+from model_inference import get_model, InferenceInputError
 
 app = FastAPI()
 
@@ -53,23 +55,23 @@ def root():
     return {"Hello": "world"}
 
 @app.post("/run-pipeline", status_code=status.HTTP_201_CREATED)
-def run_pipeline(payload: InputCreate):
+def run_pipeline(
+    payload: InputCreate,
+    top_k: int = Query(default=8, ge=1, le=50)
+):
     try:
         input_id = save_input(payload.raw_assembly)
         
         assembly_text = get_input(input_id)
 
-        # matches = run_your_model_here(assembly_text) # Returns [("Two Sum", 0.95), ("Valid Parentheses", 0.81)]
-        
-        matches: list[tuple[str, float]] = [
-            ("Clone Graph", 0.96),
-            ("Number of Islands", 0.93),
-            ("Two Sum", 0.91),
-            ("Course Schedule", 0.89),
-            ("Contains Duplicate", 0.86),
-            ("Pacific Atlantic Water Flow", 0.84),
-            ("Longest Consecutive Sequence", 0.82),
-            ("Valid Sudoku", 0.79),
+        prediction = get_model().predict(
+            assembly_text,
+            top_k=top_k
+        )
+
+        matches = [
+            (r["candidate_name"], r["similarity_score"])
+            for r in prediction["results"]
         ]
 
         save_scores(input_id, matches)

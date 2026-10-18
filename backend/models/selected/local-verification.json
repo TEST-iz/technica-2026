@@ -1,0 +1,72 @@
+{
+  "checkpoint_sha256": "f83d1699763a3a7f56b1b1e24f3779ffd0670feb8794f7547bd86197d7832fc4",
+  "device": "cpu",
+  "encoder_sha256": "90919fb128122588157ca50843b2338125a5282e9573042ed6586232c4384057",
+  "files_verified": 29,
+  "input": "binary-derived normalized graphs",
+  "reference_count": 512,
+  "reference_problems": 512,
+  "requires_source_descriptions_tags_annotations_or_teacher": false,
+  "results": [
+    {
+      "assembly_verified": false,
+      "id": "007db6b5c9bb77c6e86b92d6",
+      "max_embedding_absolute_error": 0.0,
+      "query_encoding_and_ranking_ms": 2.037272999587003,
+      "top5_problem_ids": [
+        "leetcode:2460",
+        "leetcode:2197",
+        "leetcode:2610",
+        "leetcode:1564",
+        "leetcode:283"
+      ]
+    },
+    {
+      "assembly_verified": false,
+      "id": "0591830fb16ef14c8ab62e54",
+      "max_embedding_absolute_error": 0.0,
+      "query_encoding_and_ranking_ms": 1.7958829994313419,
+      "top5_problem_ids": [
+        "leetcode:349",
+        "leetcode:2951",
+        "leetcode:942",
+        "leetcode:969",
+        "leetcode:2032"
+      ]
+    },
+    {
+      "assembly_verified": false,
+      "id": "0d9ed2483b90df9744b2cef0",
+      "max_embedding_absolute_error": 0.0,
+      "query_encoding_and_ranking_ms": 3.8936589990044013,
+      "top5_problem_ids": [
+        "leetcode:1284",
+        "leetcode:2290",
+        "leetcode:994",
+        "leetcode:2328",
+        "leetcode:3970"
+      ]
+    },
+    {
+      "assembly_verified": false,
+      "id": "0e542935d6879e2f0ce3ed8e",
+      "max_embedding_absolute_error": 0.0,
+      "query_encoding_and_ranking_ms": 1.6195589996641502,
+      "top5_problem_ids": [
+        "leetcode:2273",
+        "leetcode:2610",
+        "leetcode:1585",
+        "leetcode:1842",
+        "leetcode:1365"
+      ]
+    }
+  ],
+  "status": "passed",
+  "threshold": {
+    "partition": "val",
+    "scores_are_probabilities": false,
+    "target_false_accept_rate": 0.05,
+    "unknown_queries": 50,
+    "value": 0.9000259637832643
+  }
+}

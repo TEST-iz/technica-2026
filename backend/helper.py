@@ -1,4 +1,5 @@
 from google import genai
+from google.genai import types
 from db import save_input, save_output, save_scores, get_input, get_output, get_scores
 
 client = genai.Client()
@@ -51,13 +52,16 @@ def call_llm(matches: list[tuple[str, float]]):
 
     Do not mention the absence of source code, missing implementation details, or lack of direct evidence from the unknown program.
     """
-
-    interaction = client.interactions.create(
-        model="gemini-3.5-flash",
-        input=prompt
+    response = client.models.generate_content(
+        model="gemini-3.5-flash-lite",
+        contents=prompt,
+        config=types.GenerateContentConfig(
+            max_output_tokens=1000,
+            temperature=0.7,
+        )
     )
-
-    return interaction.output_text
+    print("done") 
+    return response.text
 
 # def main():
 #     matches: list[tuple[str, float]] = [

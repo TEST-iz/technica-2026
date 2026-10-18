@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Technica parser record 1.0.1",
+  "type": "object",
+  "required": ["schema_version", "sample_id", "binary_sha256", "target", "provenance", "tools", "config", "status", "reasons", "entry_function_id", "functions", "summary", "run"],
+  "properties": {
+    "schema_version": {"const": "1.0.1"},
+    "sample_id": {"type": ["string", "null"]},
+    "binary_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
+    "target": {"type": ["object", "null"], "required": ["format", "isa", "bits", "endianness"]},
+    "provenance": {"type": "object", "required": ["build_metadata", "build_metadata_verified", "target_binding"]},
+    "tools": {"type": "object"}, "config": {"type": "object"}, "run": {"type": "object"},
+    "status": {"enum": ["OK", "PARTIAL", "FAILED"]},
+    "reasons": {"type": "array", "items": {"$ref": "#/$defs/reason"}},
+    "entry_function_id": {"type": ["string", "null"]},
+    "functions": {"type": "array", "items": {"$ref": "#/$defs/function"}},
+    "summary": {
+      "type": "object", "required": ["functions", "blocks", "instructions", "edges", "calls", "unresolved_transfers", "excluded_exceptional_edges"],
+      "additionalProperties": {"type": "integer", "minimum": 0}
+    }
+  },
+  "$defs": {
+    "rva": {"type": "integer", "minimum": 0},
+    "reason": {"type": "object", "required": ["code", "message"], "properties": {"code": {"type": "string"}, "message": {"type": "string"}}},
+    "function": {
+      "type": "object", "required": ["id", "entry_rva", "entry_block_id", "symbols", "blocks", "edges", "calls", "cross_function_transfers", "unresolved_transfers", "excluded_exceptional_edges", "warnings"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^f_[0-9a-f]+$"}, "entry_rva": {"$ref": "#/$defs/rva"},
+        "entry_block_id": {"type": "string"}, "symbols": {"type": "array", "items": {"type": "string"}},
+        "blocks": {"type": "array", "items": {"$ref": "#/$defs/block"}},
+        "edges": {"type": "array", "items": {"$ref": "#/$defs/edge"}},
+        "calls": {"type": "array", "items": {"$ref": "#/$defs/call"}},
+        "cross_function_transfers": {"type": "array", "items": {"type": "object", "required": ["callsite_rva", "target", "provenance"], "properties": {"callsite_rva": {"$ref": "#/$defs/rva"}, "target": {"$ref": "#/$defs/target"}, "provenance": {"type": "object"}}}},
+        "unresolved_transfers": {"type": "array", "items": {"type": "object", "required": ["callsite_rva", "kind", "reason"], "properties": {"callsite_rva": {"$ref": "#/$defs/rva"}, "kind": {"type": "string"}, "reason": {"type": "string"}}}},
+        "excluded_exceptional_edges": {"type": "array", "items": {"type": "object", "required": ["source_rva", "destination_rva", "provenance"]}},
+        "warnings": {"type": "array", "items": {"$ref": "#/$defs/reason"}}
+      }
+    },
+    "block": {
+      "type": "object", "required": ["id", "rva", "size", "instructions"],
+      "properties": {"id": {"type": "string", "pattern": "^b_[0-9a-f]+$"}, "rva": {"$ref": "#/$defs/rva"}, "size": {"type": "integer", "minimum": 1}, "instructions": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/instruction"}}}
+    },
+    "instruction": {
+      "type": "object", "required": ["rva", "bytes", "size", "mnemonic", "operands", "display", "registers_read", "registers_written", "groups"],
+      "properties": {
+        "rva": {"$ref": "#/$defs/rva"}, "bytes": {"type": "string", "pattern": "^(?:[0-9a-f]{2})+$"}, "size": {"type": "integer", "minimum": 1},
+        "mnemonic": {"type": "string", "minLength": 1}, "display": {"type": "string"}, "operands": {"type": "array", "items": {"$ref": "#/$defs/operand"}},
+        "registers_read": {"type": "array", "items": {"type": "string"}}, "registers_written": {"type": "array", "items": {"type": "string"}}, "groups": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "operand": {
+      "type": "object", "required": ["kind", "width", "access"],
+      "properties": {"width": {"type": ["integer", "null"], "minimum": 1}, "access": {"type": ["array", "null"], "items": {"enum": ["read", "write"]}}},
+      "oneOf": [
+        {"properties": {"kind": {"const": "register"}, "register": {"type": "string", "minLength": 1}}, "required": ["register"]},
+        {"properties": {"kind": {"const": "immediate"}, "immediate": {"type": "integer"}}, "required": ["immediate"]},
+        {"properties": {"kind": {"const": "memory"}, "memory": {"type": "object", "required": ["base", "index", "scale", "displacement", "segment"], "properties": {"base": {"type": ["string", "null"]}, "index": {"type": ["string", "null"]}, "segment": {"type": ["string", "null"]}, "scale": {"enum": [0, 1, 2, 4, 8]}, "displacement": {"type": "integer"}}}}, "required": ["memory"]},
+        {"properties": {"kind": {"const": "unknown"}, "capstone_type": {"type": "integer"}}, "required": ["capstone_type"]}
+      ]
+    },
+    "edge": {
+      "type": "object", "required": ["source", "destination", "kind", "provenance"],
+      "properties": {"source": {"type": "string"}, "destination": {"type": "string"}, "kind": {"enum": ["fallthrough", "conditional_taken", "conditional_fallthrough", "unconditional_jump", "indirect_resolved", "call_continuation", "unknown"]}, "provenance": {"type": "object", "required": ["tool", "relation"]}}
+    },
+    "target": {
+      "type": "object", "required": ["kind", "function_id", "rva", "symbol", "address"],
+      "properties": {"kind": {"enum": ["local", "internal_unselected", "internal_unavailable", "external", "unresolved"]}, "function_id": {"type": ["string", "null"]}, "rva": {"type": ["integer", "null"]}, "symbol": {"type": ["string", "null"]}, "address": {"type": ["integer", "null"]}},
+      "if": {"properties": {"kind": {"const": "internal_unavailable"}}},
+      "then": {"properties": {"function_id": {"type": "null"}, "rva": {"$ref": "#/$defs/rva"}, "address": {"type": "integer", "minimum": 0}}}
+    },
+    "call": {
+      "type": "object", "required": ["callsite_rva", "block_id", "kind", "targets", "continuations"],
+      "properties": {"callsite_rva": {"$ref": "#/$defs/rva"}, "block_id": {"type": "string"}, "kind": {"enum": ["direct", "indirect"]}, "targets": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/target"}}, "continuations": {"type": "array", "items": {"type": "object", "required": ["block_id", "rva", "evidence", "inferred", "confirmed"], "properties": {"block_id": {"type": "string"}, "rva": {"$ref": "#/$defs/rva"}, "evidence": {"const": "FakeRet"}, "inferred": {"const": true}, "confirmed": {"type": ["boolean", "null"]}}}}}
+    }
+  }
+}
