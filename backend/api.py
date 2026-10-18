@@ -4,11 +4,18 @@ from contextlib import asynccontextmanager
 from pydantic import BaseModel
 from typing import Optional, List
 from helper import call_llm
-from db import get_input, get_output, save_input, save_output, save_scores, get_scores, conn
+from db import get_input, get_output, save_input, save_output, save_scores, get_scores, conn, init_db
 from fastapi import Query
 from model_inference import get_model, InferenceInputError
 
-app = FastAPI()
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    init_db()
+    print("Database initialized successfully!")
+    yield
+    print("Shutting down application...")
+
+app = FastAPI(lifespan=lifespan)
 
 origins = [
     "http://localhost:5173",
@@ -19,6 +26,9 @@ origins = [
     "https://winnerspovtechnica26.vercel.app/",
     "https://technica-2026-k3oz-au5a3apc0-testiz.vercel.app/",
 ]
+
+
+
 
 app.add_middleware(
     CORSMiddleware,
