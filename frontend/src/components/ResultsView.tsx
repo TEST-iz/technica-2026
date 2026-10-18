@@ -27,21 +27,21 @@ export default function ResultsView() {
     async function fetchData() {
       try {
         // 1. Fetch raw assembly input
-        const inputRes = await fetch(`http://127.0.0.1:8000/inputs/${id}`);
+        const inputRes = await fetch(`https://technica-2026.onrender.com/inputs/${id}`);
         if (inputRes.ok) {
           const inputData = await inputRes.json();
           setRawAssembly(inputData.raw_assembly || "No assembly text found.");
         }
 
         // 2. Fetch LLM output
-        const outputRes = await fetch(`http://127.0.0.1:8000/outputs/${id}`);
+        const outputRes = await fetch(`https://technica-2026.onrender.com/outputs/${id}`);
         if (outputRes.ok) {
           const outputData = await outputRes.json();
           setLlmOutput(outputData.llm_output || "No LLM output generated.");
         }
 
         // 3. Fetch Similarity Scores & handle potential type mismatches robustly
-        const scoresRes = await fetch(`http://127.0.0.1:8000/scores/${id}`);
+        const scoresRes = await fetch(`https://technica-2026.onrender.com/scores/${id}`);
         if (scoresRes.ok) {
           const scoresData = await scoresRes.json();
           
