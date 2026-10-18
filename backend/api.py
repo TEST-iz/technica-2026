@@ -2,8 +2,8 @@ from fastapi import FastAPI, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 from pydantic import BaseModel
-from typing import Optional
-from db import get_input, get_output, save_input, save_output, conn
+from typing import Optional, List
+from db import get_input, get_output, save_input, save_output, save_scores, get_scores, conn
 
 app = FastAPI()
 
@@ -37,6 +37,14 @@ class OutputBase(BaseModel):
 
 class OutputCreate(OutputBase):
     pass
+
+class ScoreItem(BaseModel):
+    candidate_name: str
+    similarity_score: float
+
+class ScoresCreate(BaseModel):
+    input_id: int
+    scores: List[ScoreItem]
 
 #testing
 @app.get("/")
@@ -84,7 +92,7 @@ def create_input(payload: InputCreate):
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.get("/inputs/{input_id}", status_code=status.HTTP_200_OK)
-def fetch_output(input_id: int):
+def fetch_input(input_id: int):
     try:
         raw_assembly = get_input(input_id)
         return {"input_id": input_id, "raw_assembly": raw_assembly}
@@ -112,16 +120,22 @@ def fetch_output(input_id: int):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/scores/{input_id}")
+@app.get("/scores/{input_id}", status_code=status.HTTP_200_OK)
 def fetch_scores(input_id: int):
     try:
-        with conn() as c:
-            rows = c.execute(
-                "SELECT candidate_name, similarity_score FROM scores WHERE input_id = ? ORDER BY similarity_score DESC;",
-                (input_id,)
-            ).fetchall()
-            
-            scores_list = [dict(row) for row in rows]
-            return {"scores": scores_list}
+        return get_scores(input_id)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/scores", status_code=status.HTTP_201_CREATED)
+def create_scores(payload: ScoresCreate):
+    try:
+        # Convert the list of ScoreItem objects into a list of tuples: (candidate_name, similarity_score)
+        matches = [(item.candidate_name, item.similarity_score) for item in payload.scores]
+        
+        # Save them using your db.py helper function
+        save_scores(payload.input_id, matches)
+        
+        return {"message": "Scores saved successfully"}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

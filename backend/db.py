@@ -79,7 +79,8 @@ def save_output(payload: str, input_id: int) -> None:
     try:
         with conn() as c:
             c.execute("INSERT INTO output (input_id, llm_output) VALUES (?, ?);", (input_id, payload))
-            return None
+            c.commit()
+        return None
     except Exception as exc:
         logger.error("Failed to save output payload: %s", exc)
         raise
@@ -100,6 +101,7 @@ def save_scores(input_id: int, matches: list[tuple[str, float]]):
         with conn() as c:
             for candidate_name, score in matches:
                 c.execute("INSERT INTO scores (input_id, candidate_name, similarity_score) VALUES (?, ?, ?);", (input_id, candidate_name, score))
+            c.commit()    
     except Exception as exc:
         logger.error("Failed to save similarity scores: %s", exc)
         raise
