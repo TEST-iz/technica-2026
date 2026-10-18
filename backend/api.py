@@ -24,7 +24,8 @@ origins = [
     "http://localhost",
     "http://127.0.0.1",
     "https://codetracetechnica.vercel.app/",
-    "technica-2026-k3oz-iu26hju61-testiz.vercel.app/",
+    "https://technica-2026-k3oz-kctsm9vaw-testiz.vercel.app/",
+    "http://technica-2026-k3oz-kctsm9vaw-testiz.vercel.app/",
 ]
 
 
