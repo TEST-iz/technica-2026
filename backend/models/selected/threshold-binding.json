@@ -1,0 +1,14 @@
+{
+  "checkpoint_sha256": "f83d1699763a3a7f56b1b1e24f3779ffd0670feb8794f7547bd86197d7832fc4",
+  "encoder_sha256": "90919fb128122588157ca50843b2338125a5282e9573042ed6586232c4384057",
+  "partition": "val",
+  "scores_are_probabilities": false,
+  "threshold": {
+    "partition": "val",
+    "scores_are_probabilities": false,
+    "target_false_accept_rate": 0.05,
+    "unknown_queries": 50,
+    "value": 0.9000259637832643
+  },
+  "validation_result_sha256": "84298e82b4c85fcdbc4b63fa3da5463bb5e2bb7f95d26e8be9773aaea69b83b1"
+}

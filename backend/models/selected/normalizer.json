@@ -1,0 +1,24 @@
+{
+  "assembly_frontend_sha256": "0c96fa5a8aaf0b9e57c343d8ff39a834897707c6c812cf38e1395a15511c0229",
+  "binding_contract": "te02.gcc-et-rel.v1",
+  "compiler": "gcc",
+  "feature_version": "te01.features.v1",
+  "limits": {
+    "blocks": 256,
+    "edges": 4096,
+    "fields_per_instruction": 96,
+    "instructions": 4096,
+    "instructions_per_block": 256
+  },
+  "optimization": "-O0",
+  "representation_sha256": "836e2d25c8c2dac603136d31bbd309401d456d1c49512329dc2c5730e3051fdb",
+  "source_hash": "9dc31387ba1e121d0bfcd38d5024ffb10a176f6cff4615b9838864936854584b",
+  "symbols": "names/ordinals never embedded; relocations determine address masking",
+  "threshold": {
+    "partition": "val",
+    "scores_are_probabilities": false,
+    "target_false_accept_rate": 0.05,
+    "unknown_queries": 50,
+    "value": 0.9000259637832643
+  }
+}

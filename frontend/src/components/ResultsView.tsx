@@ -1,11 +1,16 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
+import Markdown from 'react-markdown';
 import { ArrowLeft, Sparkles, CheckCircle, FileCode, BarChart3, Bot } from 'lucide-react';
 
 interface ScoreItem {
   score_id: number;
   candidate_name: string;
   similarity_score: number;
+}
+
+function parseString(str: string) {
+  return str.replace(/\n(?!\n)/g, '\n\n');  
 }
 
 export default function ResultsView() {
@@ -22,21 +27,21 @@ export default function ResultsView() {
     async function fetchData() {
       try {
         // 1. Fetch raw assembly input
-        const inputRes = await fetch(`http://127.0.0.1:8000/inputs/${id}`);
+        const inputRes = await fetch(`https://technica-2026.onrender.com/inputs/${id}`);
         if (inputRes.ok) {
           const inputData = await inputRes.json();
           setRawAssembly(inputData.raw_assembly || "No assembly text found.");
         }
 
         // 2. Fetch LLM output
-        const outputRes = await fetch(`http://127.0.0.1:8000/outputs/${id}`);
+        const outputRes = await fetch(`https://technica-2026.onrender.com/outputs/${id}`);
         if (outputRes.ok) {
           const outputData = await outputRes.json();
           setLlmOutput(outputData.llm_output || "No LLM output generated.");
         }
 
         // 3. Fetch Similarity Scores & handle potential type mismatches robustly
-        const scoresRes = await fetch(`http://127.0.0.1:8000/scores/${id}`);
+        const scoresRes = await fetch(`https://technica-2026.onrender.com/scores/${id}`);
         if (scoresRes.ok) {
           const scoresData = await scoresRes.json();
           
@@ -177,9 +182,8 @@ export default function ResultsView() {
                 </span>
               </div>
 
-              {/* Changed from overflow-x-auto whitespace-nowrap to overflow-y-auto whitespace-pre-wrap with max-h-[220px] */}
-              <div className="bg-stone-50 border border-stone-100 rounded-2xl p-4 text-sm text-stone-700 font-light leading-relaxed max-h-[220px] overflow-y-auto whitespace-pre-wrap pr-1 custom-scrollbar">
-                {loading ? "Generating reasoning insights..." : llmOutput}
+              <div className="bg-stone-50 border border-stone-100 rounded-2xl p-4 text-sm text-stone-700 font-light leading-relaxed max-h-[220px] overflow-y-auto pr-1 custom-scrollbar prose prose-sm max-w-none prose-p:my-2">
+                {loading ? "Generating reasoning insights..." : <Markdown>{parseString(llmOutput)}</Markdown>}
               </div>
             </div>
 

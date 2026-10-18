@@ -1,0 +1,4098 @@
+[
+  {
+    "assembly_sha256": "7c7c28271b3eee06649a4b36e27848eb935b6aa5ba153d415d1ce357b5f97521",
+    "id": "00204f367f952145121f6c03",
+    "identity": "52a18f00015ef7d27790c8d6822a69db43664115cf9ae21ecc14016d6dbec7bf",
+    "problem_id": "leetcode:2482",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "difference-between-ones-and-zeros-in-row-and-column.cpp"
+  },
+  {
+    "assembly_sha256": "335c4d821bea1ce19d82f8104019be81c7d33938bbd10ae592a48cb05a7f54da",
+    "id": "011d21b59093f15b525772c2",
+    "identity": "b091713417f567c11de483a8ac189de88836ba66c75bf596a68efe76ff72a415",
+    "problem_id": "leetcode:856",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "score-of-parentheses.cpp"
+  },
+  {
+    "assembly_sha256": "9a5e6998496f3fe9d87f12694d76c0529e1e3e3c29a866f05aa7d0ddd464a44c",
+    "id": "019b080dc684425256a2391a",
+    "identity": "43c404c4cb4ef24ec5141e8d348541f661cca6edb4d058d3f47e6b646a58fea2",
+    "problem_id": "leetcode:3664",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "two-letter-card-game.cpp"
+  },
+  {
+    "assembly_sha256": "a8e096964d5d233da11147e42c081d6f24246334abd597c22abb5247e0c3e99a",
+    "id": "02763523e484b95808a39648",
+    "identity": "e080386550059d16fe94b16b19345ebe759a6e4a0eecd4f475a027c3a156e7a2",
+    "problem_id": "leetcode:2570",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "merge-two-2d-arrays-by-summing-values.cpp"
+  },
+  {
+    "assembly_sha256": "21fcaabcea0fb01da9c8d4a634ef490179dd362b7b17fbe36e86363def2f03b1",
+    "id": "029359ec236e5fbb43f74f1b",
+    "identity": "a17784bbda3ba30b678ee06518ee52202cac860702dfd471cda93ecfb0ac5af0",
+    "problem_id": "leetcode:2661",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "first-completely-painted-row-or-column.cpp"
+  },
+  {
+    "assembly_sha256": "aeba3e1b4a4e92124ca18da80b917ba809afc6e686d085b7ba7697e1915e4777",
+    "id": "029dc5f6921c1f0552a83c20",
+    "identity": "568127bca583f1e7ee0dc1a2a2ed4f689be9699afccb2d6ac910b137d9a4bd60",
+    "problem_id": "leetcode:2645",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-additions-to-make-valid-string.cpp"
+  },
+  {
+    "assembly_sha256": "a9f707fe553c921ffa239d20a5a441afb954a890e073552cd5c83f9f39811afe",
+    "id": "02c37961a780023dad9b9636",
+    "identity": "34b3c3dada4c66b1632bb069987f5e543410e533c1b6222b822221727e02dc94",
+    "problem_id": "leetcode:221",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximal-square.cpp"
+  },
+  {
+    "assembly_sha256": "fa0b17698e87a916fca03651773918672ece631a49b23959fe6e1f7b46454bbe",
+    "id": "0305b7e1e71f4c7a9e91cfc5",
+    "identity": "607f8355ca0d2f5940e2360b4df3756d00a2b2c2f48cccba9ac6186e692c35f4",
+    "problem_id": "leetcode:1769",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-number-of-operations-to-move-all-balls-to-each-box.cpp"
+  },
+  {
+    "assembly_sha256": "d6fdee59d595f73ee3ece5a131c3f7dccced8336eea3088ba301f77c86405425",
+    "id": "03f926c09a90edd37c6c1a1c",
+    "identity": "f5cb3117afd841d05676dbd674bbad3272eb9705bd50bee23dcce8a20143e378",
+    "problem_id": "leetcode:2951",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-the-peaks.cpp"
+  },
+  {
+    "assembly_sha256": "b6050d99f0690ee00ac2ffacb14c232ff7ad4f5f48eb4794035f45cf9bfd7a3d",
+    "id": "04c6ebeceea5313389ca5e4a",
+    "identity": "852d1335abb726e5faf8552df6b5936cff0fe57abe76b27b3bba04f5a47e0c9a",
+    "problem_id": "leetcode:3737",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-subarrays-with-majority-element-i.cpp"
+  },
+  {
+    "assembly_sha256": "a2b04bde02a5e0fc106b0ce65677ade61dbc2735cac83b297446790b170fbeb9",
+    "id": "052aff380114f6f57eb13f96",
+    "identity": "268147d09e1b8c55f492474f0743e264c653c3f270af703335084614a4955762",
+    "problem_id": "leetcode:884",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "uncommon-words-from-two-sentences.cpp"
+  },
+  {
+    "assembly_sha256": "b49e1c30a3ad1714c7fb6a02d59a0805d5f9f77d1f0c7b7937072995ede970b5",
+    "id": "0582b789a4557beb6d84ee2e",
+    "identity": "debfb8064ef9740e6fc2f1a3992cd3c793e34f023b6f4d143761cc87cfed9b90",
+    "problem_id": "leetcode:1585",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "check-if-string-is-transformable-with-substring-sort-operations.cpp"
+  },
+  {
+    "assembly_sha256": "50c566441eba97bd23430750d541a070cb4d2feb275319b8e1484d626e078d85",
+    "id": "06283f7bffa71aa95d6e2997",
+    "identity": "a03f3d8923c0df8d25d2798a42a568972ccd6585f547dd74d4b744fc06242afb",
+    "problem_id": "leetcode:2053",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "kth-distinct-string-in-an-array.cpp"
+  },
+  {
+    "assembly_sha256": "473e2e393c6fc5c3355c895e21e5390801af0538a13640da44c5077594ba9dc2",
+    "id": "07ac4118f9bbad09f6d3c3ac",
+    "identity": "d763839e7ff31ab7f9ed4f0d8cf4cbecf5fc9221f07807d2d8c40e777ed41a4d",
+    "problem_id": "leetcode:313",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "super-ugly-number.cpp"
+  },
+  {
+    "assembly_sha256": "d4e48e237f8753f45ed390ac457a6e5194510942dcff10895450f63da862b9c0",
+    "id": "07bfe1cef777a4362d49b6a6",
+    "identity": "cfab74f371a388ccd79985208702c945cefac8782399bbd0c46dd8ccca0ff1ae",
+    "problem_id": "leetcode:2599",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "make-the-prefix-sum-non-negative.cpp"
+  },
+  {
+    "assembly_sha256": "bee833f7da00b85e36a7ab8268171a2b4aad09f14a2493700c973cb4104fc99d",
+    "id": "081464014d72714934d148b4",
+    "identity": "953737360a403061cea886e6b13becb706487b0c225ce262cb8d45a3a8af140b",
+    "problem_id": "leetcode:2131",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "longest-palindrome-by-concatenating-two-letter-words.cpp"
+  },
+  {
+    "assembly_sha256": "43b02c77a37ac712a0447d84425bcef3d5cca7c087f3bd73b808ba7973fd6980",
+    "id": "08536f6d1042704868e0037c",
+    "identity": "e4d25574f52d505296f0600f81d2390431131363e78c6e88572550c7bbd4a183",
+    "problem_id": "leetcode:2906",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "construct-product-matrix.cpp"
+  },
+  {
+    "assembly_sha256": "4b9562d16830cd513375f0cf2635719032b3a5db71b0f45c1ee7c65be51b28fd",
+    "id": "0878e7d7272b77a658572b31",
+    "identity": "6fc937c52370588963a2d441b5dd24a34132f79c0a92c6f852923f846377b769",
+    "problem_id": "leetcode:465",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "optimal-account-balancing.cpp"
+  },
+  {
+    "assembly_sha256": "bb8d5411799b09c7a802117faa8a9c5900463791b724bf920de17be6d2e601b5",
+    "id": "08d985823e642f8f3a76f17e",
+    "identity": "d825f05bc2597a5f0a03a1d9ce1b5b0af7f2c05a39011e04fcb39b9c37669f31",
+    "problem_id": "leetcode:1550",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "three-consecutive-odds.cpp"
+  },
+  {
+    "assembly_sha256": "a3b13feb6e03b4e299ac79ac0d0e079312f401d9abc8711f45b070b01bc67538",
+    "id": "093e029d9fa2fd730f69c9d8",
+    "identity": "53b38a86567f451e8229f6c51eb08fc212076a983d34e838a253dfc182ca1dfa",
+    "problem_id": "leetcode:3845",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-subarray-xor-with-bounded-range.cpp"
+  },
+  {
+    "assembly_sha256": "087a982ee94618865279da4cbabdcadb7226ee2437599da573bbf82faf88c2cc",
+    "id": "09b43f4dc459d0b2107c4878",
+    "identity": "74e279c6973e2cef80b613edd14425d03f5629e8da3093accf761231f627379e",
+    "problem_id": "leetcode:3444",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-increments-for-target-multiples-in-an-array.cpp"
+  },
+  {
+    "assembly_sha256": "c47f231e77a5b36901259742233ddc815cb1f7a0d0902d92b855fae89269ffa4",
+    "id": "09f2e968c5e7cdeacda35ec3",
+    "identity": "191fa49f6862c632883fce022fe5cea38197708ae4293e113ad423297529af90",
+    "problem_id": "leetcode:3096",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-levels-to-gain-more-points.cpp"
+  },
+  {
+    "assembly_sha256": "fd958a43b1695b096664deda87fa62acbf3fb1753064002079dbb2956267b016",
+    "id": "0b40445991191a719012c986",
+    "identity": "4320ea9ae6b24a3c83a9d03e563aaffa5c09cf3af783034d2039fa339bc61541",
+    "problem_id": "leetcode:2813",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-elegance-of-a-k-length-subsequence.cpp"
+  },
+  {
+    "assembly_sha256": "a5278a443b9ef7306d6d987d8ec7f4b200622a34f551dc0b945e4b1ac68b78aa",
+    "id": "0b5ac53917dc6282804e72b4",
+    "identity": "44c03556301ce53689f0c10e63bb8971bc10f4f1d41c1e64ad1aba8f26163e30",
+    "problem_id": "leetcode:990",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "satisfiability-of-equality-equations.cpp"
+  },
+  {
+    "assembly_sha256": "4a4df453b01afc2ec123c72a7068b95b7b20025b9649f32d225a2b04cd70e382",
+    "id": "0bdae7e15bac559babd4c279",
+    "identity": "1a778d3be910ecd0d96a10d60e6420d41726f4bbf072ed2d7874739a97f67d32",
+    "problem_id": "leetcode:1794",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-pairs-of-equal-substrings-with-minimum-difference.cpp"
+  },
+  {
+    "assembly_sha256": "d303a3a7257f97f77d2e4d6c6d1618a70ab1e7108da39bdefa2a93cd83ecae35",
+    "id": "0c4a9827cef4ba08850ea7b3",
+    "identity": "a2c3e01af984d5f62eb0b25a716191799da9cca7e802ddddd223fff81ad58609",
+    "problem_id": "leetcode:1737",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "change-minimum-characters-to-satisfy-one-of-three-conditions.cpp"
+  },
+  {
+    "assembly_sha256": "be0a47fba880bf18a46a61c23b5267af6431cd37630d8eef5b95a16b281038ab",
+    "id": "0d3fd8606aa35a609ce00fdc",
+    "identity": "697bbfea6c71bae8f0975e73534d92e0148fe13ab07b0842ae5a4bd4348952b9",
+    "problem_id": "leetcode:1471",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "the-k-strongest-values-in-an-array.cpp"
+  },
+  {
+    "assembly_sha256": "b9b480073472eef2e69e8f4d175f0be3dd451115f3f62d87fa076ecc544276ed",
+    "id": "0de2d4d50e88a3d0fc703aea",
+    "identity": "b3594e64ca7c3936c6208679e8fb9dc9162dcb03108c73876d70c436bd5bac62",
+    "problem_id": "leetcode:1442",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-triplets-that-can-form-two-arrays-of-equal-xor.cpp"
+  },
+  {
+    "assembly_sha256": "eaa9886ae8fbbcc42abbb733ff2649960886972e35b986ee4bd36971b330e7c1",
+    "id": "0e6654f912b4275042ea4b04",
+    "identity": "21a27a9d4d435b43a0b1bbf4413db68023fb98fa3e00aafbbba58790c9baa242",
+    "problem_id": "leetcode:264",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "ugly-number-ii.cpp"
+  },
+  {
+    "assembly_sha256": "12df805037322f0a59bf663bcf7b73551435971159a9c7cd8fa21a6d21668675",
+    "id": "0eb081fb3134f1403c8db5bc",
+    "identity": "3c5dc110e9971c8f69f080485b04f490af4db0ae31ffc6d21d1c265f5b8bb85d",
+    "problem_id": "leetcode:989",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "add-to-array-form-of-integer.cpp"
+  },
+  {
+    "assembly_sha256": "65d813ff66765e9a4a3266660efa69c8ccb456c22647cda0f6e1fc95f746996d",
+    "id": "0fdb196f24bcd946da202649",
+    "identity": "5314c83115cf27244b705204b504f6fe6afaa2a8f52d72048b4441e3ee5f6f2b",
+    "problem_id": "leetcode:3948",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "lexicographically-maximum-mex-array.cpp"
+  },
+  {
+    "assembly_sha256": "30fff22ae18277d613f903a8d6840849edefe4ccdfdea5a8d24a7930821c4e20",
+    "id": "10ba915f36456e8bc116ab4b",
+    "identity": "8010a4e55c1a250221f7a6b6b72cfcf0b3f0e2a4a2e12153c909ead698cccfcc",
+    "problem_id": "leetcode:9",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "palindrome-number.cpp"
+  },
+  {
+    "assembly_sha256": "ee8f85e7ffaee071e958dd814d476a133eb2a88b8410c5ace19a234b84f34f45",
+    "id": "11144f3bbc18ebecf5032b5c",
+    "identity": "024c72568aa425fc37f923e28cc252d6472eba3a013c1ecc4b7857226e877dd3",
+    "problem_id": "leetcode:1391",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "check-if-there-is-a-valid-path-in-a-grid.cpp"
+  },
+  {
+    "assembly_sha256": "3cd4720d5a10f055876543e1c2589f1ce6d8b9e05de226b0ce4c7d05ccd74db5",
+    "id": "1145ad1f142c42ddc5f58a21",
+    "identity": "30d193353408f01cf2ce6b6050b51527595fb198a66a8005a992a877808fba1c",
+    "problem_id": "leetcode:1868",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "product-of-two-run-length-encoded-arrays.cpp"
+  },
+  {
+    "assembly_sha256": "78050c5e2c074f0b12df270dd2c0a5db4e34876d0bbb761dc3429345a4c3d1ec",
+    "id": "11e0c41cf881ab7a53d44ae9",
+    "identity": "63424f0eb9d6e595246be8d886ab559b5a49b2eb5977e401fcbc30b3931752cb",
+    "problem_id": "leetcode:3892",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-operations-to-achieve-at-least-k-peaks.cpp"
+  },
+  {
+    "assembly_sha256": "f00d657212cf51acee1776290d9afbda913d56d3fb79f178a4c99f2e7b360738",
+    "id": "1242a3840be263107df57c7f",
+    "identity": "396a5c33384a16119abb023e11e5d9f0288d3c7188fc240a7a9f6770780e7133",
+    "problem_id": "leetcode:3389",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-operations-to-make-character-frequencies-equal.cpp"
+  },
+  {
+    "assembly_sha256": "4b887ceca267d14934515b5f8cc400932b6c1c39fe1921ca4a4bbbae5c3ece85",
+    "id": "128ea5ba115b15a31955f756",
+    "identity": "357230df75999cd4a440f4c4fb50cacffe214b4185a799995a5282f033fe9eea",
+    "problem_id": "leetcode:1963",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-number-of-swaps-to-make-the-string-balanced.cpp"
+  },
+  {
+    "assembly_sha256": "a19e6946559d958c187f57d78ad02951c8eef02ac0f69e4a8cdbd2eaa05963e9",
+    "id": "132f9ff6bde41559f2ea1d38",
+    "identity": "48052cbe7fb8ff8732b616de3481e424ac0412473cc9c735e5653ad7b281bb0d",
+    "problem_id": "leetcode:1153",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "string-transforms-into-another-string.cpp"
+  },
+  {
+    "assembly_sha256": "e669b605acc06c6cc2c7e0e8abc3eca32bc4e431ce5107bb4593ae5a43488800",
+    "id": "1377652a461a0263f9ad1de2",
+    "identity": "3530c06eb6019f7a05a815f1b6dfb8060bdecf3f0363f022d9de57332deb6b87",
+    "problem_id": "leetcode:98",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "validate-binary-search-tree.cpp"
+  },
+  {
+    "assembly_sha256": "3452faebb541d1c24434c955c9e08bfe605e3c0ee4c591bdaefe97de734fa822",
+    "id": "13951c56cbf0f1c21751f330",
+    "identity": "38c16f03cdd05ae562607069864137b1600da04f23f761f899cdc95a2f28cd38",
+    "problem_id": "leetcode:3707",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "equal-score-substrings.cpp"
+  },
+  {
+    "assembly_sha256": "9e6b07c75706ae58248fc8b7186768e12b8b79fa6e8627657531a40c982586b1",
+    "id": "140e4d88b3cb039ad531cf8d",
+    "identity": "17e92b3791bc2bd8d2f0796a9d1a8c94c32fd2b224cc0167bc393555beff80e4",
+    "problem_id": "leetcode:1144",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "decrease-elements-to-make-array-zigzag.cpp"
+  },
+  {
+    "assembly_sha256": "41a6f827eb182589d776a94e475d2202ce993e562aacc71b42db3624bb9271b4",
+    "id": "167d731de9c471a4285f1584",
+    "identity": "4d39e70f5a7eb2d4c3d636c4124b864a76291594706ca32db153395e0efe1457",
+    "problem_id": "leetcode:858",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "mirror-reflection.cpp"
+  },
+  {
+    "assembly_sha256": "72feb74a602afdc50fa7d96d9ef03c9ca1ac1078e69264b19715616062d8e9f3",
+    "id": "16847b586de39634c63d9b7d",
+    "identity": "7bb3e3c4336d25da1fe8c246cd85f0584ea80829719e8aee4cb3bbb96379fd4b",
+    "problem_id": "leetcode:1054",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "distant-barcodes.cpp"
+  },
+  {
+    "assembly_sha256": "7c5545d83b60ca1dc75590076fa3a0f15738c3285d8ac42996fe6af598ecbe02",
+    "id": "16c313d8e9cbfd45860c4b3b",
+    "identity": "443943692519049dd4c83c973a57a23691bb37b7e70a053676c66545f435a8fc",
+    "problem_id": "leetcode:896",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "monotonic-array.cpp"
+  },
+  {
+    "assembly_sha256": "7e14c6251a0ca41056e34970a69d2b03d8d2580723c9560efd704af4d198469d",
+    "id": "17d2def54f085e00edcb9c0d",
+    "identity": "d62a2cbb0f6f13d2b740b80168713728f62708091cbfed5476db5a5222939c3d",
+    "problem_id": "leetcode:1625",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "lexicographically-smallest-string-after-applying-operations.cpp"
+  },
+  {
+    "assembly_sha256": "565d940f0f56f961dc9078c3af983b7337b76d48fbc492bbd6742cf73298cd5e",
+    "id": "180d2169c2582d4d5fd82bb5",
+    "identity": "90028fd699ac55dc994131ca4375e39afc0fd904695e837573bca7d4d0abce7b",
+    "problem_id": "leetcode:283",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "move-zeroes.cpp"
+  },
+  {
+    "assembly_sha256": "a565df4b43c1a29181d163ca3f1f15a8eba7a9d06b63e0c9b8c4208ce380988e",
+    "id": "18256bcdcaa6a380819416c8",
+    "identity": "a355ff6f4fb5c964c713bc4c53aeff61c4df6e6aac2b51e33591392324fd8e88",
+    "problem_id": "leetcode:2222",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "number-of-ways-to-select-buildings.cpp"
+  },
+  {
+    "assembly_sha256": "ca2aceed1b2da011cd5355268d80dffe6080516f97acf7c84fc744c3d50682ff",
+    "id": "18a50acc875c6894320c4687",
+    "identity": "1b7e67da61489ffdfe3c234c0e4b7407355718465af13698adeabd9653ad7ddf",
+    "problem_id": "leetcode:2767",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "partition-string-into-minimum-beautiful-substrings.cpp"
+  },
+  {
+    "assembly_sha256": "8287d402b1d69322e300897050a81b4a65997ed741f10328ad6cb76a49c555c1",
+    "id": "18d01f80eb6ec46fe7237de9",
+    "identity": "41427bec2ada21816a88bb1ea66897de59adf2523ba6a851c84bdc4a2b01e4fd",
+    "problem_id": "leetcode:8",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "string-to-integer-atoi.cpp"
+  },
+  {
+    "assembly_sha256": "a08dfdd89476a44ace74c100f85c5a88cc5ed03e7b61eadec70c5f323683ef78",
+    "id": "195b0ec96eef5021d24d894f",
+    "identity": "47f51419268df8cf3e3c49e075cff148d205cf2351cf3532d29b523a634d5185",
+    "problem_id": "leetcode:2047",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "number-of-valid-words-in-a-sentence.cpp"
+  },
+  {
+    "assembly_sha256": "fbf0b9ea645b6215c39662861285fbb33c6ff464f3162085ef65c408b9a012e5",
+    "id": "197a9e18c97494f3671fda1e",
+    "identity": "5075e46c570a439cc36bff8244a8c809e20670e49948d0ae2c1a9b107760f4d2",
+    "problem_id": "leetcode:3085",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-deletions-to-make-string-k-special.cpp"
+  },
+  {
+    "assembly_sha256": "8372e9908a3ee65315849c0b9628d159714bc2efe771d4a224d3fff5013676ae",
+    "id": "19c9e716d91c662850ac073c",
+    "identity": "a2a7cd1a99cf8526a90ab9d6d181e45806603969db4a9ba536410f0b464a9c4e",
+    "problem_id": "leetcode:1176",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "diet-plan-performance.cpp"
+  },
+  {
+    "assembly_sha256": "5e5231819afc54aa85aae27c2aa3ea02572f32d25c7d43d053547e7158b56205",
+    "id": "19dbc660e2702f18258d82c1",
+    "identity": "32e3ce76611b8d349467624402e288b48b22224bc9aadb4a91cb77a490dc5f45",
+    "problem_id": "leetcode:2369",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "check-if-there-is-a-valid-partition-for-the-array.cpp"
+  },
+  {
+    "assembly_sha256": "809af764e6ab7b66e226b875b67709e57dd3456f95940a7943bc2d7da46a9aec",
+    "id": "1a1777c0e3c53962ebff6e6e",
+    "identity": "c972428cd09183ac24a4c2878ff4b509430580541d0ebe53123fc9ed722a1f0c",
+    "problem_id": "leetcode:453",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-moves-to-equal-array-elements.cpp"
+  },
+  {
+    "assembly_sha256": "0ace61220aa6718c120d89918ef1f0bad685f251bc4e937ea70783f071f142de",
+    "id": "1a1815b3bd8e7685cd9a6a93",
+    "identity": "2a4c3a77a0cff19b198b901efa5a180626c6d2b6e8457f560f4658cc08e62d7f",
+    "problem_id": "leetcode:1979",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-greatest-common-divisor-of-array.cpp"
+  },
+  {
+    "assembly_sha256": "b41727a6c4670b813469735b2a763d9f2475b07d669a90c97f0b94711ac09db3",
+    "id": "1ac64e9f0edad3dad15ba3eb",
+    "identity": "d4b105b359a4c3469b844c8ddc17ee23a8e87c2691db22036df1209d26962450",
+    "problem_id": "leetcode:888",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "fair-candy-swap.cpp"
+  },
+  {
+    "assembly_sha256": "3c868fe2488a96ad4e82e9504f70d8bad0cc82a3d55a2962f5e09015132f9700",
+    "id": "1ad8539dc174156af33cae58",
+    "identity": "6d6016c209ccb93fd756f80b030e5f364cd412b43433a62c4c905c260395ac78",
+    "problem_id": "leetcode:598",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "range-addition-ii.cpp"
+  },
+  {
+    "assembly_sha256": "15a7e535ebc0710964cedb3e420a8782476fa2e2df49e2aa04b88470ebd9154a",
+    "id": "1b1bc77d78f6e5216da251d0",
+    "identity": "841ff6f0df40eea9d9e6161776c22524753b94911a3c9067a8f72fa1d48d0758",
+    "problem_id": "leetcode:2739",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "total-distance-traveled.cpp"
+  },
+  {
+    "assembly_sha256": "74bef5232eed7595e007e16475c575cb05bc0d7b9223a556869ff7d52950694c",
+    "id": "1b688ef4acf00809249dcfba",
+    "identity": "19d72a0856dbbe487d7fcef862f56b29c262db4ea4cec6b74a69492de13cab89",
+    "problem_id": "leetcode:3178",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-the-child-who-has-the-ball-after-k-seconds.cpp"
+  },
+  {
+    "assembly_sha256": "cdb901f7878ea98b45d9ca4ea57739f75bf2d4db259e82dd6241c9ad954c11bc",
+    "id": "1b804c1cb7283ceaebeb27a8",
+    "identity": "3068e9847dd39f610eee69417ca05832797e72cfbc70dd4ea68b3659d119b16c",
+    "problem_id": "leetcode:141",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "linked-list-cycle.cpp"
+  },
+  {
+    "assembly_sha256": "992835c88297aadb38cf6dadf44f341ceedc6d35de0dedb1656c32b4e08334eb",
+    "id": "1c45b9853a22355587487ab9",
+    "identity": "c01e983227b733c638c53cb2f353fa2f7c8c16619b0ba0351dfa085e504dfbe6",
+    "problem_id": "leetcode:2271",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-white-tiles-covered-by-a-carpet.cpp"
+  },
+  {
+    "assembly_sha256": "6a25c5c527f37a65840ed90da680fa3576859ad779802b77abc76450bb906246",
+    "id": "1cae0dd64d5de96babd898c0",
+    "identity": "33cedc424dc62ec1c919196a6e22e2c6d570676b4005c7dd8c37b1047f5ed876",
+    "problem_id": "leetcode:2732",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-a-good-subset-of-the-matrix.cpp"
+  },
+  {
+    "assembly_sha256": "2623fdbcdbfbde1a98509f66a65bbf2a682d9720fb4cadc5ee39fc4982859d5b",
+    "id": "1d4cd64ed828da0531b62e4e",
+    "identity": "8a2cf320704c73d32df1a75462317f3a7430c60afb9e93c5d14a22bbb40b2660",
+    "problem_id": "leetcode:2247",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-cost-of-trip-with-k-highways.cpp"
+  },
+  {
+    "assembly_sha256": "6478820f9d68bcb5c4e9e42a341202e3a724f7de38e57ed7411958243802d596",
+    "id": "1d51ac9617ba63b443eca210",
+    "identity": "11dc290c5985cac587273e792ea588cd2353bf3a02123341bb689c7481686240",
+    "problem_id": "leetcode:991",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "broken-calculator.cpp"
+  },
+  {
+    "assembly_sha256": "da7eef4f5c35a6bb20480908cfc7c6d5862040f73a3808e475afba0ac6fec456",
+    "id": "1e77de6533a8feab9c1270f1",
+    "identity": "4ed01f2270bd65e538e40aaab8723b22cbfdae84244d051c00291b7de1afb8a8",
+    "problem_id": "leetcode:2847",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "smallest-number-with-given-digit-product.cpp"
+  },
+  {
+    "assembly_sha256": "c47be109949fb032e7bb855b86fe93f7d36f1644d02638c27b925a63d9fb52ec",
+    "id": "1f169eac11ee5adf832157da",
+    "identity": "a8a2959f2c005576ac61000ee86499365bf85617273526fa7cf4cf8ec3ef590b",
+    "problem_id": "leetcode:2244",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-rounds-to-complete-all-tasks.cpp"
+  },
+  {
+    "assembly_sha256": "5d4984df2c77bc17a571f6a6177376acfe781994e47820065e16aaca62bebca2",
+    "id": "1f63fb02aa5ece4ddf728465",
+    "identity": "88a598602cef5a1909150738f4170c3b1c934da48b94bc80233da7468b9dacd3",
+    "problem_id": "leetcode:3637",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "trionic-array-i.cpp"
+  },
+  {
+    "assembly_sha256": "85bc4dbff885bd416ccc89afa93ed9c2ae38c85540d3fdf9e58aa7120fd84467",
+    "id": "1fc9b62c6999d3f37fe55b85",
+    "identity": "c7c2faa093bb43402c51fcde90eb641d2c98399d5e3cb644d66da37ced63aaa5",
+    "problem_id": "leetcode:1405",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "longest-happy-string.cpp"
+  },
+  {
+    "assembly_sha256": "79a43c596e0cd1960a168cd1873b068f5d329c4bc02b0c0030627d9cf38712c1",
+    "id": "223328293bf2410561c7355e",
+    "identity": "043b059a0f6fc248e03ddc47e391c6b8aa9490b58782faca092eab66ea96a046",
+    "problem_id": "leetcode:3450",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-students-on-a-single-bench.cpp"
+  },
+  {
+    "assembly_sha256": "b4f8f7080cc242fda0ecf0fa2845f55c465149984a90f4d4c24cf128d85c1480",
+    "id": "2245262f9306dda89bac1212",
+    "identity": "073083d03c01ed9e2da052b56d8694bae70765b93604d53291d29fdab6cc5bb5",
+    "problem_id": "leetcode:1282",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "group-the-people-given-the-group-size-they-belong-to.cpp"
+  },
+  {
+    "assembly_sha256": "6518048cdeb68fcc625f4e999149f2e22a7ea29e32e02b3b3a3cb27c701ca4e7",
+    "id": "23112ba6d7fbe907f34af141",
+    "identity": "9aa93cafc6c1b47c9a19840cdd25f874841811d9bc71b73986e7fa45a14d4ed3",
+    "problem_id": "leetcode:2059",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-operations-to-convert-number.cpp"
+  },
+  {
+    "assembly_sha256": "b3bc641766906de1b5adc5d1e9e94c25aa2ed06f0332f8c10b86158832aa776c",
+    "id": "2383ee0dea6fb2b465f537bd",
+    "identity": "ccbded12e02ca3bee8b75099693d63f0c61ca45e9badc2178ff2533f1fee567a",
+    "problem_id": "leetcode:1003",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "check-if-word-is-valid-after-substitutions.cpp"
+  },
+  {
+    "assembly_sha256": "c8278fc0ff66d5ad8aaf29e55fabc35a9d4a9c736673027da129acb814cac8b1",
+    "id": "24cafcfcb30793f8062de27f",
+    "identity": "34a327e406f01671b2160713c3de76265c8a83133d0e5582a7ffd5e0ebd5be89",
+    "problem_id": "leetcode:1764",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "form-array-by-concatenating-subarrays-of-another-array.cpp"
+  },
+  {
+    "assembly_sha256": "c317424b1214cd651380feee02a88866ccc9e3289f363c77ee1a65a252e0f144",
+    "id": "250020a7f3e6262612c4c358",
+    "identity": "68e160a94e3c78c90063389179bf7889474ccbbb676cef52d19d5023eee21e22",
+    "problem_id": "leetcode:2335",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-amount-of-time-to-fill-cups.cpp"
+  },
+  {
+    "assembly_sha256": "1a63fa6dfb2bc6c70d875c8fb0f45b64b54cd2cfac07365edf3d369a46cd0669",
+    "id": "259a2301f108a34d599a227e",
+    "identity": "512c14ec1706ba4642291db60136324e54476302ef8f55484d0d0ff2665fa032",
+    "problem_id": "leetcode:1426",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "counting-elements.cpp"
+  },
+  {
+    "assembly_sha256": "a2304167ec0e16cabfc02f7b4723e36d20197b60410fe956cea516234f2d1545",
+    "id": "25f8833b5e4137c6854b3c88",
+    "identity": "72ed8b9eb110f6713436240ac349b1840dec72f2bb6a7383a04639b7d801d9f7",
+    "problem_id": "leetcode:1567",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-length-of-subarray-with-positive-product.cpp"
+  },
+  {
+    "assembly_sha256": "f155f6dd9e43531d73160a567b8de5c5974ffe99a4e6dae0333dda20236621ab",
+    "id": "2631c7c67a0db41cd645b349",
+    "identity": "798686ade54e9d2d1a996e211af8d1fff9698df1d1770dbce8b51fa56672177e",
+    "problem_id": "leetcode:2718",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "sum-of-matrix-after-queries.cpp"
+  },
+  {
+    "assembly_sha256": "5db1eb8d4b32a2489f4b972a9f0bb56a46eb0461ca934f008adc69976ed6d12a",
+    "id": "263a1aba1a5cce811a3a64d2",
+    "identity": "b8db0711b31e884b00ed49d2e463988342b79f69349acf520b3d07b26e096bb8",
+    "problem_id": "leetcode:2863",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-length-of-semi-decreasing-subarrays.cpp"
+  },
+  {
+    "assembly_sha256": "e78ac9b796e5f360133d82bf0b1587f96489c8b32446f897f3043a71db1a47ad",
+    "id": "26ae6e6bf7273c55bde9386f",
+    "identity": "bf6bd946f506e03de669479f884303cee8333f0cd935b51c22034cf71e1a5a7e",
+    "problem_id": "leetcode:3874",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "valid-subarrays-with-exactly-one-peak.cpp"
+  },
+  {
+    "assembly_sha256": "83f1da42760fafd42d33a08f37fd494daee1586c9266b5c547ad2117027410d4",
+    "id": "26d7dc9f98c1002f4c3faad3",
+    "identity": "b73f1d3bc612f26871489a65d2a716648d4ed7e902d8104e169ed21bb8d03866",
+    "problem_id": "leetcode:349",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "intersection-of-two-arrays.cpp"
+  },
+  {
+    "assembly_sha256": "b9807ab4b442d56ecc9087f2fd09ebad2bdca9ff9a1ae541a577e73ab5cddd3c",
+    "id": "27366d8557c47738b7d96f0b",
+    "identity": "c4a54bde3ff883fe62630753ae160a2ae8060233bb8a15ccfe6cb5cf06b07bf4",
+    "problem_id": "leetcode:3956",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-sum-of-m-non-overlapping-subarrays-i.cpp"
+  },
+  {
+    "assembly_sha256": "6eb026fa38dadac86cade7fbcaeba01aab80ca6d5ffe037b94500569658db4c3",
+    "id": "27bc21515b675bc28bb1a0fc",
+    "identity": "4c7dd7e002d39df080213fe58c1d801daeaa91e609dd8d59b47a5814527ce6bb",
+    "problem_id": "leetcode:3226",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "number-of-bit-changes-to-make-two-integers-equal.cpp"
+  },
+  {
+    "assembly_sha256": "ff88a1f20c513309295f0b440a7f4584c55b591e4dfac27b96c96ce273a84be1",
+    "id": "27ee49058775e95546c5936d",
+    "identity": "cb5079835265a7ae941dfba0d6fd98e3063fe50614a794b188dff3a6694c9391",
+    "problem_id": "leetcode:3225",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-score-from-grid-operations.cpp"
+  },
+  {
+    "assembly_sha256": "f82506bef78de0b7d92063e6b1408e627ff28affea0db20c884f3cba87447c68",
+    "id": "28b9da9aaf4b354ac8c4de39",
+    "identity": "9125322b189e4d9f7846c1026a4891cdbf4380dbdcc5ae0c328d8a6dc2dc2136",
+    "problem_id": "leetcode:492",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "construct-the-rectangle.cpp"
+  },
+  {
+    "assembly_sha256": "03e781489df6cd037fe684e2aed81cb28b0201bee98459954f0fc1f2a50ac9fa",
+    "id": "29a84a994249be83428de4fa",
+    "identity": "a525354b1b8a32a37e309f7983844a59ef723e3891658af28e92b9cdcffd5703",
+    "problem_id": "leetcode:2015",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "average-height-of-buildings-in-each-segment.cpp"
+  },
+  {
+    "assembly_sha256": "c0cac6fcda27df2419029515de757f92ce52f3a3cff16f84acf3b999c308ad53",
+    "id": "29bc326ef4e59024bce82028",
+    "identity": "19a58f39a95fd7469cf0a8fe4a50ed26e150d51c1083742ca2370ba896e09ff8",
+    "problem_id": "leetcode:2558",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "take-gifts-from-the-richest-pile.cpp"
+  },
+  {
+    "assembly_sha256": "18e296d1b9a66dad24d480bd62ed362fc016eb1d2d6ff6e68843ac30b1b2ba6f",
+    "id": "2a6e69223d5dc063ba7b160c",
+    "identity": "751341868f30a20ce18b1ef12c431940cce183be9dc8851e1ba8af7388689bb5",
+    "problem_id": "leetcode:344",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "reverse-string.cpp"
+  },
+  {
+    "assembly_sha256": "b64487c54f71085990e48f16c0591a06c204b702aa7b21cccd084e0b40f785ee",
+    "id": "2a7f3ef6b85ad359566fb969",
+    "identity": "5234b948d71db0c2c4082a481899b93147e0b8ba9b297119175a90b36c55ba5d",
+    "problem_id": "leetcode:2753",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-houses-in-a-circular-street-ii.cpp"
+  },
+  {
+    "assembly_sha256": "b057c4b18cdff152cd10c15df253e9339c45a99cbb0fc02f69301fd06087c7b2",
+    "id": "2a806d28b387b6da025ef517",
+    "identity": "1239b58aaeb1f5091948a63099840b51185b0c45a6ec55efa0ddfaa17baad07e",
+    "problem_id": "leetcode:387",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "first-unique-character-in-a-string.cpp"
+  },
+  {
+    "assembly_sha256": "9a9e0955e31378364fb3fa41690a2953169255c13ccb117291b3d5cf3cd248a1",
+    "id": "2ad84a229e3ff6fcb2b52e9b",
+    "identity": "85bbf7b2eeda109a829dd42e39d3f99c4089320648152e8b3a6e829eb2cb35ce",
+    "problem_id": "leetcode:2337",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "move-pieces-to-obtain-a-string.cpp"
+  },
+  {
+    "assembly_sha256": "56f6d82677e722b853393b0adac06d7f55fa2fe6721cc070a7533f49c83e9b09",
+    "id": "2ad99e060d7c919860206b9d",
+    "identity": "2de730bac36f49d15c8d4c3b014568d8a8f2de14398ca112eab19e1f8441e662",
+    "problem_id": "leetcode:2030",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "smallest-k-length-subsequence-with-occurrences-of-a-letter.cpp"
+  },
+  {
+    "assembly_sha256": "72ba33ddc69a8dc5ea1968962e8532f1861a4f88c9f1039c12c113dc3ba36d64",
+    "id": "2b99536d5aea849c90ca778e",
+    "identity": "ad1f97b399f18d0b2cd7e7320ddbd97a0348ddd730003244f3ccffd4d6c2d484",
+    "problem_id": "leetcode:3977",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-time-to-reach-target-with-limited-power.cpp"
+  },
+  {
+    "assembly_sha256": "e58f626e7b284186e7e65142736db6aad7fea4c296edec0345bd742a5ffc6982",
+    "id": "2bcb76ad87cac089d52e2fb6",
+    "identity": "ca8098c74c6a9d0065691d039bbbd528bc46201d35f569888f2019a302891cae",
+    "problem_id": "leetcode:374",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "guess-number-higher-or-lower.cpp"
+  },
+  {
+    "assembly_sha256": "1f700df4e0ee263a1c6af3de12d72bc9f058f34e4217706113e0fd092205e813",
+    "id": "2bd19deff761cc9a6b14fc92",
+    "identity": "57d9a0d9f2847d06e4a7a151901744d94095cf19a9005587b334b1a078317f22",
+    "problem_id": "leetcode:3616",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "number-of-student-replacements.cpp"
+  },
+  {
+    "assembly_sha256": "1aa2af9117d67388bf0d8fa865a943d3de34638863b0c41aa57aeb13a33fd411",
+    "id": "2c03ab10b42f9a74e5529dcb",
+    "identity": "260f524420a5acd46b5852b51c56394d2ee7000c60cb1fcf3fd0a4b3646bed39",
+    "problem_id": "leetcode:278",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "first-bad-version.cpp"
+  },
+  {
+    "assembly_sha256": "b81503b867bb4d370fa3c10b73db4004c0013f767ecf0477771ef8d012d742c8",
+    "id": "2c47852c9dfc4f77e7593b6e",
+    "identity": "298c5215da706873414f7db2134ae06817b91ceb7903b070cfea821427983fc3",
+    "problem_id": "leetcode:3265",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-almost-equal-pairs-i.cpp"
+  },
+  {
+    "assembly_sha256": "7e8b4bbcaa15f8400b731f5cddc7283980bbc220f7d32d6070f59b47cb9b1fef",
+    "id": "2c4ecf93bb051bdc8bd31e38",
+    "identity": "efba29dd8fe0a79c12c8044651fc3c232e18a5758599ad187c877637365f8ca4",
+    "problem_id": "leetcode:3316",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-maximum-removals-from-source-string.cpp"
+  },
+  {
+    "assembly_sha256": "89b18c361f1d48ed48d53e205a44779f969659493ecaafbfa64432cae6520d32",
+    "id": "2d25728807b7e0746bc5a196",
+    "identity": "a525e0d6a59b2569bada1909447fe1a1bbe138000f5eadee89c62e94241f7ef2",
+    "problem_id": "leetcode:1763",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "longest-nice-substring.cpp"
+  },
+  {
+    "assembly_sha256": "6820726fb4691ddbf151f6111e7e36bc7fe3a648028d601c638d05e39d232f53",
+    "id": "2d5400cc67dfbef51f0b38e9",
+    "identity": "f971344ef2a812c557f406b8e3834ef5688f8d8d782e7b1812af8c112488f65e",
+    "problem_id": "leetcode:3366",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-array-sum.cpp"
+  },
+  {
+    "assembly_sha256": "76e9505fdfc47ad5a8ce6b9aebc842037c521dc670bb0b807a8af71d9c1761db",
+    "id": "2dc05ef9eaff8ca1342b131f",
+    "identity": "8581afbca9d99b925d5d5ab113bef6079797336096007807ba2b08340f5a560e",
+    "problem_id": "leetcode:171",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "excel-sheet-column-number.cpp"
+  },
+  {
+    "assembly_sha256": "2fbcd8c68e366f01280ca27790e0c0993061a66198e4dd27cef1cd9f1f155800",
+    "id": "2ea74c031763383888aa7fca",
+    "identity": "659de592adadeb5b84befe6e423af64842c2c5401f52a7eb433d9130f62683c8",
+    "problem_id": "leetcode:158",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "read-n-characters-given-read4-ii-call-multiple-times.cpp"
+  },
+  {
+    "assembly_sha256": "5e9bb3a300afbeb1d5893fea5686428fca0081c71ba01c0e38351a4819f5f5c5",
+    "id": "2f4d4f1e15de0bd5a2bc4d67",
+    "identity": "56e3bb81f8eb919a8f207787884ec697045af8b66c158933f7f61cfe91a09ce3",
+    "problem_id": "leetcode:2328",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "number-of-increasing-paths-in-a-grid.cpp"
+  },
+  {
+    "assembly_sha256": "b3ed85b3cbe6a09bfd42831895476a6fc563738be90ecf4c9f37d95c6fb5cfb1",
+    "id": "301bf02c3f8470032f9514a8",
+    "identity": "1b0d795edb9ee01f410760b7b18d8ad7faeecc8ec41ee6a4614a032f9e6c6ee0",
+    "problem_id": "leetcode:1688",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-of-matches-in-tournament.cpp"
+  },
+  {
+    "assembly_sha256": "64148870e2b4cb7b58e0555bf1a9849ae333f377680a5f448de2123c809364f8",
+    "id": "3141e846d04c1e4deb5f2e36",
+    "identity": "1f86d17782e3ad0ef68879a6778b2efe307a4f777e0cd5ce61b874faddc5a729",
+    "problem_id": "leetcode:3271",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "hash-divided-string.cpp"
+  },
+  {
+    "assembly_sha256": "06e55625f848351af003a806068b15c751843b2d9d2343de7d47cd545f8ae72b",
+    "id": "330112287a88575a31bc7616",
+    "identity": "c3d8498fbef7127b008049dd502f8b7b5014c7095fcdf63d4e6546c9d659c002",
+    "problem_id": "leetcode:904",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "fruit-into-baskets.cpp"
+  },
+  {
+    "assembly_sha256": "979c0809c2b293e5eeb8e9a325a459e7d55bb53b9ebaf44d372939ba0efd588a",
+    "id": "3304973d0802cb4e70a8ff8f",
+    "identity": "537f2cc5b98e951741efdc36bcaa84012ed417854270e015010ef0dce697c552",
+    "problem_id": "leetcode:413",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "arithmetic-slices.cpp"
+  },
+  {
+    "assembly_sha256": "4ad07b2ec8ef882cf86ff59ee563369ff948b920caee8a3b6b0909c8f3e0e721",
+    "id": "3499a75355c04addcddc41aa",
+    "identity": "632ba1694eb135688da5d17662968ca41f018dca93fa7049e99c876d8fadf8a1",
+    "problem_id": "leetcode:2037",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-number-of-moves-to-seat-everyone.cpp"
+  },
+  {
+    "assembly_sha256": "39cca1ba21088f297694ee5d9f62187741383224191fb8dd598859329ab33cc0",
+    "id": "36dc4a27c28a786cfe97211a",
+    "identity": "c6ca474bb2872f919aeb62dd139f0fc5c2eb9e4b189c51d6283d6ae1500c76de",
+    "problem_id": "leetcode:1780",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "check-if-number-is-a-sum-of-powers-of-three.cpp"
+  },
+  {
+    "assembly_sha256": "cc67d2e7f081c7c380e9e337897e181b734ef17f823bbc704931592b2aaf0946",
+    "id": "3732f2435c74cd2dca6b8c1d",
+    "identity": "d37265b4adfbc36445fde937087820bbd55f98d3f47b4922c40d2f80187d01b5",
+    "problem_id": "leetcode:1799",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximize-score-after-n-operations.cpp"
+  },
+  {
+    "assembly_sha256": "d2c45fbb311a513774c6e830b81450e16aa0965fd993680124ffe455a4f2d374",
+    "id": "385d41a647db37b91e832332",
+    "identity": "7da9b04e54cfbc71def138b83ec9d6be77efbcf2e7615269db343195d65f71e5",
+    "problem_id": "leetcode:3579",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-steps-to-convert-string-with-operations.cpp"
+  },
+  {
+    "assembly_sha256": "e9cd030cf118959285a269b25240f97636ab69e21eabe4384f6d1ed824c5faaf",
+    "id": "39377f275a0f0eb2a7f923d4",
+    "identity": "4bc4e4942f61e6a42758d364b4f8a92c81cec217955aad09892881b65f136c05",
+    "problem_id": "leetcode:1340",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "jump-game-v.cpp"
+  },
+  {
+    "assembly_sha256": "35d81dec30bd3168f59fe71c5871e0134ee16336951a57a02f0a20c3b9f7e913",
+    "id": "3998911d67e50c99535507a8",
+    "identity": "6203f2556db931974663c100e9f6fde6cae5cbff21f42f543ff8de34e11a8310",
+    "problem_id": "leetcode:236",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "lowest-common-ancestor-of-a-binary-tree.cpp"
+  },
+  {
+    "assembly_sha256": "1814c9c939802f8b7b067c312c05bcabc7227e9d7b5e8f675fb712af5434088b",
+    "id": "39a77456c74cd9920232c16f",
+    "identity": "7cd39ddfdc3fb21cbedf7aecf9cbd7bd2f726b67bee2c1b3a917da0ac5abfa63",
+    "problem_id": "leetcode:746",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "min-cost-climbing-stairs.cpp"
+  },
+  {
+    "assembly_sha256": "107187a4c3fc9cbc9689ff8657ad31d5bbc3da63f91907f4211edb03d61bd245",
+    "id": "39dc19b9100409625064ea60",
+    "identity": "a77c1d2321e6ad0883fb815dda6a7b0f533ae92efeebbd493e6d19202d2d2be5",
+    "problem_id": "leetcode:2259",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "remove-digit-from-number-to-maximize-result.cpp"
+  },
+  {
+    "assembly_sha256": "eee01f48f9b980f085c8755ad99dd6a9d39e56d13090c64bd031e2b7d4e8fc9a",
+    "id": "3b72b17413e85881d3b138fa",
+    "identity": "9c8861247ec000c225f0650d963f918a953eeb16413c90fb6cb5414d4278f6c2",
+    "problem_id": "leetcode:159",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "longest-substring-with-at-most-two-distinct-characters.cpp"
+  },
+  {
+    "assembly_sha256": "24744cffc050d58f049779dd6fea9e8a69617d957b0b698800acd9e617461327",
+    "id": "3b976f03790e7003de5e10ef",
+    "identity": "64e6972b816977361fd5062f3524e8d94e25851ca13cd6b7d50d7ec000e6c2c3",
+    "problem_id": "leetcode:1637",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "widest-vertical-area-between-two-points-containing-no-points.cpp"
+  },
+  {
+    "assembly_sha256": "f79af85cdef31ac21be94730b89c367fc8795b3dc45d304aee0b9adf44cb2cea",
+    "id": "3c452306b63fdba47a63c959",
+    "identity": "7cfd9760a8e42bc047bee927affa854813b895a0b12ebcf78d282551d12e4b7f",
+    "problem_id": "leetcode:1389",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "create-target-array-in-the-given-order.cpp"
+  },
+  {
+    "assembly_sha256": "f427f530656a0af12c00a672e4870ba4cf1e9ddc3ae44a2c40059fb5fa049755",
+    "id": "3c7a63091c566954404a7533",
+    "identity": "6cddf9ee99e078f8c26f5a46611e129bfd8680526e9692460b69ed0cb79dd2f4",
+    "problem_id": "leetcode:2273",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-resultant-array-after-removing-anagrams.cpp"
+  },
+  {
+    "assembly_sha256": "545eb5a97c24df46a0014ae6a778b074282c8bcb3e898bb3c5d5588c32d70691",
+    "id": "3c94d55c18cf9d5103748371",
+    "identity": "9510185f034ac06c2b1cb33135607aaf67e4992c12f3821f1c73ecda208984d8",
+    "problem_id": "leetcode:76",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-window-substring.cpp"
+  },
+  {
+    "assembly_sha256": "d07a35b594a030d489c77fe5e5ed300a0f83f485a64f4522fc7dc85121f9c3aa",
+    "id": "3ce31205c7d21e08ac3e85b4",
+    "identity": "ebac7c1c0ac808b3abb3dccb2b24fb29aedf9eb4ea9946598ebedc4f3190c599",
+    "problem_id": "leetcode:1536",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-swaps-to-arrange-a-binary-grid.cpp"
+  },
+  {
+    "assembly_sha256": "681982b032dc6e52dd4eae3c13e4c9d3bab4c2a8e89656122345963e1f8933ec",
+    "id": "3d8f4314f41506db7ad45dca",
+    "identity": "3d9aa53027010a697f9ef3e6f38285c3081a33c74acb5d8ec2d8104ea76a0372",
+    "problem_id": "leetcode:390",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "elimination-game.cpp"
+  },
+  {
+    "assembly_sha256": "634d0f98fc54d929b099e9c6f68c018730bda13a9b3592d6db5b5ed08cc97118",
+    "id": "3e8e32f601fa94a4fd0fd183",
+    "identity": "4240614a8fde73c9a07e10a3856aafefade2d0328348a59f65a4c5c0370a70f6",
+    "problem_id": "leetcode:2257",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-unguarded-cells-in-the-grid.cpp"
+  },
+  {
+    "assembly_sha256": "dacbd4e6594b4043372acb118e9f89407ad3bc2e178fc17c602c50837542c0ed",
+    "id": "3ea42a7404adb47e599e88d4",
+    "identity": "a06d9ca54f3b43e32d07fc6d3fd25332100aaa551ae6caab669fb25bc21170f9",
+    "problem_id": "leetcode:2028",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-missing-observations.cpp"
+  },
+  {
+    "assembly_sha256": "0b7f3d9ab2cd56b9f5ef446604493e4578cc7b177675f1cf9d9d7ab05b70743c",
+    "id": "3ee70589c816749e46d28046",
+    "identity": "d5c57d8929f44008a8c82e8843ec94d840490caec6bed52e41c13143f480cfb8",
+    "problem_id": "leetcode:2012",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "sum-of-beauty-in-the-array.cpp"
+  },
+  {
+    "assembly_sha256": "27a3533e1be27fcdc98a203c9f9a6cc16cbac3a81e32440403edc2569d391ed7",
+    "id": "3f2cd4ce3c78eaa3ebe7f5d4",
+    "identity": "6d910afa6c7690f41333343ac0feb2ce24aa1d66b1425b2a12e934f851013be7",
+    "problem_id": "leetcode:3020",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-the-maximum-number-of-elements-in-subset.cpp"
+  },
+  {
+    "assembly_sha256": "ce820aa08bbfc988b0962cc3b91425aaa8f9f953ef718c9b636ae90457869b41",
+    "id": "3f84388987df6c788a14cd71",
+    "identity": "48b1f766fcb48fc8411c1bfd237aedc4a8ef10af5f2b6e22a680f81ca8ef4993",
+    "problem_id": "leetcode:3467",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "transform-array-by-parity.cpp"
+  },
+  {
+    "assembly_sha256": "2fcb66b51e5f6e30dcc8c2d6afaf9de0d5c9d28c735cef5952601dc276c8e51e",
+    "id": "3facdaf2192e1fd35f1bdbf9",
+    "identity": "6c3aabef6c47979b810dad20b48d01fbd9cbe5026a70f3b961f66bb81a2c963b",
+    "problem_id": "leetcode:2414",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "length-of-the-longest-alphabetical-continuous-substring.cpp"
+  },
+  {
+    "assembly_sha256": "7b0feeec444f80d492975058b887c9d5d9b31cd3049c3c3a8f90f97d277fc1b0",
+    "id": "3fc005727dee4c5421a37761",
+    "identity": "6c72a861cae4f818878c50c1afe38c2146f2574c7b4e180d094cfcdad14733c7",
+    "problem_id": "leetcode:689",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-sum-of-3-non-overlapping-subarrays.cpp"
+  },
+  {
+    "assembly_sha256": "0d251a0b797e25afec5dbf5fab03d1e1098b2c5cf0122d112bb2319e1755da58",
+    "id": "4047e6bac9f54a2bc9ee0464",
+    "identity": "c6bcd57b899bebf1787d9677b7496290b53595feed6d6818da4aca3aec3c457a",
+    "problem_id": "leetcode:2911",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-changes-to-make-k-semi-palindromes.cpp"
+  },
+  {
+    "assembly_sha256": "f7be57112c24bb97283ba1f6e42247f5c3bc0a38a9974a80d310cb44f49cfd74",
+    "id": "4075e1f187ad51c77c9a08e3",
+    "identity": "c9a0506e9b01380a152fa4a8efdc63d6ebf4422479b2e643134a73e540c14195",
+    "problem_id": "leetcode:3774",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "absolute-difference-between-maximum-and-minimum-k-elements.cpp"
+  },
+  {
+    "assembly_sha256": "e93cdb2b15965ac84a1cd23c34e8fe5e3312d95dc719666b6e31455468d2dab9",
+    "id": "4164af29dd06c2042ae3d727",
+    "identity": "99565482229ca9c06b67d18a9bfde329a73613558cac5d086e26095f56a2344f",
+    "problem_id": "leetcode:3574",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximize-subarray-gcd-score.cpp"
+  },
+  {
+    "assembly_sha256": "f069a4dbea7ce13c55bd2993cfef4afd38eb4d7c724aa88c88f9136a376802a1",
+    "id": "420b7ac85bb22c5f5dc10eaa",
+    "identity": "9bca89bfcc4673c46a5ac9576ba75752e414204e3d4edffdca14a45015a49935",
+    "problem_id": "leetcode:994",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "rotting-oranges.cpp"
+  },
+  {
+    "assembly_sha256": "c7c084fc7099651d76d6d27952bec135a2948e9d650014455136fda82327f8ef",
+    "id": "4304316c72331787aa425947",
+    "identity": "33279ac1bd3e908955bbc784ba4fd1d60efd912d195dd3134b77f0391d08b5ba",
+    "problem_id": "leetcode:560",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "subarray-sum-equals-k.cpp"
+  },
+  {
+    "assembly_sha256": "90fe00ccf076ec7ba67ae3bbcc28aa5a5b05e4abcc5fdd79648b7148a308f375",
+    "id": "43b8ec2dccf8775297989ccf",
+    "identity": "cf70ffc6dbbc064eef739abae312728cdd8aa5dfdfbdef426ef04fd7b1e70f73",
+    "problem_id": "leetcode:938",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "range-sum-of-bst.cpp"
+  },
+  {
+    "assembly_sha256": "5429f96a004653829c28a6c7deca56ae404985732de017f4a11ea524190578a1",
+    "id": "43d2df65b22aa11f353ccdb3",
+    "identity": "43cbc8283f17afcd56e201d48e64506101aaa68df18f6181c7296975efca2fbb",
+    "problem_id": "leetcode:2735",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "collecting-chocolates.cpp"
+  },
+  {
+    "assembly_sha256": "95982cce2b9ebfeead0854704e1cff56e82f91ef03a51c3604157d96032d773f",
+    "id": "43dd1feb0276362492d37823",
+    "identity": "039e3bce3a63ea2014aeffb08f280b6828c4d5e2c7b2de83b2bb4a896f4e3818",
+    "problem_id": "leetcode:1403",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-subsequence-in-non-increasing-order.cpp"
+  },
+  {
+    "assembly_sha256": "f0517ec5e6c63c1d73260bb68f9c9534d1a3588a0ff4ff3f20d5704dd3255cdf",
+    "id": "44062de24c216f36310bec1d",
+    "identity": "9c78333daeb35d5650b6c69ccb89dd8e519565d29e5787d49e2035942bd9bc4e",
+    "problem_id": "leetcode:1395",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-number-of-teams.cpp"
+  },
+  {
+    "assembly_sha256": "d3478f11363a814a7446a5821b9c9967e15ffc3add05d37f50590295aaf4ef48",
+    "id": "44464eb7809c3377ff172e23",
+    "identity": "0f273b1bb8f39e7e72ffb1a71e0fac3f5ce45f94fa836802cc250c88882b1920",
+    "problem_id": "leetcode:2561",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "rearranging-fruits.cpp"
+  },
+  {
+    "assembly_sha256": "28fb5f3bf73a966207a271145ee0ea94b778c6e021c1300a203b5c7fbadd6923",
+    "id": "4467ccf86b25f12d16c7b32d",
+    "identity": "d3b858804f5bd17a680091f64219abb16db8680dbf17a519d6ba69aa64bcde00",
+    "problem_id": "leetcode:131",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "palindromePartition.cpp"
+  },
+  {
+    "assembly_sha256": "0221ae75e3f6028aa81985197ec0f3c184564ef403c78ce05552c6b555526145",
+    "id": "4538752a9ea1a35957a3e458",
+    "identity": "ed75546006cc5dbd40a85e1d636c501ebd2bf0b01177c990958b3cb0d32792f3",
+    "problem_id": "leetcode:4058",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-pulse-value-after-one-subarray-rotation.cpp"
+  },
+  {
+    "assembly_sha256": "06e8e4bdb62d6afe9eef904518bcc896f474dc93230a313c1a35ccc44211f85f",
+    "id": "4570490f9af0161af2167852",
+    "identity": "fe2ee683c3da3842e5ef70192b642a52215511e52e461fc16284667fc97eee6f",
+    "problem_id": "leetcode:2229",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "check-if-an-array-is-consecutive.cpp"
+  },
+  {
+    "assembly_sha256": "5478347245bb3ba8e4d4af85c495fdd2971f0d9ace5f8300804acc7c2c696f8b",
+    "id": "457f95bbd2aca00af99d3bd7",
+    "identity": "dc32e8677ec93f849c8bc229e90cbd5c977c2ea6acfd8888241dd725b40c6d68",
+    "problem_id": "leetcode:409",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "longest-palindrome.cpp"
+  },
+  {
+    "assembly_sha256": "3896798bda7b8f1f54166ec770d968826e599979889858343bf705352c5b1ce2",
+    "id": "4590cde8871fe90a73180a21",
+    "identity": "37a9960f1efce4dba8626b528040ae82cd24b31c94eeb157e0e1220601085889",
+    "problem_id": "leetcode:1687",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "delivering-boxes-from-storage-to-ports.cpp"
+  },
+  {
+    "assembly_sha256": "0b9db7da5211b71e7af2d901853346989664016713adf16d3731ea30c898f042",
+    "id": "45efea0beed10d4bbd120d30",
+    "identity": "523657a1882e6c3f4349f74e7b5a0ad9aefbae9c63e28751a234c2ede7827f27",
+    "problem_id": "leetcode:1284",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix.cpp"
+  },
+  {
+    "assembly_sha256": "2d12794df93b5ce4a05f9ac235200cb5c7758c64122f5105b0e5d65867101f9d",
+    "id": "463668df328d1639a86d6ce6",
+    "identity": "87b311b606a7b42baab416c51ebe64d812a3604ebdadd88094992742725e407c",
+    "problem_id": "leetcode:294",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "flip-game-ii.cpp"
+  },
+  {
+    "assembly_sha256": "0a46d68f898ea4a49935d3579d22e9163bd6acbcdd6608720dc4b147b9e497c0",
+    "id": "46532e6de3b9a191c4af71ec",
+    "identity": "32bdab4fa39dc471e577e6067861d59d7a13be830f4865d8c585515c6d8563cd",
+    "problem_id": "leetcode:3828",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "final-element-after-subarray-deletions.cpp"
+  },
+  {
+    "assembly_sha256": "21b8919194e9e1e58af1f8dbed1ebfd8e4abf1abc0b4baf8f3afb03789ea3164",
+    "id": "4662c5351eb375e04242f2ed",
+    "identity": "867ae589391e457ee84d39b6d38af2fa1dd558a437726b2761944cde038e4b76",
+    "problem_id": "leetcode:3423",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-difference-between-adjacent-elements-in-a-circular-array.cpp"
+  },
+  {
+    "assembly_sha256": "b42dda1353188c8b6a446d9707bfdc21d29d7bd77e5ea48788d989cd94d86d60",
+    "id": "46d88f50da56b6f40be228f1",
+    "identity": "478462b6ebd50de369f72760005af8d04003d2224d150ebde47ef2bf3436bc7a",
+    "problem_id": "leetcode:951",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "flip-equivalent-binary-trees.cpp"
+  },
+  {
+    "assembly_sha256": "8501c9612dc9da2ec9818d5a012c8d6095a7b28f4cf2c74b9d85356329cfa832",
+    "id": "4841588c8e28a335811e4ec5",
+    "identity": "1926b9897d783a53fc152a484eeafec533b6530d2e71014008039db9731c0d2c",
+    "problem_id": "leetcode:941",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "valid-mountain-array.cpp"
+  },
+  {
+    "assembly_sha256": "9e8b87f33a43133ad36b82e4f1d29148b03612fff6cd677e4652a9e79adc33d0",
+    "id": "48f3e0caf136da198d85d8c7",
+    "identity": "7fae90a862baebdb6208ac416e0a2903ab0134e5e367c5dd6589e3d3096acd74",
+    "problem_id": "leetcode:2506",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-pairs-of-similar-strings.cpp"
+  },
+  {
+    "assembly_sha256": "caf7a6ed22971d554c47fc4f10e32dc834b95c8d694a69b611ee216c780c6b13",
+    "id": "492fadfe368e96241d3dda9e",
+    "identity": "4e38c8fa7e1d820b2d048f48096d5945e8fdeb89f10f7b019faca1b749807672",
+    "problem_id": "leetcode:3800",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-cost-to-make-two-binary-strings-equal.cpp"
+  },
+  {
+    "assembly_sha256": "e18cdc130d4ad6264b75f2eaba6d471b5aee6c608f73448e2c1248f584ce7ca0",
+    "id": "492fdad5071c7a9676e1536b",
+    "identity": "5aa7c76543a7e444f363a59389d52d59135fed061ed29f05662e0835d1f7d0a9",
+    "problem_id": "leetcode:891",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "sum-of-subsequence-widths.cpp"
+  },
+  {
+    "assembly_sha256": "b5ec79a39aefa11b6370d736186bc0656bc546077cd0db7822a5abefd7ce0f7d",
+    "id": "49fb01ce08830c4705312e61",
+    "identity": "9e1558f73422bb78eee68316b1c9123a95c5b072f6d062291887924a935fc9e5",
+    "problem_id": "leetcode:189",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "rotate-array.cpp"
+  },
+  {
+    "assembly_sha256": "054fdfb5b8ab8a2a3e299574eefbe97b74b22fbd6adf1e767926b8df09cdb0a6",
+    "id": "4a46ea9176849c247d60a6c0",
+    "identity": "2d653270babc62ff91e5fcd6d2d1ed84962dce4f5bbe776381e04fc944982638",
+    "problem_id": "leetcode:1365",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "how-many-numbers-are-smaller-than-the-current-number.cpp"
+  },
+  {
+    "assembly_sha256": "f5ef5ac68dee12c3b88c478ea21b9e232355fe2ff360ae1c5f26ee8d2b1633ac",
+    "id": "4ab9cc43d8d78a8f99cd4be2",
+    "identity": "a745cfb818d8a5a14ec2c8238c2fbc4aab5d32cdc04fa41e45141732ee8bceb0",
+    "problem_id": "leetcode:28",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "implement-strstr.cpp"
+  },
+  {
+    "assembly_sha256": "f8b28c24d2e762474c9e21522a94860b5c4c020eb0685d96050862a59c0e484b",
+    "id": "4bb8f58c8f0dbcf7eb3f2ffa",
+    "identity": "6ba60da7d6b3588dd395dd334f01d013684ca24ef56133ba483553f098b368bc",
+    "problem_id": "leetcode:755",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "pour-water.cpp"
+  },
+  {
+    "assembly_sha256": "99ec3b979634eebaa30b8e996c2a49ce24f96dc17c61bd272f8d4a380f429a8b",
+    "id": "4c1c2f3a746fd30d0277d409",
+    "identity": "9d2b7c605e05482482d6508123b8e08b31b26fd47e09cc3ca332ee38846e06ee",
+    "problem_id": "leetcode:17",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "letter-combinations-of-a-phone-number.cpp"
+  },
+  {
+    "assembly_sha256": "e766dff9f62a6d8cc86de47a1c69ecffa06568474f71541ef605cd978ec16d63",
+    "id": "4c92a8fbd720fda5093893be",
+    "identity": "d2c4d8b00614d9c02e29f47c83ca3a3406288f0731f03eb4f6f6bd8f47ac242a",
+    "problem_id": "leetcode:498",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "diagonal-traverse.cpp"
+  },
+  {
+    "assembly_sha256": "524dc320d4ea46f3c3a5affe6707983bc899fae2a46968c86e166daa94f15ff6",
+    "id": "4cb58409bfb3524c35cdee4d",
+    "identity": "d3beb713204243e9d13172a46139adcfa226e15eb7f64f235143b3c3126285e6",
+    "problem_id": "leetcode:1121",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "divide-array-into-increasing-sequences.cpp"
+  },
+  {
+    "assembly_sha256": "3a8dbc088215bc6362fcc70781c900499b76c5fef89ad781f1f6e8d05a99a712",
+    "id": "4d28b39ea32449ac0399f2e8",
+    "identity": "77b6aa9823d417e70e078f9dc667bfe8d8fb944f270f6e8b07e64d41b1c6fe83",
+    "problem_id": "leetcode:999",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "available-captures-for-rook.cpp"
+  },
+  {
+    "assembly_sha256": "8ec763d272f68a0b659d6608b400b3569187d9bcb2417852ffe0635db42ddd5d",
+    "id": "4daf8296f868db8d05843bf5",
+    "identity": "ffdd930e23e6a2fa3806554899c0ff8b9efdbdff5cfc8c6a6415cee2048ca33e",
+    "problem_id": "leetcode:2841",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-sum-of-almost-unique-subarray.cpp"
+  },
+  {
+    "assembly_sha256": "36d70d84cc93edd0c91817434c683974e49ca021a604b61770a0b195b4a3732b",
+    "id": "4fcdedf80fa240a0f0c7b010",
+    "identity": "8146e19da2261e2eded3e07f3b1d2210c0665a739339cf3c1912f2cd88ccc709",
+    "problem_id": "leetcode:160",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "intersection-of-two-linked-lists.cpp"
+  },
+  {
+    "assembly_sha256": "893df7af0e55ce2b23907d1434f442ddf4b26f0f202da31081d928351f6ec66b",
+    "id": "50b606e0eeced49a7c801b1b",
+    "identity": "27319d341e429ae0d73057217469d830326a74d1ed2a4a645e8459add4f4e6ad",
+    "problem_id": "leetcode:15",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "threeSum2.cpp"
+  },
+  {
+    "assembly_sha256": "9495e1b251c955ab15bed6cbdea3c7f5f50ce5e84b1b9df40dad74ec3f251914",
+    "id": "50f6b501b29f32ccd9a85e8e",
+    "identity": "c917eb68249bd7b51f6a1498cadbaf8032a16483e830699e1a8c6a056f76031f",
+    "problem_id": "leetcode:120",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimumTotal.cpp"
+  },
+  {
+    "assembly_sha256": "eeb6916b4c1ecb5a0dce405b586b9b77d064193049b22f1396f4a96cfefa6127",
+    "id": "5144a2e0256221d22fdadc5c",
+    "identity": "117eba26ee9fab6fb9cc93c1ecd801e17e069fc108f1af5b5695f559cd18b973",
+    "problem_id": "leetcode:385",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "mini-parser.cpp"
+  },
+  {
+    "assembly_sha256": "4c9078d501027b9ddcfc8a9c0d060f85f07cfa81093ba6829ca80cbf8eb04812",
+    "id": "519b457b6db77d45777c4b76",
+    "identity": "359e8a31fc2b19d56552bf5eb167c5f90196bf4cbf53d6cf0a4730aa1e7b17ff",
+    "problem_id": "leetcode:899",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "orderly-queue.cpp"
+  },
+  {
+    "assembly_sha256": "3fef18ca24f04b0f639a224e58b34c5ad5c4860f5e59a66cf2bdf8e0c572627c",
+    "id": "520df55ab3ba59a28a1847d3",
+    "identity": "e722d8884257fd5c5756f617747919043643adbb1043b37d051afe3c951bb57e",
+    "problem_id": "leetcode:832",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "flipping-an-image.cpp"
+  },
+  {
+    "assembly_sha256": "c6ee1bd379fb000cb948c07d286d1e1796ab591abb64b3e99b55e0a6ac081cd3",
+    "id": "521d774fd5a39561297db38c",
+    "identity": "6b45dd20f4e5a76ccefa23f943dde479a9990d19c56b6c37f0f580b068fa6dee",
+    "problem_id": "leetcode:1299",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "replace-elements-with-greatest-element-on-right-side.cpp"
+  },
+  {
+    "assembly_sha256": "9684a66f19c3b14bf5fdcc91679d3eea832470142c4243839a3ad24e5de681b0",
+    "id": "52f9ef4fdcdb23476260c318",
+    "identity": "119296a3372ee65be9f97c99f36a6b0563edf8e0c14eaf4ab989bc9ac5d5cf60",
+    "problem_id": "leetcode:1475",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "final-prices-with-a-special-discount-in-a-shop.cpp"
+  },
+  {
+    "assembly_sha256": "e62ccea8ee9a06e7959920cfd100b2c9f08436ac5ef778c076f36043d81516c4",
+    "id": "5371f0e592cb86f05431b574",
+    "identity": "ed3ff94291b753a9d4ebb17e59a784ebd428cadb1c5ad8b15a4b916b7d4fbc87",
+    "problem_id": "leetcode:2554",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-number-of-integers-to-choose-from-a-range-i.cpp"
+  },
+  {
+    "assembly_sha256": "ccba7db1fa8579d87c7b4a136d56c9a596eef6e3fb14e2203146106a5c33eae1",
+    "id": "5430bcdd721b43ce878982ca",
+    "identity": "310212bb49362b57ce94666215ff2f01855a87079ee63ba5a0521c300fb9e8d4",
+    "problem_id": "leetcode:3170",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "lexicographically-minimum-string-after-removing-stars.cpp"
+  },
+  {
+    "assembly_sha256": "bad125c28a0b81eb465329c164c93ebe7a6c00070242e68f0eab426f0c2a7fdc",
+    "id": "5551f79d4a5a73adae73fe3b",
+    "identity": "c9f00944c5ddfe822ec6f845aa01a0a1c59a8f99f410ed0a0814cbae08f42477",
+    "problem_id": "leetcode:1852",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "distinct-numbers-in-each-subarray.cpp"
+  },
+  {
+    "assembly_sha256": "998affc2b9d502b1c05bc0a2950b9c80e9226cab333c3bf62e3c2a77ccc3b65f",
+    "id": "557f7a243ecb8e2d80a763e8",
+    "identity": "006b937a44fb9bd973a482d78825b57d91895aee5cbd3ba29b89fa2e6f46a959",
+    "problem_id": "leetcode:3024",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "type-of-triangle-ii.cpp"
+  },
+  {
+    "assembly_sha256": "f75cbee0b392fb33e3b72458e4a4cb97a9b1d92efe025d1ba16a934d6b868297",
+    "id": "56a8509a5bb8224ab8de63fb",
+    "identity": "a6176d0462cd39a594c2bf3b908307f654560385d2dd3b7da19eb66d88ffe21c",
+    "problem_id": "leetcode:2290",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-obstacle-removal-to-reach-corner.cpp"
+  },
+  {
+    "assembly_sha256": "554c0d2cea962c219e47f964efb15e7442545e77686cca5e6dbec6f63ce3702d",
+    "id": "57b5e7795f8123baeb09091f",
+    "identity": "dd55ad36456c089472d2784b1da4c5f3527dfcad825728d51d807f74ccf18d15",
+    "problem_id": "leetcode:3480",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximize-subarrays-after-removing-one-conflicting-pair.cpp"
+  },
+  {
+    "assembly_sha256": "7162469a083a8c18686b6566381966cca757b4b0e60d50251126d1cb7853da8c",
+    "id": "5851e3b90fd1861899f6a41a",
+    "identity": "27fc23e20d2d4a695e837cfb6e843b48f7c61016c7ab9d078b2fb0a2712e8440",
+    "problem_id": "leetcode:814",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "binary-tree-pruning.cpp"
+  },
+  {
+    "assembly_sha256": "cd7010bc5d158ccbc5e23daea80875240ee215581343cfb8fffffc810194382e",
+    "id": "5866c3a2e12de4f8a1e2216f",
+    "identity": "fba19080a2e3305a6069e67122c7bd95a98b9798818769fa44cf44a2f149a276",
+    "problem_id": "leetcode:3970",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "shortest-path-with-at-most-k-consecutive-identical-characters.cpp"
+  },
+  {
+    "assembly_sha256": "71335d8fd54c9cb7a7a64fca81f203ba15adae6f2e3d9cb2eb0cebf538c3464a",
+    "id": "58d532f9dd7a1b9af81de33b",
+    "identity": "7f293199157efed9ffcb513502099a3967eafc05689501ed14e44fde932dec78",
+    "problem_id": "leetcode:3146",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "permutation-difference-between-two-strings.cpp"
+  },
+  {
+    "assembly_sha256": "b440e0c7e706ff6e0df71453dc6721f358242d39954565189d5ebb25483f963b",
+    "id": "591e8dd1d8c8a73efc1e8d77",
+    "identity": "6c2bfd2985c7dfed4044952a96b0566a9d41d2481cff958b89c53f027b96a011",
+    "problem_id": "leetcode:3001",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-moves-to-capture-the-queen.cpp"
+  },
+  {
+    "assembly_sha256": "2ffcbe0356f5dc53d8facfb66dae2dd6ac26d49fd56756c5e8fadfda495afc82",
+    "id": "5a597acb7cf21fed907310ba",
+    "identity": "a5ff5dd6244c655edb4a6c0d8f3b5708e4564dcf90a75f194c3c2c07cee6c4e2",
+    "problem_id": "leetcode:3996",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "even-number-of-knight-moves.cpp"
+  },
+  {
+    "assembly_sha256": "778c264d5e2d8a00aca62e7de8ea33eb1c69a56d44ff2e043e10781e2739556f",
+    "id": "5afdc456cebadc4016532ebf",
+    "identity": "645ecdb766adc8abc5f2c58873b04c36fda4dc7e43abe7f96beb90a39f2461f0",
+    "problem_id": "leetcode:2129",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "capitalize-the-title.cpp"
+  },
+  {
+    "assembly_sha256": "35c848b58a9f69526584a1ac12d85ffcd8b861eb9788ee6333f322b29565c503",
+    "id": "5c214953b21288955c4b1057",
+    "identity": "8f76aec066d8f17740b8901ffea5e4544082d83c4d86b9d82a6906cda6e3100a",
+    "problem_id": "leetcode:4029",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "elevator-requests-iv.cpp"
+  },
+  {
+    "assembly_sha256": "077c59274c7b3ba1b9df30d8c3389860ce32092cfad41665ad5a10b4b035f90d",
+    "id": "5cd55ec458157b3790cbbf92",
+    "identity": "f57021695dca22b2a337c4fc9c5dae0ef9b5b50bedff637c67fb6fb1f5c26980",
+    "problem_id": "leetcode:3680",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "generate-schedule.cpp"
+  },
+  {
+    "assembly_sha256": "57f72592aad4b6ddfb25fd218fbf81345f9c2dd23d8e254f39e814099b23d0d8",
+    "id": "5e707e32cd63b1d0e37ac193",
+    "identity": "ebb2f864229be966e50c6e6730b0395aa23bbe7da971788025b8090e45d7abf1",
+    "problem_id": "leetcode:1230",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "toss-strange-coins.cpp"
+  },
+  {
+    "assembly_sha256": "77f9427a2b84315f08f6dd9652725f1b34fad3f649187b7f821590fd649e560e",
+    "id": "5ecf3f2487595faa2a7dc3ba",
+    "identity": "ffa1bd0d53911cf0fad24ac35720a5d711357546a5aec3231674f21401fe952e",
+    "problem_id": "leetcode:190",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "reverse-bits.cpp"
+  },
+  {
+    "assembly_sha256": "841997b71689806a7496edf4f4350ef45e9f1e3b504ad7e93b472c72f0c25b35",
+    "id": "5f973f99e490139b1adebb4e",
+    "identity": "00636abf3b8bbb9a63b86a16b885b5301edac96fe48695a15342934b2777af9b",
+    "problem_id": "leetcode:1040",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "moving-stones-until-consecutive-ii.cpp"
+  },
+  {
+    "assembly_sha256": "551d142556c747a76eef34461ff6ea525a412ee704a5d9650a741c2ec1d2d76f",
+    "id": "5fffc76080e2f1d5751bbc0f",
+    "identity": "06b59bc2800427d1279ebaf80c8d0fd5c90d1010fcf53b0f21977b521180c4b3",
+    "problem_id": "leetcode:3557",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-maximum-number-of-non-intersecting-substrings.cpp"
+  },
+  {
+    "assembly_sha256": "516912fb573a2b00a493ec3b5c872542e3fb192f68a9ef1d4682d36010fbbed7",
+    "id": "600d7a8069c4bd29306c863b",
+    "identity": "9fb6ab476ef612d175d918b304f49a09c83776703f51a9c953b3878e97b55c8e",
+    "problem_id": "leetcode:1686",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "stone-game-vi.cpp"
+  },
+  {
+    "assembly_sha256": "7dcf9054b86eb48bff713d4b56d726091c918f6373228dea0dbbebdd9cbb0016",
+    "id": "607ac5ace564ce2810701b40",
+    "identity": "009a956a07d23f2dda33c3143f352be1d5e3171e474fbb1f3945f6129705564e",
+    "problem_id": "leetcode:279",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "perfect-squares.cpp"
+  },
+  {
+    "assembly_sha256": "1202aa245c2c35f54de403c2714eac364f8a34dc5d4a55614f81ffe9f8a3cff1",
+    "id": "60f2d46a7fcb27a83fffa009",
+    "identity": "1f5c08070e4f1ebe9b0fdb85ec461b0e2426eec5d6c84d9eeb7401d9460ad305",
+    "problem_id": "leetcode:2042",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "check-if-numbers-are-ascending-in-a-sentence.cpp"
+  },
+  {
+    "assembly_sha256": "0ec678456f9b74c95f87e60c3a341b5b27a181f4531b351c065acd43ff46d1f6",
+    "id": "6138ad25d5733530203a17a3",
+    "identity": "97f3c187aab2d170715d327931cb7f83b96ca86aadbbaf55026273e904ad1727",
+    "problem_id": "leetcode:932",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "beautiful-array.cpp"
+  },
+  {
+    "assembly_sha256": "0eeb7e114f9a9f1c0d97447f5871c079ea64379763bfbf1357ad1f09a10552ec",
+    "id": "6152f4958d25c432b5580f3b",
+    "identity": "46e32cea4a865eae98561a332deb17fac39ab392f2c8f18e3653a95630c64e70",
+    "problem_id": "leetcode:3729",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-distinct-subarrays-divisible-by-k-in-sorted-array.cpp"
+  },
+  {
+    "assembly_sha256": "1370976ab5d7b9c520ae86d9d9f1021707a9657b468227de6b80a4949322f390",
+    "id": "61987745c40432ce122b33a8",
+    "identity": "92a3882708ad7ffbea075b82c213cffd1ab286ef5bf092f88af28ed15ffa45d0",
+    "problem_id": "leetcode:2141",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-running-time-of-n-computers.cpp"
+  },
+  {
+    "assembly_sha256": "a48fc7732dfb08a81fc1e2d73ede87898242ff900926dd5169259704cd63f29a",
+    "id": "6314114103c4b71720ef7e9b",
+    "identity": "32ae5775c65db09ff829cb96b763e068994a9a8c7368bfee81c6c465a7439f7c",
+    "problem_id": "leetcode:2100",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-good-days-to-rob-the-bank.cpp"
+  },
+  {
+    "assembly_sha256": "35fc560e347b54ab7c977cb5e9fade4fe901074adb0d0e46c5f5bc3820c85d2c",
+    "id": "6360d2a21b10facb3e70d1d0",
+    "identity": "78e7d0ba85243cf201e67b58b6b9abe0dbc010c0ecdd36a7560bc86bb8880f93",
+    "problem_id": "leetcode:118",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "pascals-triangle.cpp"
+  },
+  {
+    "assembly_sha256": "acce46abae3c846578f77985af36070356e9f1b4b88e37769a7b2f272bcae774",
+    "id": "64bd7f4161bc803a24a6aae7",
+    "identity": "531fbe6e85de11aaa113154a9ff8a525c3e32d5c2db169e26e7bb96552419fd6",
+    "problem_id": "leetcode:3993",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-value-of-an-alternating-sequence.cpp"
+  },
+  {
+    "assembly_sha256": "be87c584ac41e8ac4f4a8d1c8361ddce53841220cc22870ac87263019ea12093",
+    "id": "6524acb0aec48502660da3b3",
+    "identity": "a672fe290d22a34eadc2e48a417e07162aeed89d9948827e9db727d1a5b53132",
+    "problem_id": "leetcode:314",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "binary-tree-vertical-order-traversal.cpp"
+  },
+  {
+    "assembly_sha256": "43413d3b47ba6a8bc6e4074ad0e8c35e838b449a667b777211a08affc5e2d67e",
+    "id": "65476a98c2ee4d994b96eb04",
+    "identity": "d1e905c54537aff83cf8d837803a643aacf683805c726e0b177f7ceeb7a792ae",
+    "problem_id": "leetcode:3790",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "smallest-all-ones-multiple.cpp"
+  },
+  {
+    "assembly_sha256": "822fa405e46c3355cde189634e668f08f1f9b2ea2f293b302311a076f1136251",
+    "id": "655afc88bb54b276e33315d1",
+    "identity": "f1a67a8d2c545f5981ebe6576c1118a360b43dd3dfb860b4be578676c3b01726",
+    "problem_id": "leetcode:1894",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-the-student-that-will-replace-the-chalk.cpp"
+  },
+  {
+    "assembly_sha256": "30e2c674b9a8d9223933fe7f8f43b14e48e5f83839975915f80391016de7c6b6",
+    "id": "65bfc53f49bfcad36061c149",
+    "identity": "6a109b6c3ec07ef6dd9d9b5140f2890b238150a1bcd0c52b8cef0afeebab2a3c",
+    "problem_id": "leetcode:2736",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-sum-queries.cpp"
+  },
+  {
+    "assembly_sha256": "3cc57b132b6a3149b914800617d428f783d140627adb4d372ef191dfd13ad7de",
+    "id": "66624c728bb62205c21c2a56",
+    "identity": "94671a851a6a74fcd16290b4abad16c8f4e7f129d58b2c7f0d9798b07f936f8f",
+    "problem_id": "leetcode:3667",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "sort-array-by-absolute-value.cpp"
+  },
+  {
+    "assembly_sha256": "ddce47928cc8f1387a59475b082fc4efe30fc05ca6df08eb0e4c8195479d5fa2",
+    "id": "667d3b36c95280794c1d8221",
+    "identity": "ae993e53b5189bd9e61e7460792ec3b67bfe8397f2b52598bc51722127d9e38e",
+    "problem_id": "leetcode:480",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "sliding-window-median.cpp"
+  },
+  {
+    "assembly_sha256": "d26dbbd14ac20d8e8fdffd78e5520f3688f70b302d606a87db01eccce98c077d",
+    "id": "6745ae8f367028cc34f527aa",
+    "identity": "413c354efdaf2b0e6a571496c519c7bd1930c7d05d4fb7dab51c32226dfdab09",
+    "problem_id": "leetcode:1805",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "number-of-different-integers-in-a-string.cpp"
+  },
+  {
+    "assembly_sha256": "d063ee0898d56426d97458bf80b98cf504892416512cdc190f1b5b318201ad94",
+    "id": "680741747efef72be7f2db3a",
+    "identity": "9fe250449a9d9bc00db69e36dffb698aef72de0ac41e6c7cc63d4d7f86464981",
+    "problem_id": "leetcode:1842",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "next-palindrome-using-same-digits.cpp"
+  },
+  {
+    "assembly_sha256": "3630ab07152a0607d8afa81f0787f661d4405f03eafd2c3c72e9d8f02f69a731",
+    "id": "683c7b8abe2ecc854d49f1b3",
+    "identity": "5d671b107942fb4386b4fc5c068ceebf015123c40e21aff687318ab9dfcaa248",
+    "problem_id": "leetcode:1163",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "last-substring-in-lexicographical-order.cpp"
+  },
+  {
+    "assembly_sha256": "7cd5201d3d5906fbd82dd5454cd22ec53d419925560ba778ef35e0b4617d59bb",
+    "id": "68902e7f875499877ebaa4b3",
+    "identity": "6161a5edc376e8709bce03fb53a792d6ceb87d1b19894e14d1f48b468342da9a",
+    "problem_id": "leetcode:2304",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-path-cost-in-a-grid.cpp"
+  },
+  {
+    "assembly_sha256": "93cbcfe9beebea7f48e413630407f83d1dd6640aab5323f5ab12bfd3feb55549",
+    "id": "68b980635b19017381cc4153",
+    "identity": "7c618b2e292ed2dfe68155ca7294c264c7785dc2ddd432acdd5dbb249d3e2116",
+    "problem_id": "leetcode:3853",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "merge-close-characters.cpp"
+  },
+  {
+    "assembly_sha256": "3b8e19a760e14a0d591fa0495ce2dc2b3b39c9dfdd11b5548e960764367ff41a",
+    "id": "69393e45cb6f2b704624b5bc",
+    "identity": "10a8d5dbad9b3fe45037657252efd98eaed47b267c25158f13f727bc70f8b762",
+    "problem_id": "leetcode:3234",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-the-number-of-substrings-with-dominant-ones.cpp"
+  },
+  {
+    "assembly_sha256": "c6db9480a8247e9926cb1a629b71ebd204ed694876574c8144b5071a38b86376",
+    "id": "69a97d42c6f07276457366ea",
+    "identity": "2f44b801fcc0f62a2b394edef164a7d02524342bcb85018c25bd1b7c8c365a0a",
+    "problem_id": "leetcode:1406",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "stone-game-iii.cpp"
+  },
+  {
+    "assembly_sha256": "04872e217f86af554d0dab7d1a1691685bd0c5e94c0f204a280a572cb16651b1",
+    "id": "6a4764d236bc992b171f1e81",
+    "identity": "be88744c47684ab0474118362684bf2d2b9af4668b5ed0c04411fe7a5bf35270",
+    "problem_id": "leetcode:3379",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "transformed-array.cpp"
+  },
+  {
+    "assembly_sha256": "51bbbf81ed643ede9d9430a46628fefea2250f83c663abe4167a941a7ed1ea98",
+    "id": "6ab6e7a25bcb6b3646856d1f",
+    "identity": "8e4b1f22bb8abde2642f6c39bd1c0f6302484eadefc4f82a0da522914404d0df",
+    "problem_id": "leetcode:343",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "integer-break.cpp"
+  },
+  {
+    "assembly_sha256": "79005ba2f662f18aba6db02aaefff400b130e2520fed56c96237a12b7c8a7501",
+    "id": "6b72a809bf4a07b902f7d362",
+    "identity": "8c5689be5d276a02bddf33ec1eeb98a342864c42b891220e604c6ed28be0994d",
+    "problem_id": "leetcode:2399",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "check-distances-between-same-letters.cpp"
+  },
+  {
+    "assembly_sha256": "dbac64bc375c4046484d8966492ded0aaf72b366e33b4e9c5b4b81abd7c16f37",
+    "id": "6d09908ba421822439f90b4c",
+    "identity": "ccaac7b92f6ea1c8380a1d196fe54b756305e6a657e64eca169a2711f379f4b9",
+    "problem_id": "leetcode:1545",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-kth-bit-in-nth-binary-string.cpp"
+  },
+  {
+    "assembly_sha256": "85fdf2bccc783341cd03453172b9424f35a5f99dfd85f1e00e14b2e333cec11b",
+    "id": "6d2671ac554afcab1ea72e26",
+    "identity": "c1301abe5ea9896d5d30cc9c41e2bf2de4b990f30695df1eb0ddfda2a81ba821",
+    "problem_id": "leetcode:1310",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "xor-queries-of-a-subarray.cpp"
+  },
+  {
+    "assembly_sha256": "346243d9978aefa709be7d0bafb93b019129022d7ff641ba985c699400feb466",
+    "id": "6d31161dc8b6d67aa8c220b7",
+    "identity": "803e1fd799ccf1f041e20179799b8f0b3347175a83964c3338391d532398fafe",
+    "problem_id": "leetcode:41",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "first-missing-positive.cpp"
+  },
+  {
+    "assembly_sha256": "266315b8e70a11a9d46e5b23cb2993ae52e925910dac097db8038e04244a99a2",
+    "id": "6d6e5108a50e35e282f83e2a",
+    "identity": "600a577f6363ba07d1050d50aacb69bea1a8626d61a21ecbccccb4008d4023f9",
+    "problem_id": "leetcode:775",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "global-and-local-inversions.cpp"
+  },
+  {
+    "assembly_sha256": "542760ff787ccd0976521df10dfe992b98ab1c9beb0bec6f42b4aecb6824dcb2",
+    "id": "6fde211772419f92e8ea56ac",
+    "identity": "97ce9dca9f548615f503a71b9878f6615539d0f209b4cc6bccd10e3b2a4f367a",
+    "problem_id": "leetcode:3446",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "sort-matrix-by-diagonals.cpp"
+  },
+  {
+    "assembly_sha256": "9619c8387f97d9fd185e8fc3335b21c64f224d8d8d50079a428990adecdc5aaa",
+    "id": "7045034820ba9767bf4c3bdb",
+    "identity": "0bb1bc813b47cdca5a0e1be93ed86973971d0848a3f28fdb5726675be9115a01",
+    "problem_id": "leetcode:145",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "binary-tree-postorder-traversal.cpp"
+  },
+  {
+    "assembly_sha256": "4eddc81fa3e06a4507298cce5abdea1be804e0490ade2acb4d68737565b23439",
+    "id": "7073341effcb6da4b419e8fa",
+    "identity": "1e564fc31af4cbe96df3c388e86de35a2259a2753883df455215e9ba3ecfd978",
+    "problem_id": "leetcode:80",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "remove-duplicates-from-sorted-array-ii.cpp"
+  },
+  {
+    "assembly_sha256": "b97c405c6673a7330366eb25cbdbd080990c280fff3bde4c20e60c032507f63a",
+    "id": "70a3dd80290362da4e60bb0e",
+    "identity": "4a8fead1c07dcd4f9f4b282946ac289c63253254d4e63c8cfcb1f4f30d7777f4",
+    "problem_id": "leetcode:3863",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-operations-to-sort-a-string.cpp"
+  },
+  {
+    "assembly_sha256": "d3901fd645882b300c61c2d8a2709842f9838cbd265fb751f75b7f82715806ef",
+    "id": "70adeef706651440029d3c7b",
+    "identity": "4f75e639c12c747dcf6d9a4221e967566fe155138f36a201ccf930dc648b3508",
+    "problem_id": "leetcode:551",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "student-attendance-record-i.cpp"
+  },
+  {
+    "assembly_sha256": "3b7fb52beabeb6ba321ea3e0a1d5ca79ed5b62b00f3ec3be5221cd5da7a56e48",
+    "id": "70c9bf14704f25641a7da729",
+    "identity": "dae47a20fe7debab5162be878f141ca6b252fbd43d8125c58f9d1f7e14a22ee2",
+    "problem_id": "leetcode:472",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "concatenated-words.cpp"
+  },
+  {
+    "assembly_sha256": "e69b9f8de5cf8b676316c31f21283b2a703743812f6bce8cb6696495f5ae8f33",
+    "id": "712d8f5ad6edb4ced5be0f5f",
+    "identity": "fd80f6bbea6bc42dc9e353b48eb08d43bb6f47dc6da859c8494a2d7b5b9e53a5",
+    "problem_id": "leetcode:191",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "number-of-1-bits.cpp"
+  },
+  {
+    "assembly_sha256": "37bcd8628f523afe81aa848ab26278b40d9669b087d5a3aa7b6d9a1c155b224b",
+    "id": "72b36cab95a0200dbad0e5ea",
+    "identity": "8d715d7d4c2612a6ad1977d04dbd0a606471b9083ef31156095ac8176817a7a7",
+    "problem_id": "leetcode:1362",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "closest-divisors.cpp"
+  },
+  {
+    "assembly_sha256": "e7640c1ed31a55b23b96ecf2f4ec334b08b3235163183bfe1c629786c6f45966",
+    "id": "72f2902b1eb4dd72b62e00d2",
+    "identity": "549234a273609b0b65afa4ae30d766dc7f25af40650ac35fa6f02b6fd8dc1c02",
+    "problem_id": "leetcode:261",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "graph-valid-tree.cpp"
+  },
+  {
+    "assembly_sha256": "4b4db12de2a29b460ed309bcb7223c4dab84bf05dfb976b00d4d8c61cccab04b",
+    "id": "730e9b81088ccdb60c1217a0",
+    "identity": "a98309a8f79dc559660e6f9335769a5144625d711dce19e86e5ce0af90a0371e",
+    "problem_id": "leetcode:1944",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "number-of-visible-people-in-a-queue.cpp"
+  },
+  {
+    "assembly_sha256": "fe91a0cc67d98d2fd5d04ea5c71ee21d36a5a6f6f1c09105abe19d2aa17bbd80",
+    "id": "73216413eb6daff0e7014cb1",
+    "identity": "2c8d003cd1665c8d6bf04403c3a0cbce81d21ac2257014eec8af07d84e789f0f",
+    "problem_id": "leetcode:2176",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-equal-and-divisible-pairs-in-an-array.cpp"
+  },
+  {
+    "assembly_sha256": "8bbbfe31d148ddbc4713897305c83f387ecfbd25754da3858872b176768a0db2",
+    "id": "7323a0741b086a21ccdea49c",
+    "identity": "de0c6a5de2bb8e075f0390e368225358c60df42d24bb2318935ed2f279ce5db0",
+    "problem_id": "leetcode:765",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "couples-holding-hands.cpp"
+  },
+  {
+    "assembly_sha256": "15f5a7dbe96b0a800b6742bdf7dc8a31555f4cc90dd7ef75d14c0d941ed8a922",
+    "id": "732b662af704040d00280872",
+    "identity": "bc4992ce3dcc015e47273cd1f0da7e2ac68c18758ff00b687ca3dd5378acce7c",
+    "problem_id": "leetcode:443",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "string-compression.cpp"
+  },
+  {
+    "assembly_sha256": "c90795188c7e1fe392d5ad5475dc81afdea25bd785c774ea414f267065a43aff",
+    "id": "74a10264184f0b5e6bf6ea99",
+    "identity": "6e685342d4dd0e21165102063d1c75ff6e25bb6122917bc04db445409b36a4c2",
+    "problem_id": "leetcode:2460",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "apply-operations-to-an-array.cpp"
+  },
+  {
+    "assembly_sha256": "28320e7a545313f4b2a21555e96dc5bdff9d9fb34d3dc999a0db7bf6126f6074",
+    "id": "750713b4ee6763b36fd3c5a0",
+    "identity": "3bd397ba40b3131e09a5a930e2ce719ae11f6c3c705557e9ccb0e47a1174b47f",
+    "problem_id": "leetcode:2133",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "check-if-every-row-and-column-contains-all-numbers.cpp"
+  },
+  {
+    "assembly_sha256": "a8affceeb553a9f188d65443d828cddec5a76ffb6ed093fd071abb47f3355ea1",
+    "id": "756a0cdf2c55f3f0b8eb1e00",
+    "identity": "9d6ba08864f04d106b5fba718e1b29efa382f641184fa0032b71084d7886ed63",
+    "problem_id": "leetcode:2643",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "row-with-maximum-ones.cpp"
+  },
+  {
+    "assembly_sha256": "34d06680db6887857d13d4e6f9530abda913bfd1478f91649a09dc8f3e473965",
+    "id": "756f948f769d746988ab0974",
+    "identity": "f399112f4bb1f4ef76ffb0a83ec5c384b6a660e02c9b77633317e15bd6114ff0",
+    "problem_id": "leetcode:3494",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-the-minimum-amount-of-time-to-brew-potions.cpp"
+  },
+  {
+    "assembly_sha256": "edc261f865fc4f25470e7672cc43ce1dffac79c0a4a3e4164479c6ee6b2a18b9",
+    "id": "757a78c612ef945196482700",
+    "identity": "a9a4a2cc2b9ab4da5d2978edf5a4ad9090073026ea9004e4709c82e812d7fa09",
+    "problem_id": "leetcode:2225",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-players-with-zero-or-one-losses.cpp"
+  },
+  {
+    "assembly_sha256": "1c151a9cc3dd9a4b9352a7fd403d169c5904b71feadfd2a84c3eb5141bb1bc17",
+    "id": "762d006c6e511a9f27d27c6e",
+    "identity": "e2e6d03e0a7fb5be5475ea09ec3ab9622dbb381c78daf8d4be8620ebf2e83ba6",
+    "problem_id": "leetcode:3414",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-score-of-non-overlapping-intervals.cpp"
+  },
+  {
+    "assembly_sha256": "9c9b0f3c912115564ca4ffa0660a1c2c3718cd3a209c0f41c7bf351e402eaa76",
+    "id": "762f58166160088850acbc59",
+    "identity": "64c06c21e3dc1845860cfa04f161a7930c1a481476fa0ed416dd93cc202155f6",
+    "problem_id": "leetcode:3592",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "inverse-coin-change.cpp"
+  },
+  {
+    "assembly_sha256": "eea3fac7e9e20114001b9e5f80e11c06cf8c0aa93c2507026f2114d8acabb55b",
+    "id": "76a9e97912f687eeb132fcd3",
+    "identity": "b14091b638fc4d0effc14626340530ddb8e27438b2de43a2d78d32f96eb09d13",
+    "problem_id": "leetcode:1235",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-profit-in-job-scheduling.cpp"
+  },
+  {
+    "assembly_sha256": "c05c7b6c96fef39eea7d21d1f392475ebb675b26947c8a9534850de028fb3572",
+    "id": "76cf8094eaf9e593ea8d2d00",
+    "identity": "6621d6337ec83a5bcf627f9f138f932b415f9a0b1f08a5396f05731050423cef",
+    "problem_id": "leetcode:49",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "group-anagrams.cpp"
+  },
+  {
+    "assembly_sha256": "8f410cc2a7ca66169e27fa0340b37e8f62988550e656df29394296e41c14b1b8",
+    "id": "772b095a01b535cef36f7a75",
+    "identity": "db589becc08d9de37302c85d1893b900fa7621d1bfff217c7ad20c8cbc1625c5",
+    "problem_id": "leetcode:3075",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximize-happiness-of-selected-children.cpp"
+  },
+  {
+    "assembly_sha256": "e19aa4169b185947084d09ab17a62de63fa1c2f336a2824b70957fe1461131e5",
+    "id": "774b83049e37f16f6afb2cad",
+    "identity": "c74397912636afda2047af1fd9162b63d2ea4213d3bc8d9cf7f6683bea7c95d1",
+    "problem_id": "leetcode:2478",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "number-of-beautiful-partitions.cpp"
+  },
+  {
+    "assembly_sha256": "daf3f14a5f2755e1c003eba8ce1c0a6a78cc4425845d03b0d72618e68033ec4d",
+    "id": "77fa0d6afa7600b433eda484",
+    "identity": "b276f90e61e3ae01a1ad093d619dc795ac750f82766688dd4192174efafbda4f",
+    "problem_id": "leetcode:2567",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-score-by-changing-two-elements.cpp"
+  },
+  {
+    "assembly_sha256": "c7a8113413319ec212f31ec3a8a7c2d2e9f5b32318d51a10930ec606ccabc23b",
+    "id": "79cca891b453100fcf903d89",
+    "identity": "a09d8936ea2f81615466160a4ed80ed8291c98d721017e2e46ae5d25181c2593",
+    "problem_id": "leetcode:2964",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "number-of-divisible-triplet-sums.cpp"
+  },
+  {
+    "assembly_sha256": "4432a06ce91c7614a93598ac754cc924016f3e08b602e17120c187b78d3947d9",
+    "id": "79f0f165d549806e35fa4003",
+    "identity": "296b21d649aadfbb587f2abd8432d43afe57d8d564d13ffd0380a5bd49ef09a8",
+    "problem_id": "leetcode:3064",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "guess-the-number-using-bitwise-questions-i.cpp"
+  },
+  {
+    "assembly_sha256": "8d9b2c8877887d71c0fd269d5e657c08041d7e3cc8e53bdaa813e7b7f25573a2",
+    "id": "7a9af14b42dfcba02820c0df",
+    "identity": "bf69ed1d2526dcb26f920ad16972f600c90de2f38613a38cf8718cd4328aaa31",
+    "problem_id": "leetcode:3925",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "concatenate-array-with-reverse.cpp"
+  },
+  {
+    "assembly_sha256": "669acf6166f233a55f0886ecfbbe195668898e682fb6889606c8be6cbf89c435",
+    "id": "7d08aed38269b0b04fd0a7bd",
+    "identity": "dd8a78099c6bf51e463eeb3b73804dae41f70180f06b02ca24766635845dbcad",
+    "problem_id": "leetcode:3798",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "largest-even-number.cpp"
+  },
+  {
+    "assembly_sha256": "52f568fa7d9171b74885c3d503e59cb5019d825d0b92a2e371aa86e93ed53df8",
+    "id": "7d1a59c1f21388158c5f7055",
+    "identity": "ec22db7716773a600c7143f7220c81654089392e21a9a48910e16fa455994052",
+    "problem_id": "leetcode:673",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "number-of-longest-increasing-subsequence.cpp"
+  },
+  {
+    "assembly_sha256": "048e863b64ef094b6daaf70f19dd40a446acb5d199321da3c0bbe8a0950c036c",
+    "id": "7d71430de9d8ff288c952bcf",
+    "identity": "a7bfbfe26f0258409f6c51458d6e7f417c198446be8aaa3c0a2be66032445cbf",
+    "problem_id": "leetcode:393",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "utf-8-validation.cpp"
+  },
+  {
+    "assembly_sha256": "c1a6847b9decd03c28d5e9a7f39308b9fb1512fca73f1d6509ab89b475dd1f6c",
+    "id": "7e5e6de632620024b26b60ff",
+    "identity": "73ffff6c7fa90dff4e1dc910d2eacec2438bec4f01373e08625f4355a60ef3ca",
+    "problem_id": "leetcode:43",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "multiply-strings.cpp"
+  },
+  {
+    "assembly_sha256": "c3d62a9a9103168f1c5a8196d951ccccb5b8d69601380117296b4569cf8c0972",
+    "id": "7edd390b7bd9e23736ac7516",
+    "identity": "91ea913c751f7c206d297f078410a096941f605ab97ec176ce1b99e1483ce5a9",
+    "problem_id": "leetcode:2248",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "intersection-of-multiple-arrays.cpp"
+  },
+  {
+    "assembly_sha256": "b18435ebd4feb37b0d8006206c0227df3e37bdf27a47d3603c5009a5d05a02e4",
+    "id": "7ef57ef23b4158aa2201379c",
+    "identity": "e9518009ef4735842c6207ee4838349973f038a268c207d5fd585692cd103af7",
+    "problem_id": "leetcode:4048",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-values-with-equally-spaced-occurrences-i.cpp"
+  },
+  {
+    "assembly_sha256": "e5fb7567f28038470c92e64e0193bcf5896e963d56795da331a0564b7e5784cf",
+    "id": "7efa2b52d8fab17778335137",
+    "identity": "638e3314f694b221c465004c80b2595a3cfb4afbc64d2db0b58fa2929033f5e7",
+    "problem_id": "leetcode:828",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-unique-characters-of-all-substrings-of-a-given-string.cpp"
+  },
+  {
+    "assembly_sha256": "d32f0b5c698177d11c1b7e4df4baf645531402e0d2ac9eb68fa36d68faca54f5",
+    "id": "7f20e212f88927a41163865e",
+    "identity": "c49e8299854a3be1fb057ba98ed1ae3ec2711c98ea102d595b72b2631ffb74df",
+    "problem_id": "leetcode:1541",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-insertions-to-balance-a-parentheses-string.cpp"
+  },
+  {
+    "assembly_sha256": "651cc525eb5fca1f423199d316ed388bd2fe5a0714fadae9c5986d9123620eb1",
+    "id": "803612c30f8073ed91edd623",
+    "identity": "a8b7e8bd92433bf9e8989d37b58834c26f72d13fb91aabbb3353a299ada4c5a5",
+    "problem_id": "leetcode:3927",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimize-array-sum-using-divisible-replacements.cpp"
+  },
+  {
+    "assembly_sha256": "84382e0459efd8a1dfeaf91d0a09a5ec689bd071b26912425e1531527603fe35",
+    "id": "80663c4f38b157a8423f49a3",
+    "identity": "e684d701a0a7dc545943587cfd4bf2e085b27861891570169c9fecea0eaf312f",
+    "problem_id": "leetcode:3144",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-substring-partition-of-equal-character-frequency.cpp"
+  },
+  {
+    "assembly_sha256": "096d90efb76b8de874affc5eacc87c2354ca3d3f3b292b2ef969891c292bb0a7",
+    "id": "8269419862b000b35bb2359f",
+    "identity": "3a003909cd1b1c55c943ac38a43e5503bed4cf74a84b67c862e7546da3b8574b",
+    "problem_id": "leetcode:3472",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "longest-palindromic-subsequence-after-at-most-k-operations.cpp"
+  },
+  {
+    "assembly_sha256": "6a9298ba1186ba3cc9c0e5fde2217d8da10e0f932b86c190ac6ce8ea97d7103f",
+    "id": "829299a49606b49f678e48b0",
+    "identity": "80b1c834c32ba6892b08d9a6bcbbf2b0f97cef9cd2eb340c8291b7af3cabb2da",
+    "problem_id": "leetcode:3410",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximize-subarray-sum-after-removing-all-occurrences-of-one-element.cpp"
+  },
+  {
+    "assembly_sha256": "b2c6ad000d2e41ecd9f465d494089e76a738b2b648ad9d9d8ac940388d9c32f2",
+    "id": "82a12f361166471e12273a3c",
+    "identity": "498b2805e253efce207f39064c3e8e829f3383cce1a28be6450472b833da7d78",
+    "problem_id": "leetcode:922",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "sort-array-by-parity-ii.cpp"
+  },
+  {
+    "assembly_sha256": "4b2e456e3f03157db553b08739de9971527cb2ca98d5fc106445cbaec1d072a5",
+    "id": "82a3eb6f50b54c7b89129970",
+    "identity": "47745e99e31598fad4f7dd9f12ff8425e72bd69dd3d373ba853feea32a27d573",
+    "problem_id": "leetcode:1771",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximize-palindrome-length-from-subsequences.cpp"
+  },
+  {
+    "assembly_sha256": "8cea0fe6b49871cd02881437fe1ae15c93a53e73c080a2f4c2cb7e8a3dd20c1c",
+    "id": "8341ed8cc232e4573312c9e8",
+    "identity": "c568e711ff218605d719a86504592b1e1c244768d7f00ca8cd5330ef41de56a3",
+    "problem_id": "leetcode:2463",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-total-distance-traveled.cpp"
+  },
+  {
+    "assembly_sha256": "aeebf702b27f7a03986e64e51d1e356a99ec16f0613a5be1a0747c1a399bf1d6",
+    "id": "84370789abf57a2410972e99",
+    "identity": "0b9f9513b8d091045d7bfd7f5d3802ce61e804388ffdf3406ad4c4c861350849",
+    "problem_id": "leetcode:2579",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-total-number-of-colored-cells.cpp"
+  },
+  {
+    "assembly_sha256": "15ca605739aaa6f53d90b31a348d134714e379ceffa76eebc94da1a5ade55980",
+    "id": "84d941f85fcf1409d3552e78",
+    "identity": "ffa58f45c01d08984166a17b67cb733deb23012b741f35f7466f59c43fd38dee",
+    "problem_id": "leetcode:4041",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-operations-to-form-subset-sum-ii.cpp"
+  },
+  {
+    "assembly_sha256": "adbfbf4ca64cb75672cdc5c1da3bb8dc43fe59720d12cc659222a7caeabda18c",
+    "id": "8573f78e310b2ddc77091a51",
+    "identity": "13c56cc3a9da1d16c532fa9b8c60d45f401b8ff0832dcc2a8d20ebe4fbcc23f1",
+    "problem_id": "leetcode:3839",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "number-of-prefix-connected-groups.cpp"
+  },
+  {
+    "assembly_sha256": "970234321bd5530ff6909eca90a409daffffc63e342d12b89427ddb798b1ab2f",
+    "id": "8590625a77ade9d609f89489",
+    "identity": "7dc5a67f3988f1eddbad3d5dda39599b774d05c7af9d6b06fdb11f412ae9ead7",
+    "problem_id": "leetcode:1330",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "reverse-subarray-to-maximize-array-value.cpp"
+  },
+  {
+    "assembly_sha256": "32aca9a84ba756771f6422bb143174e9df100e204cbb40d208c362382dc7f791",
+    "id": "859345cff9a12c149b527863",
+    "identity": "72814e30bff98bd7bfc557b0ea722742afb1d0aaeb5b301b930b212401d88652",
+    "problem_id": "leetcode:3173",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "bitwise-or-of-adjacent-elements.cpp"
+  },
+  {
+    "assembly_sha256": "110e11e3a0560bf5e9dda005e0a2ff160befb05e0581ce49f7fb3eef6d5a0e84",
+    "id": "859799d6dfacab70bdab5800",
+    "identity": "c0b213f3fc7ca84c269ddb8a95eb3277b9236f69623c6bc77d627b8ebb6b479a",
+    "problem_id": "leetcode:1461",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "check-if-a-string-contains-all-binary-codes-of-size-k.cpp"
+  },
+  {
+    "assembly_sha256": "5fbf17f269c67eff7a3088466f20db7473321339167b48d7e9bdabda30af7168",
+    "id": "85d193a8bd7a65b0b08ccde8",
+    "identity": "644f0cbb370c5e278df65673bd76c6718db00ebad711b45915a1d5b102f3cf5e",
+    "problem_id": "leetcode:1694",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "reformat-phone-number.cpp"
+  },
+  {
+    "assembly_sha256": "3f7c37692d8ba7f150ebba14fd1c5682d1341a79317b0cd9c445d8876c31931d",
+    "id": "85f49139322653c0bec90a08",
+    "identity": "7865d1322f5acc098db0f95cced8dff359fa0cd8e648edef97ff9b9306f2cd08",
+    "problem_id": "leetcode:2420",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-all-good-indices.cpp"
+  },
+  {
+    "assembly_sha256": "49037ec82208153d69db10b22bcb689d4291722850139379908711cf4e559252",
+    "id": "874fea543dae120f9ee0cf77",
+    "identity": "cbcac75b5d172dda50945116264f3be12b1ad3ce5b1c44be76995f5bfa643d97",
+    "problem_id": "leetcode:3185",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-pairs-that-form-a-complete-day-ii.cpp"
+  },
+  {
+    "assembly_sha256": "68443a1b2beca28cf22c7a8f358310bee93baa4a6420241b34ee390626c5c209",
+    "id": "87b08b01d51a46ae7339ac82",
+    "identity": "7ebd46e96656bfb58f868a5a5942c76936b91e6ff2fbb506534a9acd0c75a61b",
+    "problem_id": "leetcode:426",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "convert-binary-search-tree-to-sorted-doubly-linked-list.cpp"
+  },
+  {
+    "assembly_sha256": "cd710401f25cc94331235f789add621d445668c47fa7f22cbd993e3a9bed8636",
+    "id": "88214552091d087a5e7f0258",
+    "identity": "494e33a0ad3e7aaa9b098faf006581758fa8cc48f686c15e985ed4080d6d29e8",
+    "problem_id": "leetcode:605",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "can-place-flowers.cpp"
+  },
+  {
+    "assembly_sha256": "a0e24285091939b97e8790a7ab7ca35ef0d9c1314907cfc6c8b00d33b0c22fd7",
+    "id": "899ad51a48a18baa3092533d",
+    "identity": "40b500042d4bf911dea919c3cc02c4e3a9514b08c1622840075ff98919d9aa0d",
+    "problem_id": "leetcode:4006",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-valid-prefixes.cpp"
+  },
+  {
+    "assembly_sha256": "32e3a6acc0c7c418cef0dfa1bb52f17b2608c952e6ed2682c2a302505ddc0627",
+    "id": "89b337f44564e46c9e27ddb3",
+    "identity": "56dc2565d9ffc4369f873fdb34ae5620358104d3b3af3aab5592ff57ebe66f75",
+    "problem_id": "leetcode:3730",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-calories-burnt-from-jumps.cpp"
+  },
+  {
+    "assembly_sha256": "0aa0a567b068084dd96c2b893a8d21d02f7b90a796c3b4b7ac49d3d35ca4029c",
+    "id": "8a4e62b7a23314cdecf44a4b",
+    "identity": "4a92dbb57675d8f216e1318162eda49c4a8a93575a1f8657b4c1647cd537cc06",
+    "problem_id": "leetcode:962",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-width-ramp.cpp"
+  },
+  {
+    "assembly_sha256": "880ee07b32b363b458a3949ea66c17f469e6dc155945669fbf4a60577eb8b598",
+    "id": "8b23f21ac7656f146ef3b0fa",
+    "identity": "9875b112bfec930380b0897289db506a0d802c5bcdb41813ead9010dd08f2c3e",
+    "problem_id": "leetcode:2201",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-artifacts-that-can-be-extracted.cpp"
+  },
+  {
+    "assembly_sha256": "8e9541da69b3ea4526d4c4d9cc98c6fcdd185257a9771e856cfd0978fcb23d5a",
+    "id": "8c0b06c20a3153a8f320db85",
+    "identity": "db5d70490273c8e27b2d16a3c4059571ca5003b896b3dd959dd07dfc7d342d4b",
+    "problem_id": "leetcode:4044",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-good-cyclic-rotations.cpp"
+  },
+  {
+    "assembly_sha256": "bc74279b472b82332cf42c74775ac4c24203875b510a48c2702eeab537552ef8",
+    "id": "8c6bd368be91db3f68561d7a",
+    "identity": "b57e2ca7c51fe727e81add1dfb55f782a32d203e2f1128a46fe8f1b2bdc7ab0d",
+    "problem_id": "leetcode:957",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "prison-cells-after-n-days.cpp"
+  },
+  {
+    "assembly_sha256": "69e8ab31c9559355d00efa2e97fc14a86f20c17ac1f76116b653e54c38dfd566",
+    "id": "8c807adc040245024ac48ea6",
+    "identity": "f5f7b5a7ff5ac9e48072d743e0c96269bc00d7e436e4206164766f7a1c4d77fe",
+    "problem_id": "leetcode:1318",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-flips-to-make-a-or-b-equal-to-c.cpp"
+  },
+  {
+    "assembly_sha256": "dd51b0db51ec6ee25ff5843057aa5ef535567ddd4761136fd4b5523b097943d9",
+    "id": "8c85fbc170220fd7a14d6721",
+    "identity": "55829ba9e593b9bbfc9c0d35af6e883b91b31a41da0b28ff312004d98a2f3626",
+    "problem_id": "leetcode:4075",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "longest-resilient-subarray-i.cpp"
+  },
+  {
+    "assembly_sha256": "3fc90188067050978422feb9c6a33bfc7809a93acd0d8f1b04090fe1b8529ff6",
+    "id": "8e414a56b304d9eeb081c9ed",
+    "identity": "c26be8f02f99627329642b0c8f75227aebde426ed0f41c376d8d87f650a8f2c9",
+    "problem_id": "leetcode:2587",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "rearrange-array-to-maximize-prefix-score.cpp"
+  },
+  {
+    "assembly_sha256": "a2cbf8dbdaff4b8c6cd45945013e2a0ed4ee5f0299b0e4939030030d667ef508",
+    "id": "8f094a1f2398b3994b340750",
+    "identity": "68bc3ad97d96cf6aae9652c2cc0be7c50ea009b3f39ad3c18f6599f84796a7c7",
+    "problem_id": "leetcode:2311",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "longest-binary-subsequence-less-than-or-equal-to-k.cpp"
+  },
+  {
+    "assembly_sha256": "5b60e66af5734099e2d026c554487a43ca09a078f720983d443b321b9dda9efb",
+    "id": "8f733b48ea337c38c5e12dba",
+    "identity": "f1a0ddd75b5ca3ba0c4714f2f6f6923caa8a91308dbb44f903728277b8847f66",
+    "problem_id": "leetcode:1425",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "constrained-subset-sum.cpp"
+  },
+  {
+    "assembly_sha256": "5b7f72be4aa8a32c61e2aa15c343b7224e251525d79301b92eb08431e90aeadf",
+    "id": "8f859b9f43b09c5308b1e30a",
+    "identity": "6102b6f82e1a6adec71d3c9da1e4606310bce804092ca6b5336fb714a6695c8a",
+    "problem_id": "leetcode:1437",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "check-if-all-1s-are-at-least-length-k-places-away.cpp"
+  },
+  {
+    "assembly_sha256": "4fcf3070d1fa8be3e95626875511060dae05b4fdbca78a8903d9a3d22e84f3d1",
+    "id": "9090cd4ffb1a88eb3e1413a3",
+    "identity": "703692c3780b29874f483f973ebb9aac2a567095802faa8e795a5bd72db937a4",
+    "problem_id": "leetcode:3038",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-number-of-operations-with-the-same-score-i.cpp"
+  },
+  {
+    "assembly_sha256": "97b2629d36c9d9459b712cc3c1558ea663728175f90def88423638c923c11e80",
+    "id": "90b5f02dca44f92ed84682de",
+    "identity": "bb84707e075bc89a7b123e00837c36d536b9ed42b37d64fa4c15cfdb0bd401b0",
+    "problem_id": "leetcode:438",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-all-anagrams-in-a-string.cpp"
+  },
+  {
+    "assembly_sha256": "25064206398bbfc014094841c37f9d0f2182ee638bbbd34fb5c697d29e066af9",
+    "id": "90c171ee92f9b153cde5ed81",
+    "identity": "0651e1fc83f8d07f651c75ea99436234ef8d4a88c0b6471e9e1dc360b8b6e68c",
+    "problem_id": "leetcode:1265",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "print-immutable-linked-list-in-reverse.cpp"
+  },
+  {
+    "assembly_sha256": "5e5e7ef0d0570d31c007a5ff9ed5ba05523225dba72a3a17856f5e6fbf512214",
+    "id": "915e1650bcdb2c03ce1d099a",
+    "identity": "8439f98df7f4797626a9be7bd398ce039b693d71a43361e6398f0ba03b04ac09",
+    "problem_id": "leetcode:2379",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-recolors-to-get-k-consecutive-black-blocks.cpp"
+  },
+  {
+    "assembly_sha256": "4b126078c71a3fa333463ec6baf37dea228949360d1bd52c7a523055895f3455",
+    "id": "9188c6ff3618fc28d521fac9",
+    "identity": "2641389a389fa44425f3d344423a96299e6c0406179d778ca2ed40bc2952fee2",
+    "problem_id": "leetcode:1554",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "strings-differ-by-one-character.cpp"
+  },
+  {
+    "assembly_sha256": "14c5c367fb5c205a759ad2a682cfd49d49d2da997e278b1e1e271935795b752b",
+    "id": "9193f6a0fb9663e05701ded4",
+    "identity": "c810f9fd7aa1b574caf3c425a23f637b47d68616f568c918503e04b94a6bb3d1",
+    "problem_id": "leetcode:1759",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-number-of-homogenous-substrings.cpp"
+  },
+  {
+    "assembly_sha256": "497e4c421d8d45be2235c01e4684f29629ec593f14c519803ae7e859c36e4886",
+    "id": "919f43b43d2751fca4b24d59",
+    "identity": "63de0e96232124de1580fb199dd8c2a100be935a71e3b338501a8ef126936687",
+    "problem_id": "leetcode:657",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "robot-return-to-origin.cpp"
+  },
+  {
+    "assembly_sha256": "a53ec476f8238f04ac864eb3d990f37dae01d12e1f6154e2a03ff2396cbbb14c",
+    "id": "920a7f7e38c370c961b3c905",
+    "identity": "3de4736de1b7e03159c45f2d1b037ecb95a6b4e54cadcf288b1e0b9de4f930eb",
+    "problem_id": "leetcode:1714",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "sum-of-special-evenly-spaced-elements-in-array.cpp"
+  },
+  {
+    "assembly_sha256": "7ffc8b21e27a08c0274457f5606d4ceb37b28e864338bcba75003ed4046bf2f6",
+    "id": "9276dc17c25665e9c95035ef",
+    "identity": "b4774771a2fa0d16afdedd859783790fe85000cb2db1c05a963501147b05b7f6",
+    "problem_id": "leetcode:2734",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "lexicographically-smallest-string-after-substring-operation.cpp"
+  },
+  {
+    "assembly_sha256": "0ad60a5362cbed1927893d86b18beca7ced0235ad126fc5356ae638d2598370c",
+    "id": "92c920102b9aaf58365ede17",
+    "identity": "55b18718f90801c26ab64875e56cb009557414e1bbc49b258b62c01176bebd7c",
+    "problem_id": "leetcode:555",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "split-concatenated-strings.cpp"
+  },
+  {
+    "assembly_sha256": "5d8bedd08a12eec528a1a75e53bd32adeb09a6a25bd6b7c3659fbb4406444a0d",
+    "id": "931572253fb2f523ba32e316",
+    "identity": "85b49b20ea3e695ad61684a30ab04a3cd65dcba95d76e5023b2677bec4169952",
+    "problem_id": "leetcode:4045",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-robot-groups.cpp"
+  },
+  {
+    "assembly_sha256": "e91ebe05a3e70bda44455bd249554e52aa8274efbcc88584955234096ec7e4a5",
+    "id": "93a08e7529bc668b5be3830f",
+    "identity": "380e1a4924731de0b266afa58817d5633de66777ccdb60937dd156c498b6b757",
+    "problem_id": "leetcode:167",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "two-sum-ii-input-array-is-sorted.cpp"
+  },
+  {
+    "assembly_sha256": "a6c009108ee7913ee1f1e52d3fb156ff0c19f9b3237f947afd77e9d053f2242c",
+    "id": "93ae0513cc8f439fcdf7259e",
+    "identity": "6dd7bec1af67852df448a17b65d3866339e371191adf6bb6755487eb7b04ad2a",
+    "problem_id": "leetcode:3362",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "zero-array-transformation-iii.cpp"
+  },
+  {
+    "assembly_sha256": "5e0d981e78eb104fa7aab1dcf9365302c699d5810737038328add14dae8bb06d",
+    "id": "93ff82c1c253692c7f501666",
+    "identity": "2692d11cf911c2ae6be75dca171ad1a76d4a1fd038776833aaacdf1271fd2594",
+    "problem_id": "leetcode:1817",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "finding-the-users-active-minutes.cpp"
+  },
+  {
+    "assembly_sha256": "eb5cf6f5fdb17686a2a343a7f12ff464d40415cc05f9f53b736bbad7da247a50",
+    "id": "954d66f1e10f414bef474961",
+    "identity": "24886aac70c4e81cccd4b4f57d904d98f277dae4027ed42caceedc73c994abcf",
+    "problem_id": "leetcode:2189",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "number-of-ways-to-build-house-of-cards.cpp"
+  },
+  {
+    "assembly_sha256": "26ee51df2a29fa17b3b8545ad1ec6de039dcbf8267b425c74eebfa5da82f03cf",
+    "id": "957b313c82cd63bc0f70a027",
+    "identity": "75e0efa6a8eaf970117cd7c14ea2ffa99a8df2adf1c1966d93b4e8c4d1cf4eb0",
+    "problem_id": "leetcode:2728",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-houses-in-a-circular-street.cpp"
+  },
+  {
+    "assembly_sha256": "8522b2f5c876604617ef0f95561f4728075dfa881f13a7c3af33e64de34a83a8",
+    "id": "95d6f9121945b94fcf591501",
+    "identity": "d73bd98317d7aec86d4591a79d566e09eb401e4101d7af829cfbaf49e9c055ae",
+    "problem_id": "leetcode:342",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "power-of-four.cpp"
+  },
+  {
+    "assembly_sha256": "4924815d98ec9b0fdcee96423552f222442deb469a98056a655d0a7a9dc9685f",
+    "id": "96dcb083e52ff0f10667c776",
+    "identity": "5dc8be4951ff9771ba576bd587b52ab4de84f1a233e069225879d27ca062b638",
+    "problem_id": "leetcode:539",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-time-difference.cpp"
+  },
+  {
+    "assembly_sha256": "400ef26eb6306bd592215dfa08cc81b6ee2b5e28039857890967d3e9e0fabd5e",
+    "id": "97cc7ef295142d5f44a13bc7",
+    "identity": "25027f47933a4b55567a00af43c886da1074a53bc6d77d43f9d7ecebfa51275b",
+    "problem_id": "leetcode:2050",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "parallel-courses-iii.cpp"
+  },
+  {
+    "assembly_sha256": "8bac6f63891822dc4b3a648aa84d376387b9a6e46229668c0000d97a9631515f",
+    "id": "9818fbbd8c236e7c3098c2f1",
+    "identity": "5cc157b161d6e2906edfd1f1e64ef87703a9e6c2b9eb1b5a0c64ea68ab90ecdd",
+    "problem_id": "leetcode:3922",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-flips-to-make-binary-string-coherent.cpp"
+  },
+  {
+    "assembly_sha256": "aaa1e8d88431325268d1b7d314ede5ab331cef0db09830d4f13d50ab5713b8cb",
+    "id": "987762e097e41f88cba3d071",
+    "identity": "e4b6259660df5760cd629811f4304f8a3082d5115cf213c8b334065695400374",
+    "problem_id": "leetcode:3363",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-the-maximum-number-of-fruits-collected.cpp"
+  },
+  {
+    "assembly_sha256": "52bf34727ed5ff175324859449555e56a31586f998b691c324171b85dd8a69b8",
+    "id": "991d48bb1db374b996d189e1",
+    "identity": "7ab30e650036ef550a6dc5cc78d0f7e3cb50a87bc25ba186b26940222aacc731",
+    "problem_id": "leetcode:329",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "longest-increasing-path-in-a-matrix.cpp"
+  },
+  {
+    "assembly_sha256": "60db94f5e29d79f1839ecf078af33bfda80797cc696cf0dbeadadf83e4375b64",
+    "id": "99ee05c7099e4c3eee530810",
+    "identity": "247d069d03cb24d622789d72f4e32cbcab50861ad5aa8be81d03e9316c3c1eb8",
+    "problem_id": "leetcode:442",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-all-duplicates-in-an-array.cpp"
+  },
+  {
+    "assembly_sha256": "cf841b53d37d50da0e5fc3b84458ed5a79ea7aa11cb57b88d18448f423f4a00b",
+    "id": "9a80486d7df9cfa8d036e9aa",
+    "identity": "e89714940262276e9d346aea7e09e4cb139bc50b9bf52d7f3791b5cae6a9a268",
+    "problem_id": "leetcode:3330",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-the-original-typed-string-i.cpp"
+  },
+  {
+    "assembly_sha256": "31531ac2a6ff430b32053521728619e8878eda1c351537b68f1b8c9ef4b25f33",
+    "id": "9a81e052858a8db9304a470e",
+    "identity": "ed63f1987cd05548d95d3308dd020830f2d9eabeb7e8f556c94de7ff1f3e4511",
+    "problem_id": "leetcode:1277",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-square-submatrices-with-all-ones.cpp"
+  },
+  {
+    "assembly_sha256": "f5712a0fc3bd0711301a23cba3db16d89e30b6b2b5c5742c3ade470db1d79e40",
+    "id": "9b2544d5ab7da7adf4d96383",
+    "identity": "f16b73d1a04aa06ab2282e0cede77d12a33cd596194899b978f69dbba22b876c",
+    "problem_id": "leetcode:2610",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "convert-an-array-into-a-2d-array-with-conditions.cpp"
+  },
+  {
+    "assembly_sha256": "df6bb128195498e3c66d24f2b17bb76e0547857b103c4092ee48e42f78c9db51",
+    "id": "9b4c3e6e68abb445f7835f13",
+    "identity": "a2ce6eb24087549bbf16a9896651d8930624a1b93fac8ec907d5a77dac98977c",
+    "problem_id": "leetcode:391",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "perfect-rectangle.cpp"
+  },
+  {
+    "assembly_sha256": "f0315b8cabb2fa368c9d57b5c3db3090a07cfc17989986d14c0ccc9f37068932",
+    "id": "9b501aaee06bb1e455d8c312",
+    "identity": "9a2ce37a1135ad85eb7059480d14d6df8b8c0f9fea72867e2cedb061e375b14a",
+    "problem_id": "leetcode:3009",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-number-of-intersections-on-the-chart.cpp"
+  },
+  {
+    "assembly_sha256": "eec481cd8e3476007682ff68ad62b691afff0032a5aac4ad1f13d6bc5770c726",
+    "id": "9b736897030418badb668d0a",
+    "identity": "d4387a38a4bd0ff17cae378e70d306e521c80637cfc51f9dd64a436453a73ca9",
+    "problem_id": "leetcode:142",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "linked-list-cycle-ii.cpp"
+  },
+  {
+    "assembly_sha256": "e7302b02cd1ecd04c2b217de6c5ac61fc8e1af9d816e114aae061af970a2e300",
+    "id": "9c3042c618129a6136afde56",
+    "identity": "f949f97310ee259417d1f201c1e62a578dde5160c5c8ca33dcf48a3ed5d027b5",
+    "problem_id": "leetcode:819",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "most-common-word.cpp"
+  },
+  {
+    "assembly_sha256": "86213a1283f533d52e571d60a597ef73850558e897d0c7265874c5d20db817f6",
+    "id": "9c5ced046bd41a7c7c6d5b08",
+    "identity": "55ac5a249ddf313fc69cb31c8cd795c9033039a9eac703e912a12b466e01defd",
+    "problem_id": "leetcode:2032",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "two-out-of-three.cpp"
+  },
+  {
+    "assembly_sha256": "6bf43d157e0731fb745e233b10a5144204a583fdf7b4d061fff45b88d0a67d6b",
+    "id": "9cdd8c1593662317d37f9740",
+    "identity": "a8d37edbc85fc51f844ddfe34c2ddaeb28fd42ec1aad799233e33bc66ba02c9e",
+    "problem_id": "leetcode:3418",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-amount-of-money-robot-can-earn.cpp"
+  },
+  {
+    "assembly_sha256": "a1241c6a8648773decca3f7e42146866c1507976018f06202ffe4e4d795bcbd7",
+    "id": "9d9d5fcf807dc886dad18f4d",
+    "identity": "d84f2d0feca85bf5ff0ee8497b08072094ef7fe93d7b72282952facc7ec8efae",
+    "problem_id": "leetcode:3890",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "integers-with-multiple-sum-of-two-cubes.cpp"
+  },
+  {
+    "assembly_sha256": "0ebe298a83e5a24129e6e22a5745907ba190732a5bc943ecd0ffee35b4142d9e",
+    "id": "9dc5de571019db0273090cc8",
+    "identity": "b979e6d1ca7bcd05598ac330ebd3c8786506eabae3ced96024a4460a91998d81",
+    "problem_id": "leetcode:1493",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "longest-subarray-of-1s-after-deleting-one-element.cpp"
+  },
+  {
+    "assembly_sha256": "4d2281a2dc8221bc52ebaccdec2a0bcc6698d8bf32e9e9e56c9b5c996459e44e",
+    "id": "9df98412da93cf59c1c5fa2a",
+    "identity": "51de5801a187cb5b5f230913874aa274d0f900f1260d790476429c1d2ab7fbbb",
+    "problem_id": "leetcode:1523",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-odd-numbers-in-an-interval-range.cpp"
+  },
+  {
+    "assembly_sha256": "b377326c7ed5aaf699f829487c05ce823c98dca457d09cef44d1e9e32ce308d2",
+    "id": "9ed36944985fd157cc504397",
+    "identity": "22531c17f698855798af1faef4289f4e2496300e6bb90d27cda77d0ef6097b24",
+    "problem_id": "leetcode:482",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "license-key-formatting.cpp"
+  },
+  {
+    "assembly_sha256": "c25f50788b1f260aa497a6df4765d6fdd3215e20d93ab5c90d809b546fc20960",
+    "id": "9f16781bbba94b5f854608db",
+    "identity": "2713bb98295fe1c93ddca9c7b615d32f642deb24d8d71fe25f0d3c60c565461c",
+    "problem_id": "leetcode:3738",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "longest-non-decreasing-subarray-after-replacing-at-most-one-element.cpp"
+  },
+  {
+    "assembly_sha256": "4d08dbc766afb57490b6a06f1e763162288e752a78f6d6748544888ba6aa8238",
+    "id": "9f58c7ddaf1c3bacda423575",
+    "identity": "9cf0e429827bb02ba894a830fdb04a9035c6f2dfcc5386188af7e91ccc573f32",
+    "problem_id": "leetcode:3171",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-subarray-with-bitwise-or-closest-to-k.cpp"
+  },
+  {
+    "assembly_sha256": "e2d718a4abf1b6de166dd0d15e34e30f1d450e5d3b1f7551c1d43f3d9cec7beb",
+    "id": "a0169176de24ad3bce10e04f",
+    "identity": "a07227e2637d0ff2a4c02dd50531d816903a8a878a26ef797719a5b88e8ef4ea",
+    "problem_id": "leetcode:135",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "candy.cpp"
+  },
+  {
+    "assembly_sha256": "ca1273e51b2ca2516fdae239bc4d2dc8b82584da77ea096d668eb5c2b04f84f5",
+    "id": "a0a3fdce32926cfc133d4c51",
+    "identity": "1c7ecc75f256c31a78cda9245f65d5d807730fb2dad02e0fb652ffb2b5a60f0e",
+    "problem_id": "leetcode:2844",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-operations-to-make-a-special-number.cpp"
+  },
+  {
+    "assembly_sha256": "ad29f39ddd2700c0dc81b8f37caa785dd0f9add4a614583aae7f79121d9752f0",
+    "id": "a132b308fdbb5dc606d20d3f",
+    "identity": "8ee7830a4162f1e1e2ab9d68d7db455a46901a61977701b70d0db0cea5ffd0b2",
+    "problem_id": "leetcode:1726",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "tuple-with-same-product.cpp"
+  },
+  {
+    "assembly_sha256": "df84201c9beca793e1dfe516e069bf30e788a25f644a45152996f5628b97965b",
+    "id": "a16b80b1d030d38b786390a7",
+    "identity": "5f99bfe16082db0cb1ce3d9866f31d96a548d4632ce5412b781e317043d4bf1e",
+    "problem_id": "leetcode:2930",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "number-of-strings-which-can-be-rearranged-to-contain-substring.cpp"
+  },
+  {
+    "assembly_sha256": "cfbbfcf62fef86c001e049ee09dda921125c5e846c77d60c7aa00dbfc1a58e1b",
+    "id": "a18a0c657a0d8e61af330ce1",
+    "identity": "dbf4bd226ccfbe4c79b2badcddd04b2fd973df9227fe68524769c6706815a301",
+    "problem_id": "leetcode:1521",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-a-value-of-a-mysterious-function-closest-to-target.cpp"
+  },
+  {
+    "assembly_sha256": "ae07f9cc1f6d2d0a2ee7616389e8d8ed5912fa2202dac1a25aa4e546c93a71a7",
+    "id": "a190d4dfb14ceca41138a437",
+    "identity": "f043b5272658be5d4a5fd95db98c44c40e6e4375718287becb08c9b531f70b4d",
+    "problem_id": "leetcode:3021",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "alice-and-bob-playing-flower-game.cpp"
+  },
+  {
+    "assembly_sha256": "6a1cb8185a6700501cc80bc34a77cb49660bc46172c944e86d7a5cd103b677dc",
+    "id": "a1a34eb4ff31b8fda8526f54",
+    "identity": "58edb84e88e342e5c6a6019827f71321e6cfa928a3543470a4dc5bddf84f8000",
+    "problem_id": "leetcode:810",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "chalkboard-xor-gam.cpp"
+  },
+  {
+    "assembly_sha256": "2f55c9c2e33d8ba3c264fb38297f853e16181eb988ca2c80062c7718825a66e2",
+    "id": "a1e76ff4c0f727484f719dd2",
+    "identity": "c32ccd303247c47758c38a4c6aabea2df781912abccb7ea5a629d6fa0fd0bcf5",
+    "problem_id": "leetcode:2197",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "replace-non-coprime-numbers-in-array.cpp"
+  },
+  {
+    "assembly_sha256": "ce986b3cbf8554717b2bdbf4371b1bec7acbb1931d40bec80df3901c1facfbe8",
+    "id": "a2c24cac348faac6f9b40402",
+    "identity": "f506e88dcceb1110e785a193b7f5ce4c52e8a2094d992fb6847a6363a33e452b",
+    "problem_id": "leetcode:640",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "solve-the-equation.cpp"
+  },
+  {
+    "assembly_sha256": "8827cdc1df77a1e8ad2ec17c908cea6ef5f4fda36b621d3390d02ea06362539c",
+    "id": "a320d926eb438f4e458a52f1",
+    "identity": "c9751bf144a538a395538f83f14b34a7d34bfd63d98c01230a79e840d85b697e",
+    "problem_id": "leetcode:1839",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "longest-substring-of-all-vowels-in-order.cpp"
+  },
+  {
+    "assembly_sha256": "d8a32b958be372bb06376fba093aaf9004beed99ea7052bc4c4a6b6d2f666db3",
+    "id": "a34b42dbb7944ae68718d8e1",
+    "identity": "71a3b3d6f246d53c2e01df870675a1a584dc75c8b61083e4bbc6fd364bb5418b",
+    "problem_id": "leetcode:2181",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "merge-nodes-in-between-zeros.cpp"
+  },
+  {
+    "assembly_sha256": "3528c81fba24956c93d04904002d0fe7d78dd17da1bd63a767cdc923bcea2114",
+    "id": "a369deb0dfecb55814909faa",
+    "identity": "4960f00f09c60cb255ec07325a4979d583093868215867e55e77c28ebf66ef9a",
+    "problem_id": "leetcode:3141",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-hamming-distances.cpp"
+  },
+  {
+    "assembly_sha256": "b57ddf7ccb528c439f93dbf0948c6fb82862423fc7ef4692dd3f732e5bd4f8d5",
+    "id": "a50cdcf5bde1f42bde7dec35",
+    "identity": "ec355e69907b7cc64fc75dded9fc7b60db766b4a3df791e70d27a32648a96a68",
+    "problem_id": "leetcode:1909",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "remove-one-element-to-make-the-array-strictly-increasing.cpp"
+  },
+  {
+    "assembly_sha256": "9e3dc5a7ce72e6a81f3af02962bb0244555f77c36fc0ab1fc937f01b49dbf482",
+    "id": "a51c5c6f01baa9fda98bb12a",
+    "identity": "fe6f87a0998cd7f34e7d2c6e03ba84e1c40434c36ffd9a84753fcaa10316b5c4",
+    "problem_id": "leetcode:753",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "cracking-the-safe.cpp"
+  },
+  {
+    "assembly_sha256": "b8783fb44cdd0c5f2d0e52467dbb26d3be9509d51819f2f9b6684c144fda045c",
+    "id": "a63949900be0d41a81094b5c",
+    "identity": "d3a311d6209cff10d1b9e6170c78d1cabd78ee4179e3cab5d81efabf4014d1d6",
+    "problem_id": "leetcode:1343",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold.cpp"
+  },
+  {
+    "assembly_sha256": "74aa22f7aab0566129a55190dbfa35547845db777dc3980dbd65155f0c0164eb",
+    "id": "a63b3f53c5f0664778ef5ada",
+    "identity": "161fb28641f120f97de2413c7a690492c0fa6f1c1752e4dc72777d1952b6de7f",
+    "problem_id": "leetcode:3043",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-the-length-of-the-longest-common-prefix.cpp"
+  },
+  {
+    "assembly_sha256": "1c1f1924dd1abb7fae6af0bf46812706d9d569a0a3d8255019faffed7cf81c22",
+    "id": "a63c22a703af4aedaaed8fb0",
+    "identity": "f5b2e009cb92536ba809b4eaf7752938285b51cebc2bcff790e2f7da95d74a1c",
+    "problem_id": "leetcode:97",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "isInterleave.cpp"
+  },
+  {
+    "assembly_sha256": "97a7d400c8a517be68bb6038f245ff915a5ffa8a08c53562559e65bae5ff405b",
+    "id": "a685ed648e0265e9dadf55f7",
+    "identity": "4b37470327bcc79e8b3aeadb7803603e69770fb9f5e00533570bb86426f3c75d",
+    "problem_id": "leetcode:1547",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-cost-to-cut-a-stick.cpp"
+  },
+  {
+    "assembly_sha256": "bd68f474b6b659f44ec377fae92f9f067ccad9a7a175fdf5d692ace40bb0edab",
+    "id": "a7841250404c03ae51991487",
+    "identity": "fe99b4329c69b6577c4c68f258def54707e7cad3a6f74f5cca86ad63e66166ca",
+    "problem_id": "leetcode:1548",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "the-most-similar-path-in-a-graph.cpp"
+  },
+  {
+    "assembly_sha256": "4313497b09bdba5df4d6c6476677af0cb3f8b4778462a25fa78e885392896e12",
+    "id": "a81e74e88fb4d388f5de786b",
+    "identity": "b054aa0ea20415a0494d9cdc3f32c1cbac7201ccc0e706a830c2c76b9e0aa2fa",
+    "problem_id": "leetcode:3864",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-cost-to-partition-a-binary-string.cpp"
+  },
+  {
+    "assembly_sha256": "eb5b61067b913040bf6ccbefe1852c1049345476dfb749aa042fdb0f003917cd",
+    "id": "a93bfdc149f2a98eb5175296",
+    "identity": "d3e1a86fed494e5adfce53f44030a25117231c6bdb9798b4c339e15946235104",
+    "problem_id": "leetcode:3644",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-k-to-sort-a-permutation.cpp"
+  },
+  {
+    "assembly_sha256": "8a1a1a9ed62dc43870693bd7ebebfa8c5ca44df1ce1ea7140195d7d7a2200ce1",
+    "id": "a9eec1a17005559bd2fac43c",
+    "identity": "be10613b598dd4c2bb6a9d3a37252c791fe9c7dbcc5ce303cc6c2814a1f4a013",
+    "problem_id": "leetcode:448",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-all-numbers-disappeared-in-an-array.cpp"
+  },
+  {
+    "assembly_sha256": "bc9c5161c7a1740b386cf01bc5d66c7b29a71ccfdf6e8a453f258cd22100240d",
+    "id": "aa1265b58ee84dafdf1426db",
+    "identity": "e339e33570890af427fd0a115f11d2eface7def03b44a0f08a47f26955f74192",
+    "problem_id": "leetcode:1416",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "restore-the-array.cpp"
+  },
+  {
+    "assembly_sha256": "384e9707a3928f01f57a22b843ff5e95c05f3e92c3c6d89ce7a940856d97cc15",
+    "id": "aa992df76c80e6fe20e4460b",
+    "identity": "741f237b187db2ce0cba1c5f89b7abf49d7cb2a79d588544a2129a54a1a320af",
+    "problem_id": "leetcode:1991",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-the-middle-index-in-array.cpp"
+  },
+  {
+    "assembly_sha256": "7a2b38301fc95ce364b09a8479a16b3d52e95917861a50bd36b381e68d297fa5",
+    "id": "aaa55e79f121a397e0e302ea",
+    "identity": "5d156aa3cc007eb96164182539cea1a2390c5d8dfa6cbe0136df814719082fe6",
+    "problem_id": "leetcode:3190",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-minimum-operations-to-make-all-elements-divisible-by-three.cpp"
+  },
+  {
+    "assembly_sha256": "9ae161b59a6fb4a663d519f197ac984cb6fd12c363d4e55fda68698a48509b70",
+    "id": "ab4cb82dc826cee259e52b15",
+    "identity": "b61e76bfd7dfa362751488fab2529512e80a449d16c03bfa7de0bab58574e674",
+    "problem_id": "leetcode:162",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-peak-element.cpp"
+  },
+  {
+    "assembly_sha256": "4e4dd1e1d9a1410cacaf37cea8a2f212dee365f7e30a9ea92758e4d812d4f389",
+    "id": "ab9c5aa62f66942d3ff4b637",
+    "identity": "def090dd2917f56caca8f26d1b6e601ece8b225a856b6d9c71a3b603466cb642",
+    "problem_id": "leetcode:2859",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "sum-of-values-at-indices-with-k-set-bits.cpp"
+  },
+  {
+    "assembly_sha256": "a40842e0e445a992a9c75b9dab67b40db7f62e26705c2288847d7ce9ea9fff9c",
+    "id": "abc41da47122c5ce07950a86",
+    "identity": "04b8546af8b6e437fc1b8e795eec3c753a798efbe735191a378ef3dc86c7a39f",
+    "problem_id": "leetcode:1401",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "circle-and-rectangle-overlapping.cpp"
+  },
+  {
+    "assembly_sha256": "0129825d99d1d042d440880a0d260bd21f648e54eb5910cd55fc54906e851d95",
+    "id": "ac4be160c91fc94b185752bc",
+    "identity": "fc1f226c427a8fab33dfb466ecbf8df3489a0602eb6c58211c6c75d06d49d434",
+    "problem_id": "leetcode:2773",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "height-of-special-binary-tree.cpp"
+  },
+  {
+    "assembly_sha256": "9d9b4e14c979c0f44aa8782eb6ac7d00df181afcca7096bc0b7ab83687c99f3e",
+    "id": "acd4b0e44e0f7872e62379f7",
+    "identity": "0921e60992826ccef77db599ec388ec47295328c2db0d2041c57fd0012ef957b",
+    "problem_id": "leetcode:692",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "top-k-frequent-words.cpp"
+  },
+  {
+    "assembly_sha256": "4e1c53cbf73fbc5e2fc509bf71f380569a07b8391cf1dc2b4c78d441b42da42e",
+    "id": "ad3250de507c3c31f009260e",
+    "identity": "1116d5b12cd37a4b60f19bfd0b6e8c83ea93b0d1a4e9fd517a20b4265278f2df",
+    "problem_id": "leetcode:1887",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "reduction-operations-to-make-the-array-elements-equal.cpp"
+  },
+  {
+    "assembly_sha256": "c2b390fac1d7c3f94c8bb201c8ef59cdc49e4449d46de5f1b5bd8eb3d1e31717",
+    "id": "ae9bec81f12f499a97ad3310",
+    "identity": "652b0d2782d3f864292bc407cac73eedb693eb9436a61ab3b4c1f94daa0e469d",
+    "problem_id": "leetcode:1610",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-number-of-visible-points.cpp"
+  },
+  {
+    "assembly_sha256": "e8885690a807b02f6156f0f1d104ded8184b22b72504beee8011bff6a6e9b877",
+    "id": "af298869b397f1d90644dafa",
+    "identity": "ed910e4a48cd10e9fd77bf3e199b6fe1880ae64eb8457988ae3a743fc1a6bd48",
+    "problem_id": "leetcode:759",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "employee-free-time.cpp"
+  },
+  {
+    "assembly_sha256": "f17b95b84de31467920f3517fd68d61b8607b3d8e32702a6a8fb0f08920c8f8d",
+    "id": "af55f493a4c6c6003b1c4f04",
+    "identity": "9ff5f7911919e61ad2e0491f6d801ab0f8227a3c1f6af2edbdb4696c2bf27ee1",
+    "problem_id": "leetcode:3304",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-the-k-th-character-in-string-game-i.cpp"
+  },
+  {
+    "assembly_sha256": "c086a6e2c68b1e4cdc3f06b35e6ed86480c18c4b3d4f0f54f8b4336e51361e51",
+    "id": "af95febab8e00088c51c9568",
+    "identity": "17ab7ff4b5d3771a0010caf099cc40c4537172ee4ad85cadd6e68cc653e3fde5",
+    "problem_id": "leetcode:2788",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "split-strings-by-separator.cpp"
+  },
+  {
+    "assembly_sha256": "257e679689c84d9e5f12342abeaf4f60b3fd8d777afcd7c01ad2a346731ae449",
+    "id": "b0146742eb6e4318760ac97d",
+    "identity": "0dcb8e27a51557049b23489ec2d5ba0948170167e0129becad65cbd48a798c08",
+    "problem_id": "leetcode:3007",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k.cpp"
+  },
+  {
+    "assembly_sha256": "8e83e8742eafb554e1dae94c18db30f34f2348b1fbd04e8195d480fbf8c151b4",
+    "id": "b04e86fda139ae6d411f144f",
+    "identity": "0a32742c89e5eee45be7f56b70647cf5f7fa55530e2aba0a9c6a6d4d543c1a84",
+    "problem_id": "leetcode:727",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-window-subsequence.cpp"
+  },
+  {
+    "assembly_sha256": "4f3a78bfa58d18d86ac24d17f972b4abdc35d0b840a5a75a549d6ca958384a1f",
+    "id": "b06cd96e8fd40e41f72c1a30",
+    "identity": "e8f3eb868572d0b47ae9b15bd69925ef3eeb0494ac4d6385b98b88c542651300",
+    "problem_id": "leetcode:2750",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "ways-to-split-array-into-good-subarrays.cpp"
+  },
+  {
+    "assembly_sha256": "5511191fe7b5a8017b2566566c6a6b0bb61f1422c71df3e8c22314f4c505b729",
+    "id": "b10e27cad01a020038c3df1e",
+    "identity": "a487665713f76fa21c132a02bc31e1110f24d1263e6a5e72a6e3e6c712480be2",
+    "problem_id": "leetcode:2680",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-or.cpp"
+  },
+  {
+    "assembly_sha256": "062cec2fa6f6c9b804a878389a67a97a3a868f8f31bf5b0f9d10d1460057650f",
+    "id": "b25d35a2f8bc7f901215788e",
+    "identity": "368064d024a314c36c6fd49a4a92ce66944426687324f208916e2133bc26a524",
+    "problem_id": "leetcode:383",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "ransom-note.cpp"
+  },
+  {
+    "assembly_sha256": "ebe621ddc1761109d54301afc647e0bd14fb6acc9c7fdefd6fdfcd8e266f8029",
+    "id": "b2d603c32be6a15046fe7e4d",
+    "identity": "64a77c28836799c13f6db9ccaf3cce54a334d341dd9f4b8f296cc0f216f6fc6b",
+    "problem_id": "leetcode:2303",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "calculate-amount-paid-in-taxes.cpp"
+  },
+  {
+    "assembly_sha256": "e6d6df2f3453c7758b0a68f96d87b19502f558590d73acc7cbcd209196390c52",
+    "id": "b301b9e213b5f2ed4bab7505",
+    "identity": "825ea003fdee4697ac21d4a83c2d9333677d41629d63003d835bf692304b3a2d",
+    "problem_id": "leetcode:1608",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "special-array-with-x-elements-greater-than-or-equal-x.cpp"
+  },
+  {
+    "assembly_sha256": "90f2fc63ab25a358ac03b023506d146efb37411ab5e10306e50510128372f59f",
+    "id": "b3cb9700a351fe33b2587fe4",
+    "identity": "5acc9300bc05a26b99cc49e2d37b8d927113cc88d3ac34d8c12233f81e391ef2",
+    "problem_id": "leetcode:2283",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "check-if-number-has-equal-digit-count-and-digit-value.cpp"
+  },
+  {
+    "assembly_sha256": "e5bf5d624d7e5bca77675e105ef8d0e6668b55cc582515f7cb690ae86feeac3e",
+    "id": "b4bdd69459f5a4bb56ca11fe",
+    "identity": "0fa864c27b6cf0ef4b5236d4db5031c0124a77284d78561f3cbfbe20eb7f7f6c",
+    "problem_id": "leetcode:849",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximize-distance-to-closest-person.cpp"
+  },
+  {
+    "assembly_sha256": "8736af212e62569f8663a4dac18439da8290597f38a67df901fe08290cf72135",
+    "id": "b4ffbdddd03c3879621b03a9",
+    "identity": "8b8ee3dc2ed4b29aa5df1a098e7140f7ecc8bf9fc2d72dc47ec28bd51d6d57a3",
+    "problem_id": "leetcode:1540",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "can-convert-string-in-k-moves.cpp"
+  },
+  {
+    "assembly_sha256": "0f3d0348c585467a1738be24da6458dfb7e020ed5d5c8b51ff0f6e1ce1b29aa4",
+    "id": "b51a78a7281ef89f035d6b8b",
+    "identity": "3c0da58704c25bba838f2941460207bfe7abd6883167167657e640c774ffca3b",
+    "problem_id": "leetcode:35",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "search-insert-position.cpp"
+  },
+  {
+    "assembly_sha256": "59c8ea52c693dbbb67ce550ca9c75d0bc8b2c434b5c37c1e00bbbd83fc14d642",
+    "id": "b53b4a87bdecf95f7140e41f",
+    "identity": "1ed01532fc81743ef7df4b61912f05111c15373b1850ea5c64adf7a085608c21",
+    "problem_id": "leetcode:2516",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "take-k-of-each-character-from-left-and-right.cpp"
+  },
+  {
+    "assembly_sha256": "673586a50d891b013c32d5e351173a68dc5b4ef8df03e73e76939b70181aad6f",
+    "id": "b56c4a8866586d4060fc9a0b",
+    "identity": "e4aa886b0a634641e092305ede4b19110424aa9b56bf595f235d70d4d5316d35",
+    "problem_id": "leetcode:3747",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-distinct-integers-after-removing-zeros.cpp"
+  },
+  {
+    "assembly_sha256": "639d5d4eeb8e857c499438221501f8646d47e260c7c3a1b1af070b6b9b50af68",
+    "id": "b7682835bcfada214cc8498f",
+    "identity": "ce3f9dd5a02207c57035802654a7b0dea7ef0174f06b1c8b4bb69cbad8383bc1",
+    "problem_id": "leetcode:3643",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "flip-square-submatrix-vertically.cpp"
+  },
+  {
+    "assembly_sha256": "f931ad38a12ad2b5d644e92115148f952d5f9c10af73e138dc480b6654d3b473",
+    "id": "b8a11367f3a1c234fc55c9c4",
+    "identity": "35edc22bbab75f079ad7b1d71fa6d6dc3978d42a2f9a40f5d1726915cae8f8b3",
+    "problem_id": "leetcode:1861",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "rotating-the-box.cpp"
+  },
+  {
+    "assembly_sha256": "dd7f20c61e330219d7b38b3cb3b6c01303b69c699af3b718c1c5a75c0e0bd567",
+    "id": "b9445ea16cb8cbbb6ed3c373",
+    "identity": "a1be71175569d0ea46b329384df92a6a677892dd7dc9b4c6730534e1ec9568b9",
+    "problem_id": "leetcode:2511",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-enemy-forts-that-can-be-captured.cpp"
+  },
+  {
+    "assembly_sha256": "bdef4316cd2db7d1c0fb734287b6677b2c342974f01755709aa7d3886e9a090b",
+    "id": "ba08be39150f36a59c525279",
+    "identity": "c1b470787346c19c24fc5312592de1e56efebfe6366e3fd7cbf59286c7380ece",
+    "problem_id": "leetcode:3627",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-median-sum-of-subsequences-of-size-3.cpp"
+  },
+  {
+    "assembly_sha256": "5ee2b7fc27d13577ae5cc3f4b7d673af32b1400c74960512406e5b0b3efda18b",
+    "id": "ba97f23edf7ea07bb12da765",
+    "identity": "9c3e716b7065315fc3a94f83e3dc0b53f6227e2d34916e5d7677e8bb830bc8e8",
+    "problem_id": "leetcode:2249",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-lattice-points-inside-a-circle.cpp"
+  },
+  {
+    "assembly_sha256": "f5d92dd7072cc251ac604df52b9d79b22ecd1aaa548c987248f9863c11b03c3b",
+    "id": "baad0c04538384394a3f4d4a",
+    "identity": "0346263f72170347aad39cf4d9028f88e9a7ba2c0ff049cfec5ec061c40d369a",
+    "problem_id": "leetcode:1413",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-value-to-get-positive-step-by-step-sum.cpp"
+  },
+  {
+    "assembly_sha256": "191424c94a36db891779ca6214b9842044212bbb296d9c28da5cd0e822ab27e5",
+    "id": "bb26a2024c79ad53d14bd928",
+    "identity": "0164c91b5407a0cfb9dbe63e8ea35b3672742a8c14bb018481ecbf08678acbe7",
+    "problem_id": "leetcode:2571",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-operations-to-reduce-an-integer-to-0.cpp"
+  },
+  {
+    "assembly_sha256": "fbeb22a548cd7b39aa20337cc3715f883355c31fa4551946dc92a8eeb58ef497",
+    "id": "bb9f21b3b76b56eb8cf68397",
+    "identity": "57207341f54841500725adc203444b9580960a786699bd528855e99aed2a5c24",
+    "problem_id": "leetcode:3561",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "resulting-string-after-adjacent-removals.cpp"
+  },
+  {
+    "assembly_sha256": "db302be47cf2eb2d34e9831cf50d8194439ea0430f1e0ddc2f5588633ae7163d",
+    "id": "bbc9355b540ade053a55bb45",
+    "identity": "f7297f85fc9a183c7569a0b4cb8e8f4cefbcba471d14dae5fce13dc971240e11",
+    "problem_id": "leetcode:2091",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "removing-minimum-and-maximum-from-array.cpp"
+  },
+  {
+    "assembly_sha256": "094e3149f02d236e157dffa8cb3d7a6852c405e63f975ab830824855f60d36ac",
+    "id": "bc26bcabea6c3654528578e3",
+    "identity": "a51bd8e4b741f065cb93b3e4fcb148849643dbd040a6ad3ce0f3eceea17156ce",
+    "problem_id": "leetcode:363",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "max-sum-of-sub-matrix-no-larger-than-k.cpp"
+  },
+  {
+    "assembly_sha256": "ff13ff343d1b7c1cb12a78563f9e2a784d763ea67b6985c4c25d9e49f881fa9f",
+    "id": "bccb2b1379bd1450c07f85e1",
+    "identity": "41f0cf9c522a852670cbc49d736498287c10b67d6e452b59d71a18116aa9527f",
+    "problem_id": "leetcode:2495",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "number-of-subarrays-having-even-product.cpp"
+  },
+  {
+    "assembly_sha256": "2a2c16991bbf0799e1182b2a49b24ec60fc5a674b52ffd28bced7dbc01c11162",
+    "id": "bcd41e705c885f5e89613086",
+    "identity": "728a88c5af4784644bd80ee09b2c135c42ff90e9f6f20e96c4dce13b6eff3a93",
+    "problem_id": "leetcode:1456",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-number-of-vowels-in-a-substring-of-given-length.cpp"
+  },
+  {
+    "assembly_sha256": "e25f3561ed2dabfcf0d91a1d6dd4682d9cfe6db269acb3191c7a2e420737f511",
+    "id": "bce1d44eb9ffaded938ad5bf",
+    "identity": "f3952667ea668830ec879686086dd5dc55fc258f933f01b5a44d4f6ab0e75080",
+    "problem_id": "leetcode:2748",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "number-of-beautiful-pairs.cpp"
+  },
+  {
+    "assembly_sha256": "ac0d3f2980450bdd1ef894a3da0feda932989c1a9c6bf80aece9a15f7bf4de46",
+    "id": "bd204a5ab0305c9062f99385",
+    "identity": "e9aa0f537c295d5ce8e884887cc087d7c1f076fdbbd5dbb6cc1e398852d3f93b",
+    "problem_id": "leetcode:325",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-size-subarray-sum-equals-k.cpp"
+  },
+  {
+    "assembly_sha256": "f990a615b4985d6774c6fb587366d7a11a74a71129bee922e34825805a1765ab",
+    "id": "bd473f01e6c3c375b9818249",
+    "identity": "bccc9f1e191712f97c7d10120b64add414ac622cdbe887cb642a00f62d65f80e",
+    "problem_id": "leetcode:3488",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "closest-equal-element-queries.cpp"
+  },
+  {
+    "assembly_sha256": "549c584f03df4ee97c38adf8cfb711782aeeb6f926d5d2f5dafd9fc73e0cecd9",
+    "id": "bd80173f0ea159621f1a64af",
+    "identity": "e4c0d1eed442b78a4398b6e3ea4fae07642bbc521b9991d922099dbe402f0e52",
+    "problem_id": "leetcode:3403",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-the-lexicographically-largest-string-from-the-box-i.cpp"
+  },
+  {
+    "assembly_sha256": "5f46c872a1c76a48257c2d5b8fddb3129a4885688d5e1251598190a67990e9bc",
+    "id": "bdceca9b291470c5b171eba8",
+    "identity": "6a94d7e1b524c14e85c1670ddda5f0ec3836b20e2c49fdeb954495dd0d2a747e",
+    "problem_id": "leetcode:1450",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "number-of-students-doing-homework-at-a-given-time.cpp"
+  },
+  {
+    "assembly_sha256": "a49ce95a3b6579b545801e74c9c995b26ff580526ed1a8a5ec599476d9673748",
+    "id": "be2211f82618a605afbfa13b",
+    "identity": "034a9b53417ae8c23b90591163cbd7fb106b675c3b16d2f4ab35c335d4d96be6",
+    "problem_id": "leetcode:253",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "meeting-rooms-ii.cpp"
+  },
+  {
+    "assembly_sha256": "7991a63ccb7c968b41d6b2681bf34967d353365bf7752d73cd5d707c205f9029",
+    "id": "be618d38d976a5a4e6f374ad",
+    "identity": "fa473b786ad5d003e94daee7af9914ee7a3a4b93287d95e33e4bf17d49a7b2d9",
+    "problem_id": "leetcode:2785",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "sort-vowels-in-a-string.cpp"
+  },
+  {
+    "assembly_sha256": "3276c3c706a21e99c1c8e920e30b13df55cd8b6b87447f21422d9d0be4d38225",
+    "id": "be6b8519cbded6a783e20b87",
+    "identity": "a90ae3f34011ecf9e4f994ff5bcf3f601d755959dcfa0f2dc6223801ad6597e4",
+    "problem_id": "leetcode:1750",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-length-of-string-after-deleting-similar-ends.cpp"
+  },
+  {
+    "assembly_sha256": "0ab46645dfe9a8d66a1e30316cc15002be059295bc9843c20aa80480743e2b37",
+    "id": "be91313a47e4cd9216c66196",
+    "identity": "534f36ff6869a9a149472930e44ef5b6ba916dfb6b7bc8e687672ac588684960",
+    "problem_id": "leetcode:537",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "complex-number-multiplication.cpp"
+  },
+  {
+    "assembly_sha256": "4968c466535b38123d6dddd14f5a4abbfb1c3a5aefea388c3e7493893d7c336b",
+    "id": "bf6d0813162f42eb5896fb4e",
+    "identity": "a02c216817c6f049226446c859833a95151da522d6393107a554a5b87317c31c",
+    "problem_id": "leetcode:1281",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "subtract-the-product-and-sum-of-digits-of-an-integer.cpp"
+  },
+  {
+    "assembly_sha256": "9a8240c82516a92156f50a218e3749f867e9b6e232342a4e969325dce99c0443",
+    "id": "c1180c59c2903755fddf2228",
+    "identity": "bc3a7fbb37d4d23a5ad3ee500b61b142efd9ec8e29f329fb72b2eb7f9b179f12",
+    "problem_id": "leetcode:1826",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "faulty-sensor.cpp"
+  },
+  {
+    "assembly_sha256": "ca324b3ada3781c9f01255415b7eb4f0a2b79c2f899aa3ffebb28a1638e144c4",
+    "id": "c1270f1e93c876cffe086108",
+    "identity": "61f977458c4353ceb43f8f8fc6ce18972b70866c4849086ee60e43fa9742f2f4",
+    "problem_id": "leetcode:3295",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "report-spam-message.cpp"
+  },
+  {
+    "assembly_sha256": "09335172b7bb5dcafaaeb5c5822aef47ec8c35bb155ca3770187e326b2a584b4",
+    "id": "c1d676ee0e38858f8b340e8f",
+    "identity": "e846853506f13eb89ae7b92a82a12c098f76ca55ca8531203cb78eb384d5170b",
+    "problem_id": "leetcode:969",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "pancake-sorting.cpp"
+  },
+  {
+    "assembly_sha256": "e5cf4f37cd48f64ae7732d360958065495f144d38bb0144f3d7ca36f57e93674",
+    "id": "c2075333b2bb54d164dde661",
+    "identity": "8d8dfe0d1c0c2e373b90e53622d306a5e8782206a3d8825cbe616e5fb22ae39b",
+    "problem_id": "leetcode:2025",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-number-of-ways-to-partition-an-array.cpp"
+  },
+  {
+    "assembly_sha256": "9feb1e837c1632cb80b309c8db6ad35ae0e8b93b9baaaa2f2390cb62028cde22",
+    "id": "c2d1b6e2b3f59d7946e5925c",
+    "identity": "f90a4b77da32773dce44fa13d680f43501c6083e33fa70a29dd00b1e0ee0f929",
+    "problem_id": "leetcode:2962",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-subarrays-where-max-element-appears-at-least-k-times.cpp"
+  },
+  {
+    "assembly_sha256": "3e3fda1a82fbcbed731d56c402f0371dbca7638d8d45115f260270cfed2f9015",
+    "id": "c32d4768cb0ef17e0730304a",
+    "identity": "30f6ed3009e9116165a3a6732a4998e468c47c840e520894e3bcfdff523ea06c",
+    "problem_id": "leetcode:4016",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-area-of-two-non-overlapping-square-submatrices.cpp"
+  },
+  {
+    "assembly_sha256": "ae3b656dc4892088f78973fca4eea9a300e69ecf23ba95b109d6d3b6dcc19e3a",
+    "id": "c3b95d249a86da93a22eeab8",
+    "identity": "e967c5019fdb09d53d9fece21bbdd6b21ebded3df95a822f69a9fae6f149a207",
+    "problem_id": "leetcode:3578",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-partitions-with-max-min-difference-at-most-k.cpp"
+  },
+  {
+    "assembly_sha256": "9addd12669997e444fa713b25d5b3e66941cd93c17146c3bec24093679865541",
+    "id": "c67f0affe393e0af4649dd58",
+    "identity": "9c6e64d38136eea2667f1cbd9f9ddf05ce0b3c8e4a9ad40c1398b45f130d827f",
+    "problem_id": "leetcode:127",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "word-ladder.cpp"
+  },
+  {
+    "assembly_sha256": "cbccf1f3c544049a474fbbd5e35c1a84c65f29c57b6791c4cb8f0371d3df406a",
+    "id": "c6b5bf02f2093bb6f1bb83c8",
+    "identity": "a6f93c09abfb6053f1062e954272f9b89587296b817e3b2277513a3e97069324",
+    "problem_id": "leetcode:3459",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "length-of-longest-v-shaped-diagonal-segment.cpp"
+  },
+  {
+    "assembly_sha256": "2b779436033ad9b169f8d9fc70e14fc9d2c47c634bf1d0a9fa6b19682af9e3c0",
+    "id": "c762614d8b462d833a0125e8",
+    "identity": "ed8f0d880468601bc074ffe23336e30d981b3cd6dd5355ca6cd89747a9d7e7bc",
+    "problem_id": "leetcode:12",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "integer-to-roman.cpp"
+  },
+  {
+    "assembly_sha256": "6ba983b514491f60bc0de9d077b116d3f2971556eef47d83acf2f9656b864b2d",
+    "id": "c866f50970a3e1824fb49953",
+    "identity": "f8fc833c61ff0922b48c70ab5a1f9656d6f7c61a27d71705a3683d6cd5d27c35",
+    "problem_id": "leetcode:683",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "k-empty-slots.cpp"
+  },
+  {
+    "assembly_sha256": "8be648c8db1e118d4e690ce1a7450b36d9608c8067e147387eae207498dd530f",
+    "id": "c8ccdf07bee9aa43378243d6",
+    "identity": "5222c0b01b44b29df9c968ccbbd69f7aa0fd309648aca25e3ea5bf8f56c22255",
+    "problem_id": "leetcode:1929",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "concatenation-of-array.cpp"
+  },
+  {
+    "assembly_sha256": "c2289ce76aaa691fc84b644c2430de51bfc9a9607333d26e351f9a27f0b86b6d",
+    "id": "c8d5c0dd11bcaa504e7f9fa5",
+    "identity": "3d7215bfd383f7545f07070eea5bd76748e1ab7253df169bf3509a0d29a4ad0a",
+    "problem_id": "leetcode:1653",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-deletions-to-make-string-balanced.cpp"
+  },
+  {
+    "assembly_sha256": "96ebfe96886a4498fa8a7a384df5cddcba82b12aaf2d9247013284ad54814458",
+    "id": "c9aabbcccb342275ed5b5d50",
+    "identity": "a29ce4e8785109f9dfde3df5e35e547742fa4e01054df1a290458ed23f464489",
+    "problem_id": "leetcode:1796",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "second-largest-digit-in-a-string.cpp"
+  },
+  {
+    "assembly_sha256": "ef6b65d04aaf0bc42c21fd1d5c58e709bb32b3eccb3dbedc853b0511e9443421",
+    "id": "ca0bd7f740454bda835bec23",
+    "identity": "9c851dda177d73ed77b119cda3bf52a2325c31648cdec8b16a76ed6b2cb8288e",
+    "problem_id": "leetcode:3679",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-discards-to-balance-inventory.cpp"
+  },
+  {
+    "assembly_sha256": "7e24f757179b2a662500fd8ffb135f37cea67ca9fa2de5c9895f16886f713b9d",
+    "id": "ca62c6f33f9725ce31481575",
+    "identity": "1431118fbc6c656fa510e441abde67610134e67f7bc9427d638bc901d27299de",
+    "problem_id": "leetcode:3175",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-the-first-player-to-win-k-games-in-a-row.cpp"
+  },
+  {
+    "assembly_sha256": "b72c8d9427cd118d48cac38c7e322f5c46f0d3f0e463d551d022bd8dad23c236",
+    "id": "ca6b8e0b6ef1e042e8f93b68",
+    "identity": "cae2a746a64f8be6cc133f2f2ae283ffe2d8f64f42f17c8e205a37e073e6a81f",
+    "problem_id": "leetcode:651",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "4-keys-keyboard.cpp"
+  },
+  {
+    "assembly_sha256": "8376a4d262c188a920c6f82a0149e8db04a32ae61028008a2917786dc5d5e40e",
+    "id": "ca807c9ccaa08dbe3db76cf3",
+    "identity": "631439e29744189a80dd218af615d7fbdbfafaf2bad61b4cc3f8a2022443d454",
+    "problem_id": "leetcode:1001",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "grid-illumination.cpp"
+  },
+  {
+    "assembly_sha256": "06ba565e69529f56e0e50b259ed96c18bc9efff31a1c1c530f845af82dc5ddef",
+    "id": "cb60db7847d71c6fabc25022",
+    "identity": "e3b3672685633e4c544b71ed70a4e39ef3280b88b0cfb9870d8779b20c84d7fb",
+    "problem_id": "leetcode:3202",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-the-maximum-length-of-valid-subsequence-ii.cpp"
+  },
+  {
+    "assembly_sha256": "698c2c6edc8ab611430ea67c07ec95d0a6ae2ea01fd7fb2c9bc57699fe85dd46",
+    "id": "cb7671032171edb6c6466a3f",
+    "identity": "70c98a1d1a30b261b21eafaf6a0f93ab04506a04ac34398bbe035b5ea3b51eca",
+    "problem_id": "leetcode:2017",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "grid-game.cpp"
+  },
+  {
+    "assembly_sha256": "d33d2edfd09fcfa1de72e34a2c8bc36027dd11d96e76883f1deb386e0ffcfefd",
+    "id": "ccd09152f583c6eea4d56948",
+    "identity": "2057ea349bb0c33342772c2da34f46403f950bde10de6b654e73ef0f2f69c442",
+    "problem_id": "leetcode:3963",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "create-grid-with-exactly-one-path.cpp"
+  },
+  {
+    "assembly_sha256": "7537d30fc00ae9460c86c36c6e2b92d5366c7a759f2fc830867ea0233e799753",
+    "id": "cd556711560a4b04822d5a9a",
+    "identity": "fbb4f884c74786e8ca7045ea9ff01c81844b46a1f96e54e1046215196dbca5f4",
+    "problem_id": "leetcode:266",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "palindrome-permutation.cpp"
+  },
+  {
+    "assembly_sha256": "0b506080edc2a298f0b99a6bd71978aaf9bc074c66522f18c4f8b83c4980a90f",
+    "id": "cdb080df85fd246c998b9b9c",
+    "identity": "7b6329a821078d8b813e6050070814b44343b1398566140947fda81aa75f76a3",
+    "problem_id": "leetcode:1009",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "complement-of-base-10-integer.cpp"
+  },
+  {
+    "assembly_sha256": "be833f0672db6dee735a5eda3fa98fb60e066e9e9a3f0ff5f4abb7158a8ba430",
+    "id": "cde84c382bec773892fcd7ee",
+    "identity": "4f0721039344e8f0671a894749032b00a61f41760d1151fd3259f657c12006ff",
+    "problem_id": "leetcode:67",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "add-binary.cpp"
+  },
+  {
+    "assembly_sha256": "697b4c5294b26798fae4611c20c8ce53a3544bb75e77cf2cbeb34e6027fb8b89",
+    "id": "cdeef94f8bd1c5d4f5cd6b5a",
+    "identity": "0b6ca27e25ea50cb2191133b87e08e7ac1e3182f5939bbb60ae2449e24a639f3",
+    "problem_id": "leetcode:3909",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "compare-sums-of-bitonic-parts.cpp"
+  },
+  {
+    "assembly_sha256": "2d3156066807ff026d79b6eb8bb1e2c78d50ad594e2deb1943906272fbd67e32",
+    "id": "ce27ddf4824a6638c3ed36d4",
+    "identity": "2f680eecde6f396f4d8610ccbcf411d03c199e828ec08abd2425318d92316954",
+    "problem_id": "leetcode:2167",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-time-to-remove-all-cars-containing-illegal-goods.cpp"
+  },
+  {
+    "assembly_sha256": "d7014148b2af6871a7a2ed871c28a308db268c95d6e17eb7c7ac7af9f73742d2",
+    "id": "ced022aea2122a2e40147539",
+    "identity": "1a0c298ad28bba3d9c13bc4415b746ae25d551cd785feaf4b329ce497745c747",
+    "problem_id": "leetcode:2117",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "abbreviating-the-product-of-a-range.cpp"
+  },
+  {
+    "assembly_sha256": "780307cdb8d950a57c199927916a3a8405f961e241e03312646cdd6fb8c9fbd3",
+    "id": "ced62ea1bb3c66e8f8305397",
+    "identity": "bc55b04274d941218faa342a15a069665451be17d27687c289ac0c66f74b5a6b",
+    "problem_id": "leetcode:292",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "nim-game.cpp"
+  },
+  {
+    "assembly_sha256": "e9fecee99dfee4fa122288690ba2f2a004ef5eaea10c1d3298f80577ee83318c",
+    "id": "ceea540d8c38f6402b42d0d5",
+    "identity": "4d3ad5131ea0ce5465d511580227d753dcfe6b11ed8a1bd1ad6b1de0b5691106",
+    "problem_id": "leetcode:1089",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "duplicate-zeros.cpp"
+  },
+  {
+    "assembly_sha256": "c0051797525d5dfa9839b8a69b1c1ee10443d21dd91e48dcddedae1302b357fd",
+    "id": "cfac9e67bff02b183ff66957",
+    "identity": "532baf248ff9ebf8325a225abed8b9e7a6bfc1d6c66f9347ae47fceb969172b2",
+    "problem_id": "leetcode:1037",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "valid-boomerang.cpp"
+  },
+  {
+    "assembly_sha256": "75a15e3522a5dd92daf3fd066a6df9a6cdcc32c2d47ee00747c2c580bdafebeb",
+    "id": "d040d516fadd07d85abf5d35",
+    "identity": "5e239ceace9a9c2e61feb536f2650c73860b6d277ae70357bbbe948d3a02b831",
+    "problem_id": "leetcode:712",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-ascii-delete-sum-for-two-strings.cpp"
+  },
+  {
+    "assembly_sha256": "7ee3dfaba82605a4c715fce5b58c073bb4bfc58bf412cdf1c3cdf6759bfb2f1a",
+    "id": "d0568db07a176ab838f5eeab",
+    "identity": "63484927192dccf77aafb13a53dd2f6fc0d3fe8c3d99e97f1e86201f3bf91497",
+    "problem_id": "leetcode:3301",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximize-the-total-height-of-unique-towers.cpp"
+  },
+  {
+    "assembly_sha256": "9230a7a2a7820bd4fe79a417e2c76f5709f7360b1f0c459b8447ad5d49c28402",
+    "id": "d0680b757c5cdb7da3d12c00",
+    "identity": "8bcf213ee6de2243f0d3a9957a416efd0754fc6cf800041b0037300bbde07105",
+    "problem_id": "leetcode:1035",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "uncrossed-lines.cpp"
+  },
+  {
+    "assembly_sha256": "2f5dab3f1ad9153efcb7934baabfc34ca33894a1a454879f79e4eddee08aa538",
+    "id": "d08803c175b6c1798a135b49",
+    "identity": "165f690df75ba78275b8391ce92f5742d9f045baa84ec57fd455dfa5f9843f7e",
+    "problem_id": "leetcode:1469",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-all-the-lonely-nodes.cpp"
+  },
+  {
+    "assembly_sha256": "2446c34286025f4277728698bff43654e52a674fa04f6088c00e5bea56938393",
+    "id": "d14090b46a336ad5770b118b",
+    "identity": "df2d0e1da4ea751d2c8e544cc685f8b96dca7882ba847c72db4778723040cff0",
+    "problem_id": "leetcode:1666",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "change-the-root-of-a-binary-tree.cpp"
+  },
+  {
+    "assembly_sha256": "9298facb3b42d74086c8fd04ff3f4a8e2e0513db262b68a00b3ead4fae2f89d9",
+    "id": "d169299a3d099e5b242083bb",
+    "identity": "3b654d3652eb1a4706cb34ae67b5c93a45c3ad7905cd6edd2da0e7eb2934a2f0",
+    "problem_id": "leetcode:1325",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "delete-leaves-with-a-given-value.cpp"
+  },
+  {
+    "assembly_sha256": "a29681715ec5f20af9a18d307b9c1526bb93e786fb7caa91b60fac21e51cef87",
+    "id": "d26d75083c218248f29ab498",
+    "identity": "b1cb84378e73ea1fd10daf6092126e5ed3f63e540c3c3b230d22b3c7620b6f26",
+    "problem_id": "leetcode:2592",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximize-greatness-of-an-array.cpp"
+  },
+  {
+    "assembly_sha256": "3d789cf15ff7f3ac8c2925e8eda3ec6482c8a39b60d1a3fbfe715b0cf2f70779",
+    "id": "d31d267fe6e1109127414f42",
+    "identity": "5452438f9577c5d9c990535e3140fec3cabbbf0b0f4980e15d4b8e0fd8a1dc63",
+    "problem_id": "leetcode:1502",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "can-make-arithmetic-progression-from-sequence.cpp"
+  },
+  {
+    "assembly_sha256": "0fa03f44a1f2b2d3983f89e725ab27c9f4bab2f1ccf34550501bb07266eb6714",
+    "id": "d3b9e9383bdf54f518a0044a",
+    "identity": "29877378a6e08b864ec775af340ae541706528c2a46cacbcc463abf2b6ab3c51",
+    "problem_id": "leetcode:2924",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-champion-ii.cpp"
+  },
+  {
+    "assembly_sha256": "ac34e82003026e7cfb47cc921b113ec7a221aa59db9c6f950fbf372e4588cce0",
+    "id": "d3bd40289ca7a645d4308d57",
+    "identity": "b0407d2fdc76c8923a1e2d66f838172b4cf503aed4510e42e3da6e2893df861d",
+    "problem_id": "leetcode:285",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "inorder-successor-in-bst.cpp"
+  },
+  {
+    "assembly_sha256": "7c450a7e41cdda4cb7a0bcaedcef2df468ff57b65a172690b1a024193b46acce",
+    "id": "d3e7226dd438db09ad15661a",
+    "identity": "69f95c59e2c740f9ff77164cd4d063f5cc68a0255da453495495840b15bab434",
+    "problem_id": "leetcode:846",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "hand-of-straights.cpp"
+  },
+  {
+    "assembly_sha256": "a4caa6012dd702bbde153811d4b870253caa22818c12549da263551bdc16ecee",
+    "id": "d476fe8b00b31231c6831e3c",
+    "identity": "563248c02cda9d7bd721d949eaa3c517106dbaab330aed322ecc1b910531e01e",
+    "problem_id": "leetcode:1807",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "evaluate-the-bracket-pairs-of-a-string.cpp"
+  },
+  {
+    "assembly_sha256": "8a3aa0d41582af6232577546d65c0ca54376f844f38e3aa60e5ee5bc3bf7348c",
+    "id": "d4b15b5946f9b2676435b5d8",
+    "identity": "209774000cdfde7a3919aab33cfbc3a45a6983148a1875e886bec3211ca7ae5e",
+    "problem_id": "leetcode:2007",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-original-array-from-doubled-array.cpp"
+  },
+  {
+    "assembly_sha256": "b1073f91171f367b9ffb0d12a7f14fbda5d8d8752d0702235c9664c27d71af10",
+    "id": "d4ebd8e6fdc9434d8848efe6",
+    "identity": "20b2b4f0aa5a7322322ec316db40393e29b30b143bb391dd1bc705a31fd58835",
+    "problem_id": "leetcode:2481",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-cuts-to-divide-a-circle.cpp"
+  },
+  {
+    "assembly_sha256": "8301fad4d3f8a016aca69f67e78192216029f40f6aed6dcb9018a993d91ccb56",
+    "id": "d54dcbf9efe6599f706d10a2",
+    "identity": "b5738200e79c48416d10e55e40703c30e209a927dbfc6826e83a7e4f36670e4e",
+    "problem_id": "leetcode:2057",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "smallest-index-with-equal-value.cpp"
+  },
+  {
+    "assembly_sha256": "9e84bdf363458a90c78494b2affcdc2f596f6cc2ff66b5155f1b7f857c126af1",
+    "id": "d678bfc8ff87f4073318ed33",
+    "identity": "b31d93117d819f7432652a334d170114e5f8738d2a759d008449945fa4bfe1bc",
+    "problem_id": "leetcode:1564",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "put-boxes-into-the-warehouse-i.cpp"
+  },
+  {
+    "assembly_sha256": "ada77d16310130d558f4d6338a0e6ac4abc6384ec0270fa5fa54b9a8eada4bf5",
+    "id": "d79003f73658c5c76f4114ac",
+    "identity": "0a9363560953e122ed99fa7c11e93d61be631a77fe46246fee8d2afd291b3040",
+    "problem_id": "leetcode:2465",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "number-of-distinct-averages.cpp"
+  },
+  {
+    "assembly_sha256": "fbc661d6c1122c9b7e2db208cf5e991fd38aba11503a0d498c15c0fcda0a7d56",
+    "id": "d79ce8a720737d9aa8c695a5",
+    "identity": "2f946ca721eeb66925473d2be22f3c7e1df24c6d7df451b7b0c973177ae2a354",
+    "problem_id": "leetcode:3137",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-number-of-operations-to-make-word-k-periodic.cpp"
+  },
+  {
+    "assembly_sha256": "89f7bde493d5aaee4b4dfab13fda3f12384c934585035b90cab091bdd1a0c516",
+    "id": "d7edfac4ae3d9757cd0d49cc",
+    "identity": "dc002eacbafa5b1eedd6d498f6d4767d44b4ddb6f52b2b2c4e2b6402addd8dcb",
+    "problem_id": "leetcode:3665",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "twisted-mirror-path-count.cpp"
+  },
+  {
+    "assembly_sha256": "52fcea95de9998a108b3c8282190804ba5269a2cf90de02740471d7139304c6a",
+    "id": "d7ee60d031db231be84e10c1",
+    "identity": "f47e5f90a38b94f5c095855880116055dcd3f2a25054037963265e99349e9c5e",
+    "problem_id": "leetcode:4046",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-cost-path-with-at-most-k-turns.cpp"
+  },
+  {
+    "assembly_sha256": "55c0e7cf10f8b1ded72b6e8ad9fff330f7afa705edbaafde87a53bf939d68f51",
+    "id": "d8aac96bff9f9ff56ceb5bde",
+    "identity": "893172408c968b3552037c1f05267ba6a9ffd030c90855d0bb2c45155dc15656",
+    "problem_id": "leetcode:1745",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "palindrome-partitioning-iv.cpp"
+  },
+  {
+    "assembly_sha256": "98483e820f197582641f60453a542ae4fa430257cc9dcc1d71ae85f732b7f17f",
+    "id": "d8f150d2eb855e3cfb34efaa",
+    "identity": "bbb3f7bd3eea21a2a204648c7520d6d01043ee1ff50919c47f7f83075c2dbbaf",
+    "problem_id": "leetcode:3083",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "existence-of-a-substring-in-a-string-and-its-reverse.cpp"
+  },
+  {
+    "assembly_sha256": "b583169bb94738414bad1be94b183a08d24dda802fd716b8a544d2fb1e3189c4",
+    "id": "da03e379bf675c830797b296",
+    "identity": "36fa18a6c839df9bea42b42c0e7c412ecc9d2b077a1190904dc86c371c117349",
+    "problem_id": "leetcode:3531",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-covered-buildings.cpp"
+  },
+  {
+    "assembly_sha256": "7d7c0b4c2088dc0d5dbe9c07b31f1e8ed633ce344ab5c8c66c1a09fe50b9e4d1",
+    "id": "da6f6de87b86d911a9fb0295",
+    "identity": "d0375d77372651031370db53db4c5a949c1555a8d5a61b45611ec06228025fb8",
+    "problem_id": "leetcode:2063",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "vowels-of-all-substrings.cpp"
+  },
+  {
+    "assembly_sha256": "965296af0a742b26680ba223a06eb3d3c1a9f85408365ce55db93aa03a149b98",
+    "id": "db18cd7d22b01da913169c7e",
+    "identity": "a09ebe875d8434af46088b0788bd50883e5eeeddb6d70d893e7dc5890287cb47",
+    "problem_id": "leetcode:3638",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-balanced-shipments.cpp"
+  },
+  {
+    "assembly_sha256": "a21a4ff4255304413bb491a0390b2684872506e3bcd020bb79ad442e8501ec8e",
+    "id": "dba3ff0bd895f84e7f1d9a9c",
+    "identity": "b1b14356d71306acb67c374a7c7d770d0b3dc259e54830b2b7f93bf3c0bb58f2",
+    "problem_id": "leetcode:1432",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "max-difference-you-can-get-from-changing-an-integer.cpp"
+  },
+  {
+    "assembly_sha256": "7ca3571812ee865f74cf272be18438a51c9bf38fb01b27e98e47a81c766e65a5",
+    "id": "dbb3a343c411a9905491784d",
+    "identity": "836d176345616ee925751e183c1dc29dfb4d758dd3362df27ee127677bb87d75",
+    "problem_id": "leetcode:3736",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-moves-to-equal-array-elements-iii.cpp"
+  },
+  {
+    "assembly_sha256": "b411aad1485094275dd4ac91f0ca08b7dce035669289f7448b20f82bdad25f53",
+    "id": "dbc07fbe48ad8d048a79d644",
+    "identity": "cf288dfaf658b7a66c7bd69eb14bc0f154ae4ed244e0d728e70a5a94281614d6",
+    "problem_id": "leetcode:3139",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-cost-to-equalize-array.cpp"
+  },
+  {
+    "assembly_sha256": "33b36a755fc46ca7e762c0cc78c33d6e8710e7898643ddd172533d45e71dfccf",
+    "id": "dbcd885cc61059e28e634040",
+    "identity": "e6a6269359331351a49c0cecddfbc9ea10ea98acabb62c6d482d3353372db4fb",
+    "problem_id": "leetcode:3759",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-elements-with-at-least-k-greater-values.cpp"
+  },
+  {
+    "assembly_sha256": "bc3081d90155ae606c016b13ad4f0fe161d1df973d4e8bd71d9e0233a590c404",
+    "id": "dc3898bc402ee2e47160fef9",
+    "identity": "6241260e26b0b5ca3c3b8008fb0b772c70b41a1e1742c7c44022988d2ed24c53",
+    "problem_id": "leetcode:942",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "di-string-match.cpp"
+  },
+  {
+    "assembly_sha256": "2433881e47f115437bd06b08fcb6c54e62e7feb5e8c260b152ca307f964af124",
+    "id": "dc498a36228ff018e1f8a32c",
+    "identity": "b8af36e05c44692ade903fe560b40ce3ee7dc99344fc1305b63f5da13e1723a0",
+    "problem_id": "leetcode:1010",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "pairs-of-songs-with-total-durations-divisible-by-60.cpp"
+  },
+  {
+    "assembly_sha256": "ea9305301d0733fea0f6dfac812c463448c6943a5b57ab4039a76e3ac0691447",
+    "id": "dc7136f486f5f7c87f2e63fa",
+    "identity": "e44c197d9768aa636abe478a5048b82c1d34ee77fc26bd3061ddfe4565c9d727",
+    "problem_id": "leetcode:3684",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximize-sum-of-at-most-k-distinct-elements.cpp"
+  },
+  {
+    "assembly_sha256": "7cce7ef5ca4cf1d7088409d5630fcbe59c847921905e8c309f34a31cee5e08a9",
+    "id": "dce58a954e70c43b300e5d17",
+    "identity": "5b644e470313aaa8eafb9c49365c750647ff4324a0aafc1690fb008ea19e44c3",
+    "problem_id": "leetcode:1507",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "reformat-date.cpp"
+  },
+  {
+    "assembly_sha256": "12ca8bf2acfa8f1dac84646d1e3df7bdeec901837faee099989752331f46f068",
+    "id": "dea5ccc1ed784bc7af12c468",
+    "identity": "3f6451182ab5a8245a7e1e940ce75db6ee1efc9006fee21eaf6bc83028a96a2d",
+    "problem_id": "leetcode:462",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-moves-to-equal-array-elements-ii.cpp"
+  },
+  {
+    "assembly_sha256": "4b6130f7b8c3e5ba77bd57a5785fabecbd260896e955d9f48675531ed7ace9b3",
+    "id": "df13051bd04f4a43957c8562",
+    "identity": "fa197ec6c7117e7c359a004838e863139b960c7abe0d9670eb65cfc706d8311a",
+    "problem_id": "leetcode:713",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "subarray-product-less-than-k.cpp"
+  },
+  {
+    "assembly_sha256": "68744c8a85731c953d59fe0f1b5f3e1b755dc49cd5dad6186abd307b827f732b",
+    "id": "df1f1ea4167f8e83139a2e25",
+    "identity": "e98894c2d085f455581c62a380904ab785d8b983d76bd61af69c05458ad0c23b",
+    "problem_id": "leetcode:1423",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-points-you-can-obtain-from-cards.cpp"
+  },
+  {
+    "assembly_sha256": "dd052b5e68f7806ad7f23932d4f637f8bc4ac85d089d001d392955e3e6e58991",
+    "id": "e1ea445381bd41cb0950a01a",
+    "identity": "3cc7c4f07f5cc6c3ea52f3b8130bcb4efef3d1776bef108f91050bb92423b8e4",
+    "problem_id": "leetcode:3980",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-operations-to-transform-binary-string.cpp"
+  },
+  {
+    "assembly_sha256": "9bff141530ea40bfc216604498e730629a137dd02fa137447b0cd05ba78b22c1",
+    "id": "e27374810c3f4aa452bca255",
+    "identity": "5860e936cad394b6d779e4e8ff4297102eb126a9817401d985054aeadba13e5b",
+    "problem_id": "leetcode:3244",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "shortest-distance-after-road-addition-queries-ii.cpp"
+  },
+  {
+    "assembly_sha256": "e8d52afa838e7c05b8e36c55d324796ab7fbb32917e266a956eea60c4e23324f",
+    "id": "e2c78eefc87a4e08c84b1298",
+    "identity": "46067257d60b9bac78e161a43d08e4fbd84cc7f6f7bb2f6a05e45cd99e2b27ed",
+    "problem_id": "leetcode:1410",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "html-entity-parser.cpp"
+  },
+  {
+    "assembly_sha256": "94ea1dbe077212fcaf96ed8208c3890752cb5324603f4f6d6e48375bed7640e6",
+    "id": "e3bb7a67eb4a8bb24c8b2ca4",
+    "identity": "060641314fc499d84ea4d4958fd9a583ddb349f67b3dcc4ee4fad1f87189c8ef",
+    "problem_id": "leetcode:300",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "longest-increasing-subsequence.cpp"
+  },
+  {
+    "assembly_sha256": "ce36da08104235110ad9a7d6bbae4238f93cb41b24d1c87127a8fe14605ca87b",
+    "id": "e532735c0e4e35d8d96a0b41",
+    "identity": "c47b8565444f9a41f1af9166494b946f30f9c2d8b6d423b184be50c1a0a1f31c",
+    "problem_id": "leetcode:152",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-product-subarray.cpp"
+  },
+  {
+    "assembly_sha256": "433b450dfbc52b3d5037ff731e9d4d0790d6080ccab18f2d7673e2f4cc57b086",
+    "id": "e5712749be45eb60caf09642",
+    "identity": "01b0b1a3a703841204a21ed7dd94e547a284964fc07b06d0ca93bd32986c3d9e",
+    "problem_id": "leetcode:2541",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-operations-to-make-array-equal-ii.cpp"
+  },
+  {
+    "assembly_sha256": "52405e74a92a3eed00547d34777668d37a2fe963a6990c5b169882ffd3d40eb2",
+    "id": "e71f8ece1e0e7615b63d2fff",
+    "identity": "63aff0c012bcc04c08adc05127a37eb2b08ae22032b83ce020f6249262430d93",
+    "problem_id": "leetcode:2980",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "check-if-bitwise-or-has-trailing-zeros.cpp"
+  },
+  {
+    "assembly_sha256": "7c8db842f6941b9f75771078bb8d8d55530f52b209681a4a23b7b95e5a60af1d",
+    "id": "e748c4daa80c2ee5ea0a71de",
+    "identity": "b1a5512600a9b9ac88fdd9a9490bf2143c42de6852350ada45f83ab7ba737185",
+    "problem_id": "leetcode:423",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "reconstruct-original-digits-from-english.cpp"
+  },
+  {
+    "assembly_sha256": "422014e0c228f2c6e3d1592de685284cbe802424fc0d663bd9748cda0b21ee14",
+    "id": "e7a711bcb7d919e3a3ddae01",
+    "identity": "22c889b7ba8dd0b377e7531ee44da821f58639a04eb026198cc922733d9379ee",
+    "problem_id": "leetcode:361",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "bomb-enemy.cpp"
+  },
+  {
+    "assembly_sha256": "329ac94282811dfca63326ebcaadc053e0152e2020dd487d30aa527656c1a0cf",
+    "id": "e7fa88323110a718e5ff1759",
+    "identity": "fccf8c1a2437d7e9d0dc7cc5c3a3c6f5a1b8c6ad3937afe8e6328aeb4f5ddb5e",
+    "problem_id": "leetcode:217",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "contains-duplicate.cpp"
+  },
+  {
+    "assembly_sha256": "2d2bce71026d5a54489c284ad78c34abc5e8962493b05961ede89465babc953e",
+    "id": "e8896144c7f82bede0e6adce",
+    "identity": "142c2889da2c777f129beffbb3db221183e949cefdb47c8e4200f12e5cc2edc4",
+    "problem_id": "leetcode:2447",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "number-of-subarrays-with-gcd-equal-to-k.cpp"
+  },
+  {
+    "assembly_sha256": "4797c775dc9e813126cdbf3dc76349905908d7cf09b2dd0bc2acafeba5ac943b",
+    "id": "e904f48bfa919abb52212081",
+    "identity": "0ed9bd5d6e151fa005ba6febbbf09ffbd51254431b06242d208b8f5ba9071947",
+    "problem_id": "leetcode:3443",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-manhattan-distance-after-k-changes.cpp"
+  },
+  {
+    "assembly_sha256": "45cfaf76f6ec5405c8c727814d575df57697346ce4c940b528ddaa73f2ef16fe",
+    "id": "e92a439529b90cfea678b137",
+    "identity": "76a43197982e710d62c8fe59cef96c3548ffd20346071415e968a6fa341a2c93",
+    "problem_id": "leetcode:3900",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "longest-balanced-substring-after-one-swap.cpp"
+  },
+  {
+    "assembly_sha256": "c55b8f5eebe25c689ada7a517eb965f864f24c0200ba851b099c9ae92d333949",
+    "id": "ea30b933a416402445f382e2",
+    "identity": "8386a54d01dfacd5d210a3f4763ce3374aa02278ccb0c68509545647ed831b89",
+    "problem_id": "leetcode:2745",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "construct-the-longest-new-string.cpp"
+  },
+  {
+    "assembly_sha256": "150d3aa90a6054187bee538462480ab568204d7a2d1452d4a7e359be8f2192c3",
+    "id": "ea78e1bfacdd9b2b02043c6d",
+    "identity": "bf08df63b41898d33dbcc67460d6389bc640406b47460a1058dc2e5fc000d6cb",
+    "problem_id": "leetcode:2068",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "check-whether-two-strings-are-almost-equivalent.cpp"
+  },
+  {
+    "assembly_sha256": "a840031da032d619fd1bfcf7ac804354346f9d3884888a290941bcf63efbc228",
+    "id": "ea8ea31755b268f109b4c14d",
+    "identity": "646b0903c1b3d3796dd06a90cbec822ca3942d51d39fec6550deede065b39cd7",
+    "problem_id": "leetcode:2016",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-difference-between-increasing-elements.cpp"
+  },
+  {
+    "assembly_sha256": "b8ec36b212e2b3034034f79e903697fc9a34bfb1f95e09c8d65e5c46e224582d",
+    "id": "eaeeb96bd5c3b889127cbb74",
+    "identity": "b11fc74186e795d88ad2c781204a0a3d835ef005d10d76b92ba5394698c4d0cb",
+    "problem_id": "leetcode:1103",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "distribute-candies-to-people.cpp"
+  },
+  {
+    "assembly_sha256": "a7dbf81dcf9ce0f4e64dab76cd61fe679417178a66f840f139a9e325e1bbc912",
+    "id": "eb0a1301803d6ebd288ec03b",
+    "identity": "bb3889f4959ce334999310797aa0e1f0bc9726b8daacf2dfd720b7157d0211eb",
+    "problem_id": "leetcode:3375",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-operations-to-make-array-values-equal-to-k.cpp"
+  },
+  {
+    "assembly_sha256": "ece00a53cc4615e16b815a7f9f42728ee68c03b764561dc87ed98791c9190fda",
+    "id": "eb2b022dbf1bf82c7ab2ff2d",
+    "identity": "a1528051b5422ee6f3eaa5ff979a5f30e985107efd6583cc01dc2aced1ef3a27",
+    "problem_id": "leetcode:1982",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "find-array-given-subset-sums.cpp"
+  },
+  {
+    "assembly_sha256": "a9b3f840d1d86bbb2e12978518bcf2fc9e3b90b601d012653d13441f121e614d",
+    "id": "eb406b264a26096c8166bff8",
+    "identity": "5c11e9e139106a8b4ede2195abfa571aea43b16c4d34f91a8551aa60bfcc970c",
+    "problem_id": "leetcode:1262",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "greatest-sum-divisible-by-three.cpp"
+  },
+  {
+    "assembly_sha256": "e0e908de4894f636fad9390d7b6de84dcfeae2aa4209d96e7c20f7e517054b8a",
+    "id": "ebdef274e2ea130b51a0cc5f",
+    "identity": "122ba7b4afcedf09c8bcb41906de667cd57a1d6c997146249b75498a9b5676e3",
+    "problem_id": "leetcode:2332",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "the-latest-time-to-catch-a-bus.cpp"
+  },
+  {
+    "assembly_sha256": "a5164c17cac436e6b64cc153c3a24449d0c140e3e2286afe36950b6aaf4f816a",
+    "id": "ec69afca8361ae04b9811345",
+    "identity": "5b84c50a01fcdc808f304b72a0e236381d08d09d8803bcc00cbf1408033aaa9f",
+    "problem_id": "leetcode:3692",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "majority-frequency-characters.cpp"
+  },
+  {
+    "assembly_sha256": "b2794413c562b91404f7c0d11f52bad30a0dee2003830182a23e8f5a549f0a25",
+    "id": "ed124ddec998ec236e8ea481",
+    "identity": "420deffd57aa86280c787afc41945ff3d410301c6d9cb1d89244296e824f8238",
+    "problem_id": "leetcode:1620",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "coordinate-with-maximum-network-quality.cpp"
+  },
+  {
+    "assembly_sha256": "5441c0e6c48705787e882fa3f4d2659363d6ba150cb8ea7f98ab621e1bfda6d4",
+    "id": "ee0a54f596cb90c1077864ae",
+    "identity": "7bfc61fd78bd9e0937926cc4c638bf5859b7f994cf83d45edbf93e5da89d8a82",
+    "problem_id": "leetcode:639",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "decode-ways-ii.cpp"
+  },
+  {
+    "assembly_sha256": "713d1558554b4f3750fc69f6e9ca6dde0704d4e87df45e17c308e55568fa64e4",
+    "id": "ee59e53bc2b561470a1a634d",
+    "identity": "cb0b02c03f1191053a35f1252f3632ef657a80ab2100353135edc356bdb09369",
+    "problem_id": "leetcode:883",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "projection-area-of-3d-shapes.cpp"
+  },
+  {
+    "assembly_sha256": "81e95a290dbdc95ab84cf012941a9abbe6c6a36e303d07716416b6f9c25daa83",
+    "id": "efd997b8aa6515bc1b23754d",
+    "identity": "0254bd25f86db4db7e1bb2e1b1990ea44b55b6eaa4c82db5c54e8d9bb8ab0a0a",
+    "problem_id": "leetcode:4014",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-total-price-after-applying-discounts.cpp"
+  },
+  {
+    "assembly_sha256": "3955355cf80f236548b86d919788255993f71883c90a4618b752669d6f021689",
+    "id": "f0245f7db8666130d06368ad",
+    "identity": "ef329bf10fd00c516b64f63c8c53612dcf6f45addd513f0ac8ee5e68384e43d6",
+    "problem_id": "leetcode:2689",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "extract-kth-character-from-the-rope-tree.cpp"
+  },
+  {
+    "assembly_sha256": "887d12467a26b34b8410fea2f71dfeb2e772f75ff065920ed5a685deb1360142",
+    "id": "f07d780074736c362fc38474",
+    "identity": "d705d822da53f5914ffb7fa6c1b1e9c2c20deaea66ba565e10b81f5ee706491a",
+    "problem_id": "leetcode:2710",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "remove-trailing-zeros-from-a-string.cpp"
+  },
+  {
+    "assembly_sha256": "945ea0ea1cf1b387e021774528fa5f6381c7bdd0d40f93125e613104cc003e6d",
+    "id": "f12596ea2c652da503a797c0",
+    "identity": "3c7ce00966979bc686bd00759da4d7cc80d23a16e71c72d317e7fd2507ffa060",
+    "problem_id": "leetcode:1165",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "single-row-keyboard.cpp"
+  },
+  {
+    "assembly_sha256": "525aa9c0c2e45a28a9e22b7e7f557d262082020bfddfd7ade28e1c9d9f06fcda",
+    "id": "f13b9ac3532ca856f71af640",
+    "identity": "34fb5e930974a156160743f15817df56af246fe5b9a1803cfe6690393d8f4d20",
+    "problem_id": "leetcode:735",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "asteroid-collision.cpp"
+  },
+  {
+    "assembly_sha256": "5c9716211ed21348155037a47c1e300a7d339be187351fcc9bf8e661e3239874",
+    "id": "f1e45ede3201958933dcd266",
+    "identity": "ddb0c0deb191f27ce3da0d448dabdeedf555088353c1016c69bb1a7a5f900466",
+    "problem_id": "leetcode:3133",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-array-end.cpp"
+  },
+  {
+    "assembly_sha256": "9684d0911bbd4ebb835f5388376acebd19d6e4f8dad7572a670e41dfbdaf8fbd",
+    "id": "f2115c14d932a71ba002eb36",
+    "identity": "5c5a09e7b877e9a2d54684f7e89ed9baa82a9fea2a3265fde73de195818bf32c",
+    "problem_id": "leetcode:119",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "getRow.cpp"
+  },
+  {
+    "assembly_sha256": "4f7f1fce2aa0745f31afbf7375ab9d22df77bdf94231f978086610070275aeee",
+    "id": "f22a68cc8233549a5216fff5",
+    "identity": "3b0629403dc50d15dd0f1027845633c7d61afe6231f19b2f52cfe582846a2ff4",
+    "problem_id": "leetcode:1624",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "largest-substring-between-two-equal-characters.cpp"
+  },
+  {
+    "assembly_sha256": "2bbeafdad1afa74aa654126d6e1eb0bfa7dee5cd296a7d2cd28c7842b1ea8696",
+    "id": "f26f91ae3b38828aa8ee7674",
+    "identity": "f3e8620817deb66ff75615a994c0370fcd72adb9428f5292dfe1795728a5042b",
+    "problem_id": "leetcode:2008",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-earnings-from-taxi.cpp"
+  },
+  {
+    "assembly_sha256": "15abb14d7e058b7764027a4c06ed424f7a0c21ba22e4f40c8b6798c63b512753",
+    "id": "f354d65eb18c171243aff333",
+    "identity": "80542d526c38d8ba76907e90286d287f1cc85d5e14c2cd2ec9e506c47c386088",
+    "problem_id": "leetcode:2760",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "longest-even-odd-subarray-with-threshold.cpp"
+  },
+  {
+    "assembly_sha256": "588048c2c37c6c9b034d69179a5773ccf3d6c6c4e8e022779a9b79e57fdf99da",
+    "id": "f4a10d9fa98e56b91b26a962",
+    "identity": "9af3576cd49b68a3db2d93e557104bf841d0e20d0ac1299c2b95a444568d78a5",
+    "problem_id": "leetcode:1373",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-sum-bst-in-binary-tree.cpp"
+  },
+  {
+    "assembly_sha256": "0c68f571fb4b7ef124b4d8753383da4b6028d9fb5239cd30787e95526e91fdd1",
+    "id": "f5124ba7b7642c855a97c8e4",
+    "identity": "4c1d5be78e442f5fc6a3f574aa201ef3743beed03524767f87391582af7be8e3",
+    "problem_id": "leetcode:2174",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "remove-all-ones-with-row-and-column-flips-ii.cpp"
+  },
+  {
+    "assembly_sha256": "a6999c9517defe2dd286fedfa66e18ff42b1a8d69834838a858b3ac951f3b1cf",
+    "id": "f52d0a82f62a08d51eabddb9",
+    "identity": "be5d7a6ffb02d1466f9b0d581d019e7b13e7e822ba705d5886a5b8ebe15fa17d",
+    "problem_id": "leetcode:1925",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-square-sum-triples.cpp"
+  },
+  {
+    "assembly_sha256": "f82e76f26891ab8250326790a4a814828afac5dbea48f19fc00419e05b81f7a2",
+    "id": "f60dbf76f76f0aa2507ba133",
+    "identity": "e3624a3fec43e228bb052d027c0ec0fb3a22db36c7e475667213ecf0f37f0fc7",
+    "problem_id": "leetcode:2401",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "longest-nice-subarray.cpp"
+  },
+  {
+    "assembly_sha256": "74b583522e57eeb353bd3c12b3e20ff5fd111eb925562bf13915620bb43bdabe",
+    "id": "f630e738dc6d6bc3bc5f2da4",
+    "identity": "fca2b7c76e833a0f8cdc6051026ed3b925d600939efff54f1ba14733207a5f9b",
+    "problem_id": "leetcode:3760",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-substrings-with-distinct-start.cpp"
+  },
+  {
+    "assembly_sha256": "1e0fefd24cd5042363dd8b1d90b91dc7bc3918dba5da8cf426c26167a5c89b54",
+    "id": "f799eebc2031e63de50e9214",
+    "identity": "6ebd35f910a896f556ebc77ab679995dcc4d104b8b6f1cec4ea73eb7e7ce9f6a",
+    "problem_id": "leetcode:656",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "coin-path.cpp"
+  },
+  {
+    "assembly_sha256": "c196db5ce2f43e04ab9ff94df76e2755a21f7100974abe7f7f5f2db594019b63",
+    "id": "f82b1d34cd0824fa4de2b78b",
+    "identity": "8b22506ac55587a76095d3002e895161bb9833feaf63f73ed55a1800590734f3",
+    "problem_id": "leetcode:3830",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "longest-alternating-subarray-after-removing-at-most-one-element.cpp"
+  },
+  {
+    "assembly_sha256": "9455d4018689296bb5d0ab94de4edea7d99e907a84927b225fb753c35ace4290",
+    "id": "f863b18b9a094de4b6d268c8",
+    "identity": "427b3a50bc3e0ed687ab62ca3b06cc54a08ac361b4b60174d07488359b1e691f",
+    "problem_id": "leetcode:3114",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "latest-time-you-can-obtain-after-replacing-characters.cpp"
+  },
+  {
+    "assembly_sha256": "4cf322118984fe115432be41f55cd804fc8916c6c8c46a0c643d01a8309a5f57",
+    "id": "f8d95f24524687b475095503",
+    "identity": "5fa5887b3fedc803609f198dd08de3a6a7226c3172788f9499540c9fe267b147",
+    "problem_id": "leetcode:2110",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "number-of-smooth-descent-periods-of-a-stock.cpp"
+  },
+  {
+    "assembly_sha256": "48570f5f8ba47f76a73e685f453ad1e5fa9a6340b4b6f982bc2e5803117618f1",
+    "id": "f93b2d5fb8ca2b29dd260428",
+    "identity": "4b35daf86e087c1393e588ef2afb6d155066d9badef6dc1d35ab1cbb41500719",
+    "problem_id": "leetcode:2264",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "largest-3-same-digit-number-in-string.cpp"
+  },
+  {
+    "assembly_sha256": "7cbab8c7fadb2d8512b42596e474b9094b27900dfe62632b5070fe01125a7480",
+    "id": "f970383764843c77a0a5d634",
+    "identity": "0564632d6eeb78e9d6d3ffc13fcdca490bcff95c9836b04611c68d5219dc3bd4",
+    "problem_id": "leetcode:4072",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-alternating-subarray-sum-with-one-deletion.cpp"
+  },
+  {
+    "assembly_sha256": "b1428a70e2e9ad50552850f477a00c6c8bc8be22015a6ee1f76aa363fdecc199",
+    "id": "f99af0015efc490a1aea099b",
+    "identity": "70391e8edf4080cc8894e153956bae80879d3deae8a79b83c2c585bc4930410d",
+    "problem_id": "leetcode:3870",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "count-commas-in-range.cpp"
+  },
+  {
+    "assembly_sha256": "768d7a810880064b7fee506ea750b6b1ec2246210ecfa9bf88dd273881d58d5a",
+    "id": "fa404582e0d047926aa186d5",
+    "identity": "4337bbc377b4d70d2e939d6f7133dff38d77f9c2e3351fc158f6320f80ddab91",
+    "problem_id": "leetcode:2464",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "minimum-subarrays-in-a-valid-split.cpp"
+  },
+  {
+    "assembly_sha256": "15110c82393692d2ce51d3a6668b76ade2d45b5554b658470d14e497966ca221",
+    "id": "fa800998a8bb903da4e7f111",
+    "identity": "3a7ac11ad3f7896402f3d4d9699e57abd7e188d62a7391ba4838f61273337b34",
+    "problem_id": "leetcode:4063",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "longest-subarray-divisible-by-k-with-at-most-one-negation-i.cpp"
+  },
+  {
+    "assembly_sha256": "8ea153d1e3d7a6cfba4f54044c1f1e645386eaa891e217df7e1d4b6c61e29475",
+    "id": "faa05eb59707d8fe5b0721a0",
+    "identity": "b1d5106ad9136bbfc87e775d7b47242de808e147e66dd7d82842e566998b6c44",
+    "problem_id": "leetcode:1812",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "determine-color-of-a-chessboard-square.cpp"
+  },
+  {
+    "assembly_sha256": "29af2ccea1712f97de65a1f2d7f437961069c9b995af8db199e332f70df88a30",
+    "id": "fb2aa2b8b194c65a8ecd4da1",
+    "identity": "2ccdb6c875a75ef553144bee66435b4063b3237754c77418437c18efc1935f68",
+    "problem_id": "leetcode:1935",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "maximum-number-of-words-you-can-type.cpp"
+  },
+  {
+    "assembly_sha256": "6d12d741509647a112d0d8c5ac5e7c29b6b92ca3948b8e41eb69a496a8af7fd0",
+    "id": "fb49ac37472daa62f4ba5ec6",
+    "identity": "0a61f50a11a44a0c05c1da3c94675253f59aadbe42c692b307d50bc87adcbed8",
+    "problem_id": "leetcode:3566",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "partition-array-into-two-equal-product-subsets.cpp"
+  },
+  {
+    "assembly_sha256": "578df9df8c982726fbb86d1c8ac6b365c11d8ccce381e8c9a87022915c4b3da4",
+    "id": "fbe71883f360d4af26ccb09b",
+    "identity": "32b4b2a4ec0866c73debeded2aebf3b95ab50fc7ad582c903aaddcbecbed04f7",
+    "problem_id": "leetcode:100",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "same-tree.cpp"
+  },
+  {
+    "assembly_sha256": "30ff33b36f6272e63524ffed3fd22c9a7cc32fe624c8659e42c56ca2484ce1e3",
+    "id": "fcdb370548721fc534151b28",
+    "identity": "d0b858eac7e003366dc6bb30b816bfa7ce74f9116387fa9d9e341f5d56afb63f",
+    "problem_id": "leetcode:219",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "contains-duplicate-ii.cpp"
+  },
+  {
+    "assembly_sha256": "2ffdeb7d555ad8b6c810d6efc284b3a02a3ca4cf102c62d392ebf28788743ad7",
+    "id": "fd0fd017241796fbdaf513fd",
+    "identity": "d3eb7dee8e61ddb17c6596d908cd1c0e7ad5a65ae165dc2f9b4b121e4298f666",
+    "problem_id": "leetcode:777",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "swap-adjacent-in-lr-string.cpp"
+  },
+  {
+    "assembly_sha256": "684f39878677d40b7e51e89470522d5ef740d13ad6ae5979243ac6a49cd14db0",
+    "id": "ffd6c7358c778855e211a62b",
+    "identity": "b9cb5ec7dab7d447fa8fbd0814a29df4bce850049f702e589e689c9d9e133f3c",
+    "problem_id": "leetcode:10",
+    "protocol": "gcc_cross_variant_weak_v1",
+    "source_id": "isMatch.cpp"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "checkpoint_sha256": "f83d1699763a3a7f56b1b1e24f3779ffd0670feb8794f7547bd86197d7832fc4",
+  "config": {
+    "block": "pool",
+    "dim": 128,
+    "dropout": 0.1,
+    "graph": "set",
+    "layers": 2,
+    "rich": true,
+    "structural": false,
+    "typed": true
+  },
+  "data_hash": "b0814f6be4d716909deda020fe04a13a33e6a0a3a728578cb5106bf104e1f088",
+  "encoder_sha256": "90919fb128122588157ca50843b2338125a5282e9573042ed6586232c4384057",
+  "id": "LARGE_E0",
+  "index_encoding_ms": 690.2498859999469,
+  "metrics": {
+    "mrr": 0.6071103477834873,
+    "queries": 59,
+    "recall1": 0.559322033898305,
+    "recall5": 0.6610169491525424
+  },
+  "partition": "val",
+  "preview_only": false,
+  "scores_are_probabilities": false,
+  "seed": 17,
+  "split_hash": "16e72cac67a79f480f98e720d81da23cb6508bc4149bea2469a6bc5b317f671f",
+  "steps": 4000,
+  "synthetic": false,
+  "threshold": {
+    "partition": "val",
+    "scores_are_probabilities": false,
+    "target_false_accept_rate": 0.05,
+    "unknown_queries": 50,
+    "value": 0.9000259637832643
+  },
+  "validation_result_sha256": "84298e82b4c85fcdbc4b63fa3da5463bb5e2bb7f95d26e8be9773aaea69b83b1"
+}
