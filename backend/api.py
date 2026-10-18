@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 from pydantic import BaseModel
 from typing import Optional, List
+from main import call_llm
 from db import get_input, get_output, save_input, save_output, save_scores, get_scores, conn
 
 app = FastAPI()
@@ -54,25 +55,18 @@ def root():
 @app.post("/run-pipeline", status_code=status.HTTP_201_CREATED)
 def run_pipeline(payload: InputCreate):
     try:
-        # 1. Save input to DB -> Python captures the input_id right here!
         input_id = save_input(payload.raw_assembly)
         
-        # 2. Grab it back or use the payload to run your model
-        # (e.g., getting leetCode problem similarity matches)
         assembly_text = get_input(input_id)
 
         # matches = run_your_model_here(assembly_text) # Returns [("Two Sum", 0.95), ("Valid Parentheses", 0.81)]
         
-        # 3. Use that SAME input_id variable to save your scores to SQLite!
         # save_scores(input_id, matches)
         
-        # 4. Take those results, pass them into your Gemini API call
-        # gemini_result = call_gemini_api_here(matches)
+        # gemini_result = call_llm(matches)
         
-        # 5. Use that SAME input_id variable to save Gemini's output to SQLite!
         # save_output(gemini_result, input_id)
         
-        # 6. Finally, return the input_id to the frontend so it knows what session this is
         return {
             "input_id": input_id,
             "message": "Pipeline ran and everything saved to DB successfully!"
