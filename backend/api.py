@@ -130,10 +130,8 @@ def fetch_scores(input_id: int):
 @app.post("/scores", status_code=status.HTTP_201_CREATED)
 def create_scores(payload: ScoresCreate):
     try:
-        # Convert the list of ScoreItem objects into a list of tuples: (candidate_name, similarity_score)
         matches = [(item.candidate_name, item.similarity_score) for item in payload.scores]
         
-        # Save them using your db.py helper function
         save_scores(payload.input_id, matches)
         
         return {"message": "Scores saved successfully"}
