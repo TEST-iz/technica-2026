@@ -23,13 +23,13 @@ origins = [
     "https://localhost",
     "http://localhost",
     "http://127.0.0.1",
-    "https://codetracetechnica.vercel.app/",
+    "https://codetracetechnica.vercel.app",
     "https://technica-2026-k3oz-kctsm9vaw-testiz.vercel.app",
 ]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=origins[*],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
