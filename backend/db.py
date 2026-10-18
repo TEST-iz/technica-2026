@@ -21,6 +21,16 @@ CREATE TABLE IF NOT EXISTS output (
 );
 """
 
+_CREATE_SCORES_TABLE = """
+CREATE TABLE IF NOT EXISTS scores (
+    score_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    input_id INTEGER,
+    candidate_name TEXT,
+    similarity_score REAL,
+    FOREIGN KEY (input_id) REFERENCES input(input_id)
+);
+"""
+
 @contextmanager
 def conn():
     c = sqlite3.connect(DB_PATH)
@@ -36,6 +46,7 @@ def init_db():
         with conn() as c:
             c.execute(_CREATE_INPUT_TABLE)
             c.execute(_CREATE_OUTPUT_TABLE)
+            c.execute(_CREATE_SCORES_TABLE)
     except Exception as exc:
         logger.error("DB init failed %s", exc)
         raise
@@ -81,3 +92,29 @@ def get_output(input_id: int) -> str:
     except Exception as exc:
         logger.error("Failed to retrieve data")
         raise
+
+def save_scores(input_id: int, matches: list[tuple[str, float]]):
+    try:
+        with conn() as c:
+            for candidate_name, score in matches:
+                c.execute("INSERT INTO scores (input_id, candidate_name, similarity_score) VALUES (?, ?, ?);", (input_id, candidate_name, score))
+    except Exception as exc:
+        logger.error("Failed to save similarity scores: %s", exc)
+        raise
+
+def get_scores(input_id: int) -> list:
+    try:
+        with conn() as c:
+            rows = c.execute(
+                "SELECT candidate_name, similarity_score FROM scores WHERE input_id = ? ORDER BY similarity_score DESC;",
+                (input_id,)
+            ).fetchall()
+            return [dict(row) for row in rows]
+    except Exception as exc:
+        logger.error("Failed to retrieve scores: %s", exc)
+        raise
+
+def main():
+    init_db()
+if __name__ == "__main__":
+    main()
