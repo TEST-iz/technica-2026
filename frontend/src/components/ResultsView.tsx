@@ -71,9 +71,6 @@ export default function ResultsView() {
               <CheckCircle className="w-3.5 h-3.5" />
               Analysis Complete
             </span>
-            <span className="text-xs font-mono bg-stone-100 border border-stone-200 px-3 py-1.5 rounded-xl text-stone-600">
-              Input ID: <span className="font-bold text-stone-900">{id}</span>
-            </span>
           </div>
         </div>
 
@@ -98,7 +95,7 @@ export default function ResultsView() {
           {/* RIGHT COLUMN: Stacked Cards (Top: Scores, Bottom: LLM Result) */}
           <div className="lg:col-span-6 space-y-6">
             
-            {/* UPPER RIGHT: Similarity Scores */}
+            {/* UPPER RIGHT: Similarity Scores Table */}
             <div className="bg-white border border-stone-200/80 rounded-3xl p-6 lg:p-7 shadow-xl shadow-stone-200/40">
               <div className="flex items-center justify-between mb-4 pb-3 border-b border-stone-100">
                 <h3 className="text-base font-serif font-medium text-stone-900 flex items-center gap-2">
@@ -110,29 +107,47 @@ export default function ResultsView() {
                 </span>
               </div>
 
-              <div className="space-y-3 max-h-[200px] overflow-y-auto pr-1">
-                {loading ? (
-                  <p className="text-xs text-stone-400">Loading similarity scores...</p>
-                ) : scores.length > 0 ? (
-                  scores.map((item) => (
-                    <div key={item.score_id} className="flex items-center justify-between p-3 bg-stone-50 border border-stone-100 rounded-xl">
-                      <span className="text-sm font-semibold text-stone-800 font-mono">{item.candidate_name}</span>
-                      <div className="flex items-center gap-3">
-                        <div className="w-24 bg-stone-200 h-2 rounded-full overflow-hidden">
-                          <div 
-                            className="bg-orange-600 h-full rounded-full" 
-                            style={{ width: `${item.similarity_score * 100}%` }}
-                          ></div>
-                        </div>
-                        <span className="text-xs font-mono font-bold text-stone-700">
-                          {(item.similarity_score * 100).toFixed(1)}%
-                        </span>
-                      </div>
-                    </div>
-                  ))
-                ) : (
-                  <p className="text-xs text-stone-500">No score records found for this input.</p>
-                )}
+              <div className="max-h-[220px] overflow-y-auto pr-1">
+                <table className="w-full text-left border-collapse">
+                  <thead>
+                    <tr className="border-b border-stone-200 text-xs font-semibold text-stone-500 uppercase tracking-wider">
+                      <th className="py-2 px-3">Candidate</th>
+                      <th className="py-2 px-3 text-right">Similarity</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-stone-100">
+                    {loading ? (
+                      <tr>
+                        <td colSpan={2} className="py-6 text-center text-xs text-stone-400">Loading similarity scores...</td>
+                      </tr>
+                    ) : scores.length > 0 ? (
+                      scores.map((item) => (
+                        <tr key={item.score_id} className="hover:bg-stone-50/80 transition-colors">
+                          <td className="py-3 px-3 font-mono text-xs font-semibold text-stone-800">
+                            {item.candidate_name}
+                          </td>
+                          <td className="py-3 px-3 text-right">
+                            <div className="flex items-center justify-end gap-3">
+                              <div className="w-20 bg-stone-200 h-1.5 rounded-full overflow-hidden hidden sm:block">
+                                <div 
+                                  className="bg-orange-600 h-full rounded-full" 
+                                  style={{ width: `${item.similarity_score * 100}%` }}
+                                ></div>
+                              </div>
+                              <span className="text-xs font-mono font-bold text-stone-700">
+                                {(item.similarity_score * 100).toFixed(1)}%
+                              </span>
+                            </div>
+                          </td>
+                        </tr>
+                      ))
+                    ) : (
+                      <tr>
+                        <td colSpan={2} className="py-6 text-center text-xs text-stone-500">No score records found for this input.</td>
+                      </tr>
+                    )}
+                  </tbody>
+                </table>
               </div>
             </div>
 
