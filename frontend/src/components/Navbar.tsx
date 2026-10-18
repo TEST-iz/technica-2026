@@ -1,5 +1,3 @@
-import { Shield } from 'lucide-react';
-
 export default function Navbar() {
   return (
     <header className="w-full bg-[#FDFBF7] border-b border-stone-200/60 px-6 lg:px-16 py-4 sticky top-0 z-50 backdrop-blur-md bg-opacity-90">
@@ -7,9 +5,9 @@ export default function Navbar() {
         
         {/* Left side: Logo & Brand */}
         <div className="flex items-center gap-8">
-          <a href="#" className="flex items-center gap-2.5 group">
-            <div className="w-9 h-9 bg-orange-600 rounded-xl flex items-center justify-center text-white shadow-md shadow-orange-600/20 group-hover:bg-orange-700 transition-all">
-              <Shield className="w-5 h-5" />
+          <a href="" className="flex items-center gap-2.5 group">
+            <div className="w-16 h-9ß flex items-center justify-center text-white shadow-md shadow-gray-600/20 transition-all overflow-hidden p-1.5">
+              <img src={"/logo.webp"} alt="Logo" className="w-full h-full object-contain" />
             </div>
             <span className="font-serif text-xl tracking-tight font-bold text-stone-900">
               CodeTrace<span className="text-orange-600">.</span>
